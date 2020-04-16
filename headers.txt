@@ -1,0 +1,838 @@
+[external] function check_bit(%ref numb : integer;
+	%immed bit : integer) : boolean; extern;
+
+[external] function lookup_alias(var s : string) : boolean; extern;
+[external] procedure user_alias(s : string); extern;
+
+[EXTERNAL] FUNCTION get_command_by_number(%immed num : integer) : string; extern;
+[EXTERNAL] FUNCTION Lookup_Command(%ref str : string) : INTEGER; EXTERN;
+
+(* -custroom---------------------------------------------------------------- *)
+
+[external] function getroomowner(N : integer;
+	var owner : shortstring) : byte_bool; extern;
+[external] function setroomowner(N : integer;
+	owner : shortstring) : byte_bool; extern;
+[external] function isroomowner(Roomno : integer; privd : byte_bool;
+	checkpub : byte_bool) : byte_bool; extern;
+
+[external] function getroomname(n : integer;
+	var name : shortstring) : byte_bool; extern;
+[external] function setroomname(n : integer;
+	name : shortstring) : byte_bool; extern;
+
+(* -monfilio---------------------------------------------------------------- *)
+
+[external] function openfile(var somefile : unsafe_file; index : integer;
+                    typesize : $uword) : BYTE_BOOL; extern;
+
+[external] function getkill(killnum : integer; var kill : killrec;
+                    silent : BYTE_BOOL := false) : BYTE_BOOL; extern;
+
+[external] function savekill(killnum : integer; var kill : killrec;
+                    silent : BYTE_BOOL := false) : BYTE_BOOL; extern;
+
+[external] function getatmosphere(atmosnum : integer; var atmos : atmosphererec;
+                    silent : BYTE_BOOL := false) : BYTE_BOOL; extern;
+
+[external] function saveatmosphere(atmosnum : integer; var atmos : atmosphererec;
+                    silent : BYTE_BOOL := false) : BYTE_BOOL; extern;
+
+[external] function getobj(objnum : integer; var obj : objectrec;
+                    silent : BYTE_BOOL := false) : BYTE_BOOL; extern;
+
+[external] function deleteobj(objnum : integer; var obj : objectrec;
+                    silent : BYTE_BOOL := false) : BYTE_BOOL; extern;
+
+[external] function saveobj(objnum : integer; var obj : objectrec;
+                    silent : BYTE_BOOL := false) : BYTE_BOOL; extern;
+
+[external] function getchar(charnum : integer; var charac : charrec;
+                    silent : BYTE_BOOL := false) : BYTE_BOOL; extern;
+
+[external] function savechar(charnum : integer; var charac : charrec;
+                    silent : BYTE_BOOL := false) : BYTE_BOOL; extern;
+
+[external] function getroomdesc(roomnum : integer; var here : roomdesc;
+                    silent : BYTE_BOOL := false) : BYTE_BOOL; extern;
+
+[external] function deleteroomdesc(roomnum : integer; var here : roomdesc;
+                    silent : BYTE_BOOL := false) : BYTE_BOOL; extern;
+
+[external] function saveroomdesc(roomnum : integer; var here : roomdesc;
+                    silent : BYTE_BOOL := false) : BYTE_BOOL; extern;
+
+[external] function getlongname(slotnum : integer; var name : longnamerec;
+                    silent : BYTE_BOOL := false) : BYTE_BOOL; extern;
+
+[external] function savelongname(slotnum : integer; var name : longnamerec;
+                    silent : BYTE_BOOL := false) : BYTE_BOOL; extern;
+
+[external] function getshortname(slotnum : integer; var name : shortnamerec;
+                    silent : BYTE_BOOL := false) : BYTE_BOOL; extern;
+
+[external] function saveshortname(slotnum : integer; var name : shortnamerec;
+                    silent : BYTE_BOOL := false) : BYTE_BOOL; extern;
+
+[external] function getrealshortname(slotnum : integer;
+                    var name : realshortnamerec;
+                    silent : BYTE_BOOL := false) : BYTE_BOOL; extern;
+
+[external] function saverealshortname(slotnum : integer;
+                    var name : realshortnamerec;
+                    silent : BYTE_BOOL := false) : BYTE_BOOL; extern;
+
+[external] function getdesc(descnum : integer; var block : descrec;
+                    silent : BYTE_BOOL := false) : BYTE_BOOL; extern;
+
+[external] function deletedesc(descnum : integer; var block : descrec;
+                    silent : BYTE_BOOL := false) : BYTE_BOOL; extern;
+
+[external] function savedesc(descnum : integer; var block : descrec;
+                    silent : BYTE_BOOL := false) : BYTE_BOOL; extern;
+
+[external] function getint(intnum : integer; var int : intarray;
+                    silent : BYTE_BOOL := false;
+                    lock : BYTE_BOOL := false) : BYTE_BOOL; extern;
+
+[external] function saveint(intnum : integer; var int : intarray;
+                    silent : BYTE_BOOL := false;
+                    locked : BYTE_BOOL := false) : BYTE_BOOL; extern;
+
+[external] function getclass(classnum : integer; var monst : ClassRec;
+                    silent : BYTE_BOOL := false) : BYTE_BOOL; extern;
+
+[external] function deleteclass(classnum : integer; var monst : ClassRec;
+                    silent : BYTE_BOOL := false) : BYTE_BOOL; extern;
+
+[external] function saveclass(classnum : integer; var monst : ClassRec;
+                    silent : BYTE_BOOL := false) : BYTE_BOOL; extern;
+
+[external] function getspell(spellnum : integer; var spell : spellrec;
+                    silent : BYTE_BOOL := false) : BYTE_BOOL; extern;
+
+[external] function deletespell(spellnum : integer; var spell : spellrec;
+                    silent : BYTE_BOOL := false) : BYTE_BOOL; extern;
+
+[external] function savespell(spellnum : integer; var spell : spellrec;
+                    silent : BYTE_BOOL := false) : BYTE_BOOL; extern;
+
+[external] function getindex(indexnum : integer; var indx : indexrec;
+                    silent : BYTE_BOOL := false;
+                    lock : BYTE_BOOL := false) : BYTE_BOOL; extern;
+
+[external] function saveindex(indexnum : integer; var indx : indexrec;
+                    silent : BYTE_BOOL := false;
+                    locked : BYTE_BOOL := false) : BYTE_BOOL; extern;
+
+[external] function getline(linenum : integer; var line : linerec;
+                    silent : BYTE_BOOL := false) : BYTE_BOOL; extern;
+
+[external] function deleteline(linenum : integer; var line : linerec;
+                    silent : BYTE_BOOL := false) : BYTE_BOOL; extern;
+
+[external] function saveline(linenum : integer; var line : linerec;
+                    silent : BYTE_BOOL := false) : BYTE_BOOL; extern;
+
+[external] function getuniv(univnum : integer; var univ : universe;
+                    silent : BYTE_BOOL := false) : BYTE_BOOL; extern;
+
+[external] function saveuniv(univnum : integer; var univ : universe;
+                    silent : BYTE_BOOL := false) : BYTE_BOOL; extern;
+
+[external] function getroom(roomnum : integer; var stuff : room;
+                    silent : BYTE_BOOL := false;
+                    lock : BYTE_BOOL := false) : BYTE_BOOL; extern;
+
+[external] function deleteroom(roomnum : integer; var stuff : room;
+                    silent : BYTE_BOOL := false) : BYTE_BOOL; extern;
+
+[external] function saveroom(roomnum : integer; var stuff : room;
+                    silent : BYTE_BOOL := false;
+                    locked : BYTE_BOOL := false) : BYTE_BOOL; extern;
+
+[external] function getevent(eventnum : integer; var stuff : eventarray;
+                    silent : BYTE_BOOL := false;
+                    lock : BYTE_BOOL := false) : BYTE_BOOL; extern;
+
+[external] function saveevent(eventnum : integer; var stuff : eventarray;
+                    silent : BYTE_BOOL := false;
+                    locked : BYTE_BOOL := false) : BYTE_BOOL; extern;
+
+(* -monstring--------------------------------------------------------------- *)
+
+[EXTERNAL] FUNCTION Spaces(num : INTEGER) : String; extern;
+
+[EXTERNAL] FUNCTION Styler(S : String; Style : INTEGER := 0) :
+				String; extern;
+
+[external] function systime : string; extern;
+
+[external] function sysdate : string; extern;
+
+[EXTERNAL] FUNCTION LowCase(S : String) : String; EXTERN;
+
+[EXTERNAL] FUNCTION UpCase(S : String) : String; EXTERN;
+
+[EXTERNAL] FUNCTION Capitalize(S : String; AllWords : BYTE_BOOL := TRUE) 
+			: String; EXTERN;
+
+[EXTERNAL] FUNCTION Trim(S : String) : String; EXTERN;
+
+[EXTERNAL] FUNCTION bite(var S : String) : String; EXTERN;
+
+[EXTERNAL] FUNCTION IsNum(S : String) : BYTE_BOOL; EXTERN;
+
+[EXTERNAL] FUNCTION IsValid(S : String; SType : INTEGER := vt_alphanum) 
+				: BYTE_BOOL; EXTERN;
+
+[EXTERNAL] FUNCTION Number(S : String) : INTEGER; EXTERN;
+
+(* -monmailbox----------------------------------------------------------- *)
+
+[EXTERNAL] PROCEDURE CreateKeyboard; EXTERN;
+
+(* -------------- Misc. external routines declerations ------------------ *)
+
+[EXTERNAL,ASYNCHRONOUS] FUNCTION mth$random(var seed:integer):real; EXTERNAL;
+
+(* -handevent------------------------------------------------------------ *)
+
+[EXTERNAL] PROCEDURE AllEvents(Silent : BYTE_BOOL := FALSE; VAR DidCheck :BYTE_BOOL;
+                               VAR AllStats : AllMyStats); EXTERNAL;
+
+[EXTERNAL] PROCEDURE CheckEvents(Silent : BYTE_BOOL := FALSE;
+                          CanDie : BYTE_BOOL := TRUE;  Timed : BYTE_BOOL := FALSE;
+                          VAR AllStats : AllMyStats); EXTERNAL;
+
+(* -monalloc------------------------------------------------------------ *)
+
+[external] function countrooms(s : shortstring;
+                      var numrooms : integer) : BYTE_BOOL; extern;
+
+[external] function countobjects(s : shortstring;
+                      var numobjects : integer) : BYTE_BOOL; extern;
+
+[external] function allowroomownership(mylog : integer;
+                              userid : veryshortstring) : BYTE_BOOL; extern;
+
+[external] function allowobjectownership(mylog : integer;
+                                userid : veryshortstring) : BYTE_BOOL; extern;
+
+[external] function allocdetail(var index : integer; s : string;
+                   thisroom : integer) : BYTE_BOOL; extern;
+
+[external] function allocate(indexnum : integer;
+                    var slot : integer) : BYTE_BOOL; extern;
+
+[external] function deallocate(indexnum : integer;
+                               slot : integer) : BYTE_BOOL; extern;
+
+[external] function deallocatedesc(slot : integer) : BYTE_BOOL; extern;
+
+(* -monother------------------------------------------------------------ *)
+
+[external] function doweaponname(myhold : holdobj) : string; extern;
+
+[external] function showcondition(cond : integer) : string; extern;
+
+[external] function slotequipped(equipslot : integer;
+                    var myhold : holdobj) : integer; extern;
+
+[external] function subsparm(s, parm : string;
+                    icon : char := '#') : string; extern;
+
+[external] procedure forgetspells(var allstats : allmystats); extern;
+
+[external] function israndom(log : integer) : BYTE_BOOL; extern;
+
+[external] procedure dotoggle(var param : BYTE_BOOL; s : string); extern;
+
+[external] procedure rectify(var allstats : allmystats); extern;
+
+[external] procedure descmyhealth(maxhealth, currenthealth : integer); extern;
+
+[external] function placeobj(objnum, location, cond, charges : integer;
+                    silent, shop : BYTE_BOOL := false;
+                    candestroy : BYTE_BOOL := true; 
+		    VAR AllStats : AllMyStats) : BYTE_BOOL; extern;
+
+[external] function startsvowel(s : string) : BYTE_BOOL; extern;
+
+[external] function makeline(var slot : integer; prompt : string := '';
+                    var allstats : allmystats) : BYTE_BOOL; extern;
+
+[external] function getgroupname(group : integer) : string; extern;
+
+[external] function getname(namelength : integer; nametype : integer;
+                    text : string; var slotnum : integer;
+                    default : integer := 0;
+                    var allstats : allmystats) : BYTE_BOOL; extern;
+
+[external] procedure writenice(s : string; l : integer); extern;
+
+[external] procedure effectdecompress(var mag, kind : integer;
+                     crypt : integer); extern;
+
+[external] procedure effectcompress(mag, kind : integer;
+                     var crypt : integer); extern;
+
+[EXTERNAL] function EquipmentStats(VAR AllStats : AllMyStats) : BYTE_BOOL; EXTERN;
+
+[EXTERNAL] PROCEDURE StartHighLight; EXTERN;
+
+[EXTERNAL] PROCEDURE StopHighLight; EXTERN;
+
+[EXTERNAL] FUNCTION IsDescription(Slot : INTEGER) : BYTE_BOOL; EXTERNAL;
+
+[EXTERNAL] PROCEDURE FixHealth(VAR Health : INTEGER; MaxHealth : INTEGER); EXTERN;
+
+[EXTERNAL] PROCEDURE FixMana(VAR Stats : StatType; MM : INTEGER); EXTERN;
+
+(* -monevent------------------------------------------------------------ *)
+
+[external] procedure setevent(var allstats : allmystats); extern;
+
+[external] procedure setallevent(var allstats : allmystats); extern;
+
+[EXTERNAL] PROCEDURE LogEvent(Send, SendLog , Act, Targ, TargLog, P1, P2  : INTEGER;
+                   S : String; TheRoom : INTEGER; Emsg : ShortString := '';
+                   P3 : INTEGER := 0; P4 : INTEGER := 0; P5 : INTEGER := 0;
+                   P6 : INTEGER := 0; P7 : INTEGER := 0); extern;
+
+[EXTERNAL] PROCEDURE TimeBufferEvent(TheEvent : AnEvent;
+                                     VAR TimeEvent : TimeEventType); EXTERN;
+
+(* -monmisc----------------------------------------------------------------- *)
+
+[external] procedure setup_guts; extern;
+
+[external] procedure finish_guts; extern;
+
+[external] procedure spawn(s : string); extern;
+
+[external] procedure wait(%immed seconds : real); extern;
+
+[external] function readyes(prompt : string) : BYTE_BOOL; extern;
+
+[external] procedure freeze(%immed secs : real; var allstats : allmystats); extern;
+
+[external] procedure grab_num(prompt : String; var num : integer;
+                     %immed min : integer := -maxint div 2;
+                     %immed max : integer := maxint div 2;
+                     %immed default : integer := 0;
+                     var allstats : allmystats); extern;
+
+[EXTERNAL] FUNCTION GetTicks : INTEGER; EXTERN;
+
+[EXTERNAL] FUNCTION Rnd(%immed MaxValue : INTEGER := MAXINT) : INTEGER; EXTERN;
+
+[external] PROCEDURE GrabLine(Prompt : String; 
+                     VAR S : String;
+                     VAR AllStats : AllMyStats; %immed Echo : BYTE_BOOL := TRUE;
+                     %immed MaxLen : INTEGER := 78); extern;
+
+[external] function grabyes(prompt : string;
+                    var allstats : allmystats) : BYTE_BOOL; extern;
+
+(* -montime----------------------------------------------------------------- *)
+
+[external] procedure dorest(var allstats : allmystats); extern;
+
+[EXTERNAL] PROCEDURE TimeHealth(VAR AllStats : AllMyStats); EXTERN;
+
+[EXTERNAL] PROCEDURE TimeMana(VAR AllStats : AllMyStats); EXTERN;
+
+[EXTERNAL] PROCEDURE TimeInvisible(VAR Tick : TkTimeType;
+                     roomnum : INTEGER; Slot : INTEGER; Log : INTEGER); EXTERN;
+
+[EXTERNAL] PROCEDURE TimeSee(VAR Tick : TkTimeType; Name : String;
+                             Slot : INTEGER; Log : INTEGER; Location : INTEGER;
+                             Quiet : BYTE_BOOL := FALSE); EXTERN;
+
+[EXTERNAL] PROCEDURE TimeStrength(VAR AllStats : AllMyStats;
+                                  Quiet : BYTE_BOOL := FALSE); EXTERN;
+
+[EXTERNAL] PROCEDURE TimeSpeed(VAR AllStats : AllMyStats;
+                               Quiet : BYTE_BOOL := FALSE); EXTERN;
+
+[external] procedure rndevent(var allstats : allmystats); extern;
+
+[EXTERNAL] PROCEDURE TimeUnwho(Log : INTEGER; Loc : INTEGER;
+                               Privd : BYTE_BOOL := FALSE); EXTERN;
+
+(* -monop------------------------------------------------------------------- *)
+
+
+[external] PROCEDURE DoExtend(S : String ; AllStats : AllMyStats); extern;
+
+[external] PROCEDURE DoZero(S : String := '0' ; VAR AllStats : AllMyStats); 
+			extern;
+
+[external] PROCEDURE DoTogOp(S : String ; AllStats : AllMyStats); extern;
+
+[external] function sysuserid(s : string) : BYTE_BOOL; extern;
+
+[external] procedure donukeobj(s : string); extern;
+
+[external] procedure docia(var allstats : allmystats); extern;
+
+[external] procedure dounwho(s : string); extern;
+
+[external] procedure dofind(s : string := ''); extern;
+
+[external] procedure dotoggleprivs(var privd : BYTE_BOOL); extern;
+
+[external] procedure systemview; extern;
+
+[external] procedure dosystem(var allstats : allmystats); extern;
+
+[external] procedure dochange(s : string := '';
+                     var allstats : allmystats); extern;
+
+[external] procedure doclasses(var allstats : allmystats); extern;
+
+[external] procedure dopoof(s : string; var allstats : allmystats); extern;
+
+[external] procedure doremotepoof(s : string; myname : string;
+                     var allstats : allmystats); extern;
+
+[external] procedure attribassign(log, attrib : integer;
+                     s : string); extern;
+
+[external] function isowner(namelength : integer; nametype : integer;
+                    indexnumber : integer; privd : BYTE_BOOL;
+                    checkpub : BYTE_BOOL) : BYTE_BOOL; extern;
+
+[EXTERNAL] FUNCTION AttribName(Attrib : INTEGER) : String; EXTERN;
+
+[EXTERNAL] FUNCTION AttribValue(Log, Attrib : INTEGER) : String; EXTERN;
+
+[EXTERNAL] PROCEDURE AttribAssignValue(Log, Attrib : INTEGER;
+                                       Newvalue : INTEGER); EXTERN;
+
+(* -monmain----------------------------------------------------------------- *)
+
+[external] FUNCTION PingPlayer(N : INTEGER; Silent : BYTE_BOOL := FALSE;
+                               VAR AllStats : AllMyStats) : BYTE_BOOL; extern;
+
+[external] PROCEDURE LoadStats(Player : INTEGER;
+                     VAR AllStats : AllMyStats); extern;
+
+[external] procedure leaveuniverse(silent : BYTE_BOOL := false;
+                     var allstats : allmystats); extern;
+
+[external] function enteruniverse(silent : BYTE_BOOL := false;
+                    var allstats : allmystats) : BYTE_BOOL; extern;
+
+[external] procedure prestart(var allstats : allmystats); extern;
+
+[external] procedure init(var allstats : allmystats;
+                          real : BYTE_BOOL := true); extern;
+
+[external] procedure savekiller(c1, c2 : integer); extern;
+
+[external] function checkhide(stat : stattype) : BYTE_BOOL; extern;
+
+[external] procedure printclass(classnum : integer); extern;
+
+[external] procedure dolook(s : string := ''; var allstats : allmystats); extern;
+
+[external] function findnumpeople : integer; extern;
+
+[external] function findnumobjs : integer; extern;
+
+[external] function findhold(objnum : integer;
+                    myhold : holdobj) : integer; extern;
+
+[external] function whichdir(var dir : integer; s : string) : BYTE_BOOL; extern;
+
+[external] function dropobj(objslot : integer;
+                    var allstats : allmystats) : BYTE_BOOL; extern;
+
+[external] procedure dowho(metaok : BYTE_BOOL := false;
+                     allstats : allmystats); extern;
+
+[external] function getdir(s : string; var dir : integer) : BYTE_BOOL; extern;
+
+[external] procedure dodie(var allstats : allmystats); extern;
+
+[external] function equipit(slot : integer; silent : BYTE_BOOL := false;
+                    var myhold : holdobj;
+                    var stat : stattype) : BYTE_BOOL; extern;
+
+[external] procedure classstats(var allstats : allmystats); extern;
+
+[external] function lookupeffect(obj : objectrec;
+                    effectnum : integer) : integer; extern;
+
+[EXTERNAL] PROCEDURE DoPossess(S : String; Possessor : BYTE_BOOL := FALSE;
+                               VAR AllStats : AllMyStats); EXTERN;
+
+[EXTERNAL] PROCEDURE ReadAtmosphere; EXTERN;
+
+[EXTERNAL] PROCEDURE EventAtmosphere(Targ : INTEGER; Sendname : String;
+               P : INTEGER; VAR AllStats : AllMyStats); EXTERN;
+
+[EXTERNAL] PROCEDURE BlockSubs(N : INTEGER; S : String); EXTERN;
+
+(* -monattk----------------------------------------------------------------- *)
+
+[external] procedure dopunch(s : string; var allstats : allmystats); extern;
+
+[external] procedure doattack(s : string; var allstats : allmystats); extern;
+
+[EXTERNAL] PROCEDURE GetPunch(sock : INTEGER; s : String); EXTERN;
+
+[EXTERNAL] FUNCTION PunchForce(sock : INTEGER) : INTEGER; EXTERN;
+
+[EXTERNAL] PROCEDURE TakeHit(P : INTEGER; CanDie : BYTE_BOOL := TRUE;
+                             VAR AllStats : AllMyStats); EXTERN;
+
+[EXTERNAL] PROCEDURE ViewPunch(A, B : String; P : INTEGER); EXTERN;
+
+[EXTERNAL] PROCEDURE PoorHealth(Damage : INTEGER; Armor : BYTE_BOOL:=TRUE;
+                             Spell : BYTE_BOOL := FALSE; CanDie : BYTE_BOOL := TRUE;
+                             VAR AllStats : AllMyStats); EXTERN;
+
+[EXTERNAL] PROCEDURE GetAttack(sock : INTEGER; s : String; w : String); EXTERN;
+
+[EXTERNAL] PROCEDURE ViewAttack(A, B : String;
+                               sock : INTEGER; w : String); EXTERN;
+
+(* UNDETERMIND *)
+[EXTERNAL] FUNCTION A_AN(S : String) : String; EXTERN;
+
+[EXTERNAL] PROCEDURE NoiseHide(Percent : INTEGER; Stat : StatType); EXTERN;
+
+[EXTERNAL] PROCEDURE PrintSubs(slot : INTEGER; S : String); EXTERN;
+
+(* MWG glad I know about this one *)
+
+[EXTERNAL] FUNCTION ObjPrice(ObjNum : INTEGER) : INTEGER; EXTERN;
+
+[EXTERNAL] FUNCTION ObjPart(ObjNum : INTEGER) : String; EXTERN;
+
+[EXTERNAL] PROCEDURE ShowNoises(N : INTEGER); EXTERN;
+
+[EXTERNAL] PROCEDURE ShowAltNoise(N : INTEGER); EXTERN;
+
+[EXTERNAL] PROCEDURE DamageWeapon(Force : INTEGER; VAR AllStats : AllMyStats); EXTERN;
+
+[EXTERNAL] PROCEDURE Xpoof(Loc : INTEGER; VAR AllStats : AllMyStats;
+                           PoofType : INTEGER := 0); EXTERN;
+
+[EXTERNAL] PROCEDURE DescHealth(n : INTEGER;
+                     header : ShortString := ''); EXTERN;
+
+[EXTERNAL] PROCEDURE DieChangeExperience(Th : INTEGER; My : INTEGER;
+                                         VAR Stat : StatType); EXTERN;
+
+[EXTERNAL] PROCEDURE PrintDesc(Dsc : INTEGER;
+                     Default : String := '<no default supplied>'); EXTERN;
+
+[EXTERNAL] PROCEDURE Parser(S : String := ''; VAR AllStats : AllMyStats); EXTERN;
+
+[EXTERNAL] FUNCTION Userid : String; EXTERN;
+
+[EXTERNAL] PROCEDURE ChangeExp(DeltaExp : INTEGER; Log : INTEGER;
+                               VAR Exp : INTEGER); EXTERN;
+
+[EXTERNAL] FUNCTION GetTicks : INTEGER; EXTERN;
+
+(* -monindex---------------------------------------------------------------- *)
+
+[external] procedure resetindex(indexnum : integer;
+                     maxvalue : integer); extern;
+
+[external] function changetopindex(number : integer; fileslot : integer;
+                    maxvalue : integer) : BYTE_BOOL; extern;
+
+[EXTERNAL] FUNCTION FindFreeIndexSlot(IndexNum : INTEGER;
+                                      VAR Slot : INTEGER) : BYTE_BOOL; EXTERN;
+
+(* -moninform--------------------------------------------------------------- *)
+
+[external] procedure inform_nogo; extern;
+
+[external] procedure inform_noalterexit; extern;
+
+[external] function checkprivs(privd : BYTE_BOOL;
+                    name : string) : BYTE_BOOL; extern;
+
+[external] procedure inform_badcmd; extern;
+
+[external] procedure inform_destroy(s : string); extern;
+
+[external] procedure inform_noprivs(name : string); extern;
+
+[external] procedure inform_nofight; extern;
+
+[external] procedure inform_noroom; extern;
+
+[external] procedure inform_notholding; extern;
+
+[external] procedure inform_sticky(s : string); extern;
+
+(* -monlookup-------------------------------------------------------------- *)
+
+[external] function lookupnameraw(list : array[$l0..$l1:integer] of shortstring;
+	ind : indexrec; var pnum : integer; s : string;
+	exact : byte_bool) : byte_bool; extern;
+
+(* [external] function lookuphere(ObjName : String) : INTEGER; extern; *)
+
+[external] function lookupalias(var n : integer; s : string) : BYTE_BOOL; extern;
+
+[external] function findobj(objnum : integer;
+                    roomnum : integer) : integer; extern;
+
+[external] function parseobj(var objnum : integer; s : string;
+                    myhold : holdobj) : BYTE_BOOL; extern;
+
+[external] function parseobjhere(var ObjName : string) : integer; extern;
+
+[external] function objhere(objnum : integer) : BYTE_BOOL; extern;
+
+[external] function lookupatmosphere(s : string) : integer; extern;
+
+[external] function lookupcmd(s : string;
+                              cmds : array[$l1..$l2:integer] of shortstring;
+                              maxcmds : INTEGER) : integer; extern;
+
+[external] function lookupalign(s : string) : integer; extern;
+
+[external] function lookupdetail(var n : integer; s : string) : BYTE_BOOL; extern;
+
+[external] function lookupdir(var dir : integer;
+                    s : string) : BYTE_BOOL; extern;
+
+[external] function objhold(objnum : integer;
+                    myhold : holdobj) : BYTE_BOOL; extern;
+
+[external] function parsepers(var pnum : integer; var log : integer;
+                    s : string;
+                    echo : BYTE_BOOL := false) : BYTE_BOOL; extern;
+
+[external] function lookupname(nametype : integer; namenum : integer;
+                    var pnum : integer; s : string; exact : BYTE_BOOL := false;
+                    silent : BYTE_BOOL := true) : BYTE_BOOL; extern;
+
+(* -monspell--------------------------------------------------------------- *)
+
+[external] FUNCTION EffectDist(Base, Randd, MaxRange, Behavior, CasterDesc,
+                     VictimDesc : INTEGER; All : BYTE_BOOL;
+                     Missile : String; 
+		     VAR AllStats : AllMyStats) : INTEGER; extern;
+
+[external] procedure readinallspells; extern;
+
+[external] procedure doannounce(s : string; log : integer;
+                     spell : BYTE_BOOL := false;
+                     privd : BYTE_BOOL := false); extern;
+
+[external] procedure dounhide(slot : integer; roomnum : integer); extern;
+
+[external] procedure dolearn(s : string; var allstats : allmystats); extern;
+
+[external] procedure docast(slot, castlevel : integer; line : string;
+                     sn : integer := 0;
+                     var allstats : allmystats); extern;
+
+[external] procedure effect(effecttype, j : integer; s : string;
+                     var allstats : allmystats); extern;
+
+[external] function makesavingthrow(s : string; myexperience : integer;
+                    myslot : integer; location : integer) : BYTE_BOOL; extern;
+
+[external] procedure listgroups; extern;
+
+(* -monuniv---------------------------------------------------------------- *)
+
+[external] function edit_universe : BYTE_BOOL; extern;
+
+[external] function selectuniverse(privd : BYTE_BOOL) : BYTE_BOOL; extern;
+
+[external] function isunivspecificop(someone : string) : BYTE_BOOL; extern;
+
+(* -monedit---------------------------------------------------------------- *)
+
+[external] function editdesc(var dsc : integer; message : string := '';
+                    var allstats : allmystats) : BYTE_BOOL; extern;
+
+(* -monobj----------------------------------------------------------------- *)
+
+[external] function setobjowner(N : integer;
+	owner : shortstring) : byte_bool; extern;
+
+[external] procedure readinallobjects; extern;
+
+[external] procedure doobjects(s : string; privd : BYTE_BOOL := false;
+                     myid : veryshortstring); extern;
+
+[external] procedure createobject(s : string;
+                     stat : stattype); extern;
+
+[external] procedure customobject(objnum : integer;
+                     var allstats : allmystats); extern;
+
+[external] procedure zapobject(n : integer; myslot, mylog : integer;
+                     location : integer); extern;
+
+[external] procedure listspells(myclass : integer; mygroup : integer;
+                     myexp : integer; privd : BYTE_BOOL := false); extern;
+
+[external] procedure showkind(P : integer); extern;
+
+[external] procedure progobjequipview(obj : objectrec); extern;
+
+(* -monmove---------------------------------------------------------------- *)
+
+[external] procedure taketoken(roomno : integer; log : integer); extern;
+
+[external] procedure dounblock(s : string ; var allstats : allmystats); extern;
+
+[external] procedure doblock(s : string ; var allstats : allmystats); extern;
+
+[external] function dogo(s : string; verb : BYTE_BOOL := true; 
+                         var allstats : allmystats) : BYTE_BOOL; extern;
+
+[external] function cycleopen : BYTE_BOOL; extern;
+
+[external] function puttoken(newloc : integer; var hidelev : integer;
+                    var allstats : allmystats) : BYTE_BOOL; extern;
+
+[external] procedure docreateroom(s : string; 
+                     var allstats : allmystats); extern;
+
+[external] function doexit(exitslot : integer;
+                    var allstats : allmystats) : BYTE_BOOL; extern;
+
+[external] function exitcase(dir : integer;
+                    var allstats : allmystats) : BYTE_BOOL; extern;
+
+(* -custspell-------------------------------------------------------------- *)
+
+[external] procedure createspell(s : string;
+                     var stat : stattype); extern;
+
+[external] procedure customspell(sn : integer;
+                     var allstats : allmystats); extern;
+
+[external] procedure zapspell(spellnum : integer); extern;
+
+(* -monclass--------------------------------------------------------------- *)
+
+[external] procedure readinallclasses; extern;
+
+[external] function createclass(s : string) : integer; extern;
+
+[external] procedure customclass(monnum : integer;
+                     var allstats : allmystats); extern;
+
+[external] procedure zapclass(classnum : integer); extern;
+
+(* -monrooms--------------------------------------------------------------- *)
+
+[external] function lookuproomname(s : string; var n : integer;
+	exact : byte_bool; silent : byte_bool) : byte_bool; extern;
+
+[external] procedure printbriefexits; extern;
+
+[external] procedure dorooms(s : string; var allstats : allmystats); extern;
+
+[external] procedure showexits(var foundexit : foundexittype;
+                     var myhold : holdobj; shorthand : BYTE_BOOL := FALSE); 
+			extern;
+
+[external] procedure exitdefault(dir, kind, toloc : integer;
+                     var nam : longnamerec); extern;
+
+[external] procedure printparticle(nameprint : integer;
+                     s : string; AllStats : AllMyStats; 
+		     Hiding : BYTE_BOOL := FALSE); 
+			extern;
+
+[external] function owntrans(s : string) : string; extern;
+
+(* -monstartup------------------------------------------------------------- *)
+
+[external] function openallfiles(sysmaint : BYTE_BOOL) : BYTE_BOOL; extern;
+
+(* -moncopy---------------------------------------------------------------- *)
+
+[external] procedure docopy(s : string; var allstats : allmystats); extern;
+
+(* -monbits[.mar]---------------------------------------------------------- *)
+
+[EXTERNAL] FUNCTION TestBit(VAR Num : [UNSAFE] INTEGER;
+                            %IMMED Bit : INTEGER) : INTEGER; EXTERN;
+
+[EXTERNAL] FUNCTION SetBit(VAR Num : [UNSAFE] INTEGER;
+                           %IMMED Bit : INTEGER) : INTEGER; EXTERN;
+
+[EXTERNAL] FUNCTION ClearBit(VAR Num : [UNSAFE] INTEGER;
+                             %IMMED Bit : INTEGER) : INTEGER; EXTERN;
+
+[EXTERNAL] FUNCTION GetBits(VAR Num : [UNSAFE] INTEGER;
+                            %IMMED BitS : INTEGER;
+                            %IMMED NumB : INTEGER) : INTEGER; EXTERN;
+
+[EXTERNAL] FUNCTION SetBits(VAR Num : [UNSAFE] INTEGER;
+                            %IMMED BitS : INTEGER;
+                            %IMMED NumB : INTEGER;
+                            %IMMED NewNum : [UNSAFE] INTEGER) 
+						: INTEGER; EXTERN;
+
+[EXTERNAL] FUNCTION Count1Bits(VAR Num : [UNSAFE] INTEGER;
+				%IMMED StartBit : [UNSAFE] INTEGER := 0;
+				%IMMED EndBit   : [UNSAFE] INTEGER := 31
+					) : INTEGER; EXTERN;
+
+
+(* -monalign-------------------------------------------------------------- *)
+
+
+           (* PrintAlignment will take an integer and print out the
+	      corresponding alignment. The integer should be the 'raw'
+	      alignment (between 1 and 100). It will scale it back and 
+	      print out one of the fields in Alignments[]. It can also,
+	      optionally be instructed to print out the raw alignment 
+              number (DoValue := TRUE) and/or the relative alignment number
+	      (DoLvl := TRUE).
+	   *)
+
+[EXTERNAL] PROCEDURE PrintAlignment( A : INTEGER; 
+				NeedNewLine : BYTE_BOOL := TRUE; 
+				DoLvl : BYTE_BOOL := FALSE;
+				DoValue : BYTE_BOOL := FALSE;
+				Style : INTEGER := Style_Capitalized ); extern;
+
+
+
+	   (* ReturnAlignment functions almost exactly as print alignment,
+	      except it returns the ascii alignment string so you can 
+	      include it in other strings, etc... 
+	   *)
+
+[EXTERNAL] FUNCTION ReturnAlignment( A : INTEGER ; VAR Adj : INTEGER;
+				Style : INTEGER := Style_Capitalized) 
+					: STRING; extern;
+
+[EXTERNAL] PROCEDURE BadAlignment; extern;
+
+[EXTERNAL] PROCEDURE TallyAlignments; extern;
+
+(* -MonHelp-------------------------------------------------------------- *)
+
+[EXTERNAL] PROCEDURE DoHelp(S : String; AllStats : AllMyStats); extern;
+
+(* -MonIO---------------------------------------------------------------- *)
+
+[EXTERNAL] PROCEDURE CenterText(S : String; Width : INTEGER := 80; 
+				NewLine : BYTE_BOOL := TRUE); extern;
+
+(* -monmail-------------------------------------------------------------- *)
+
+[external] procedure mail_user(user : packed array[$l1..$u1:integer] of char;
+                      filen : packed array[$l2..$u2:integer] of char); extern;

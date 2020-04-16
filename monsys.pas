@@ -1,0 +1,515 @@
+[INHERIT ('monconst','montype')]
+
+MODULE MonSys(OUTPUT);
+
+%include 'headers.txt'
+
+CONST
+  NumSys = 21;
+  SYS_CLASSES = 1;
+  SYS_BLOCKS = 2;
+  SYS_DISOWN = 3;
+  SYS_EXIT = 4;
+  SYS_FIX = 5;
+  SYS_KILL = 6;
+  SYS_LINE = 7;
+  SYS_MOVE = 8;
+  SYS_OBJECTS = 9;
+  SYS_DIST = 10;
+  SYS_ROOMS = 11;
+  SYS_SHUTDOWN = 12;
+  SYS_VIEW = 13;
+  SYS_RESET = 14;
+  SYS_UNCHEAT = 15;
+  SYS_SPELLS = 16;
+  SYS_HELP = 17;
+  SYS_PLAYERS = 18;
+  SYS_FIXWHO = 19;
+  SYS_MONSTERS = 20;
+  SYS_FIXINDEX = 21;
+
+VAR
+  SysCommands : ARRAY[1..NumSys] OF ShortString :=
+  ('classes', 'blocks', 'disown', 'exit', 'fix', 'kill', 'line', 'move',
+   'objects', 'distribution', 'rooms', 'shutdown', 'view', 'reset', 'uncheat',
+   'spells', 'help', 'players', 'fixwho', 'monsters','fixindex');
+  SysHelp : ARRAY[1..NumSys] OF String := 
+  (' # - add class records',
+   ' # - add block records',
+   ' user - disown a user',
+   ' - exit system mode',
+   ' - reupdate the inuse indexs (class, obj, rooms..)',
+   ' user - kill a user (you should disown them first)',
+   ' # - add line records',
+   ' user - move a player who is asleep',
+   ' # - add object records',
+   ' - write a distribution list of the players',
+   ' # - add room  records',
+   ' message - shutdown the game and force everyone to quit',
+   ' - view system usages',
+   ' - reset maxrooms and numkills numdeaths',
+   ' - uncheat players (gold/bank/health/mana)',
+   ' # - add spell records',
+   ' - list all of the commands or get help on a command',
+   ' - kill the players list.',
+   ' - remove everyone from the who lost.',
+   ' # - add more monster record.',
+   ' - make sure the name records match the real records');
+
+PROCEDURE SystemHelp(S : string := '');
+VAR
+  I, Loop : INTEGER;
+BEGIN
+  IF (S.Length = 0) THEN
+  BEGIN
+    FOR Loop := 1 TO NumSys DO
+      Writeln(SysCommands[Loop], SysHelp[Loop]);
+  END
+  ELSE
+  BEGIN
+    FOR Loop := 1 TO NumSys DO
+      IF (Index(SysCommands[Loop], S) = 1) THEN
+        Writeln(SysCommands[Loop], SysHelp[Loop]);
+  END;
+END;
+
+(* -------------------------------------------------------------------------- *)
+
+PROCEDURE WriteIndex(S : String; VAR Indx : IndexRec);
+
+VAR
+  Used, Free, Total : INTEGER;
+
+BEGIN
+  Used := Indx.InUse;
+  Total := Indx.Top;
+  Free := Total - Used;
+  Writeln(S:14, Used:5,'  ', Free:5,'  ', Total:5);
+END;
+
+(* -------------------------------------------------------------------------- *)
+
+[GLOBAL]
+PROCEDURE SystemView;
+
+VAR
+  Index : IndexRec;
+  Status : BYTE_BOOL;
+
+BEGIN
+  Writeln;
+  Writeln('             used   free   total');
+  Status := GetIndex(I_Block,Index);
+  writeindex('Block file',Index);
+  Status := GetIndex(I_Line,Index);
+  writeindex('Line file',Index);
+  Status := GetIndex(I_Room,Index);
+  writeindex('Room file',Index);
+  Status := GetIndex(I_Object,Index);
+  writeindex('Object file',Index);
+  Status := GetIndex(I_Spell,Index);
+  writeindex('Spell file',Index);
+  Status := GetIndex(I_Rand,Index);
+  writeindex('Rand file',Index);
+  Status := GetIndex(I_Class,Index);
+  writeindex('Class file',Index);
+END;
+
+(* -------------------------------------------------------------------------- *)
+
+[GLOBAL]
+PROCEDURE DoShutdown(S : String; MyLog : INTEGER);
+
+VAR
+   Lcv : INTEGER;
+
+BEGIN
+  IF S <> '' THEN
+     LogEvent(0, MyLog, E_SHUTDOWN, 0,0,0,0, S, R_ALLROOMS)
+  ELSE
+     Writeln('Usage: announce <message>');
+END;
+
+(* -------------------------------------------------------------------------- *)
+
+PROCEDURE ResetValues(VAR AllStats : AllMyStats);
+
+VAR
+   Lcv : INTEGER;
+   Kills, MaxRooms : BYTE_BOOL;
+   Indx : IndexRec;
+   Status : BYTE_BOOL;
+   Character : CharRec;
+
+BEGIN
+  IF GrabYes('Zero all kills? ',AllStats) THEN
+     Kills := TRUE
+  ELSE
+     Kills := FALSE;
+  Writeln('Max_Rooms default is ',Max_Room:0);
+  IF GrabYes('Reset max_rooms? ',AllStats) THEN
+     MaxRooms := TRUE
+  ELSE
+     MaxRooms := FALSE;
+  IF Kills OR MaxRooms THEN
+  BEGIN
+    Write('Working...');
+    Status := GetIndex(I_Player, Indx);
+    FOR Lcv := 1 TO Indx.Top DO
+    BEGIN
+      IF NOT Indx.Free[Lcv] THEN
+      BEGIN
+        Status := GetChar(Lcv, Character);
+        IF Kills THEN
+        BEGIN
+          Character.Kills := 0;
+          Character.Deaths := 0;
+        END;
+        IF Maxrooms THEN Character.MaxRooms := Max_Room;
+        Status := SaveChar(Lcv, Character);
+      END;
+    END;
+    Writeln('Done');
+    Writeln;
+  END;
+END;
+
+(* -------------------------------------------------------------------------- *)
+
+PROCEDURE FixStuff;
+
+VAR
+  Loop : INTEGER;
+  Here : Room;
+  Indx : IndexRec;
+  Charac : CharRec;
+  Status : BYTE_BOOL;
+
+BEGIN   
+  Writeln('Fixing: gold,bankgold,roomgold,health,mana.');
+  Status := GetIndex(I_Player, Indx);
+  FOR Loop := 1 TO Indx.Top DO
+  BEGIN
+    IF NOT(Indx.Free[Loop]) THEN
+    BEGIN
+      IF GetChar(Loop, Charac, TRUE) THEN
+      BEGIN
+        Charac.Wealth := 0;
+        Charac.Bankwealth := 0;
+        Charac.Health := 500;
+        Charac.Mana := 0;
+        IF SaveChar(Loop, Charac) THEN;
+      END;
+    END;
+  END;
+  Status := GetIndex(I_Room, Indx);
+  FOR Loop := 1 TO Indx.Top DO
+  BEGIN
+    Status := GetRoom(Loop, Here);
+    IF Here.GoldHere <> 0 THEN
+    BEGIN
+      Here.GoldHere := 0;
+      If Status THEN
+        Status := SaveRoom(Loop, Here);
+    END;
+  END;       
+END;
+
+(* -------------------------------------------------------------------------- *)
+
+PROCEDURE KillPlayerList;
+
+VAR
+  Loop : INTEGER;
+  Status : BYTE_BOOL;
+  Indx : IndexRec;
+
+BEGIN
+  Status := GetIndex(I_Player, Indx);
+  Indx.InUse :=1;
+  Loop := 1;
+  WHILE Loop <= Indx.Top DO
+  BEGIN
+    Indx.Free[Loop] := TRUE;
+    Loop := Loop + 1;
+  END;
+  Status := SaveIndex(I_Player, Indx);
+END;
+
+(* -------------------------------------------------------------------------- *)
+
+PROCEDURE KillUser(S : String);
+
+VAR
+  Slot : INTEGER;
+  Status : BYTE_BOOL;
+  Indx : IndexRec;
+
+BEGIN
+  IF Length(S) = 0 THEN
+     Writeln('No user specified')
+  ELSE
+  BEGIN
+    IF LookupName(nt_short, s_na_user, Slot, S, FALSE, FALSE) THEN
+    BEGIN
+      Status := GetIndex(I_Asleep, Indx);
+      IF Indx.Free[Slot] THEN
+      BEGIN
+	IF Deallocate(I_PLAYER, Slot) THEN
+          Writeln('Player deleted.');
+      END
+      ELSE
+        Writeln('That person is playing now.');
+    END;
+  END;
+END;
+
+(* -------------------------------------------------------------------------- *)
+
+PROCEDURE DisownUser(S : String);
+
+VAR
+  N : INTEGER;
+  Loop : INTEGER;
+  TheUser : String;
+  Owners : LongNameRec;
+  ObjOwners : ShortNameRec;
+  Names : ShortNameRec;
+  Status : BYTE_BOOL;
+  HereDesc : RoomDesc;
+
+BEGIN
+  IF Length(S) > 0 THEN
+  BEGIN
+    IF NOT LookupName(nt_short, s_na_user, N, s) THEN
+       Writeln('User not in log info, attempting to disown anyway.')
+    ELSE
+    BEGIN
+      IF GetShortName(s_NA_User, Names) THEN
+      BEGIN
+        TheUser := Names.Idents[N];
+        Status := GetLongName(l_NA_RoomOwn, Owners);
+        FOR Loop := 1 TO MaxPlayers DO
+          IF Owners.Idents[Loop] = TheUser THEN
+          BEGIN
+            Status := GetRoomDesc(Loop, HereDesc);
+            HereDesc.Owner := '*';
+            Status := SaveRoomDesc(Loop, HereDesc);
+            SetRoomOwner(Loop, '*');
+            Writeln('Disowned room ',HereDesc.Owner);
+          END;
+        Writeln;
+        Status := GetShortName(s_NA_ObjOwn, ObjOwners);
+        FOR Loop := 1 TO MaxPlayers DO
+          IF ObjOwners.Idents[Loop] = TheUser THEN
+            SetObjOwner(Loop, '*');
+      END
+      ELSE
+        Writeln('Error looking up user name.');
+    END;
+  END
+  ELSE
+    Writeln('No user specified.');
+END;
+
+(* -------------------------------------------------------------------------- *)
+
+PROCEDURE DistList;
+VAR
+  Loop, Loop2 : INTEGER;
+  DistFile : TEXT;
+  Indx : IndexRec;
+  Id : ShortNameRec;
+  Personal : ShortNameRec;
+  Date : ShortNameRec;
+  AnInt : IntArray;
+  RoomName : LongNameRec;
+  Status : BYTE_BOOL;
+
+BEGIN
+  Writeln('Writing distribution list . . .');
+  Status := GetIndex(I_Player, Indx);
+  If Status THEN
+    Status := GetShortName(s_NA_User, ID);
+  If Status THEN
+    Status := GetShortName(s_NA_Pers, Personal);
+  If Status THEN
+    Status := GetShortName(s_NA_Date, Date);
+  If Status THEN
+    Status := GetInt(N_Location, AnInt);
+  If Status THEN
+    Status := GetLongName(L_NA_RoomNam, RoomName);
+  IF Status THEN
+  BEGIN
+    Open(DistFile, 'monsters.dis' ,HISTORY := NEW);
+    Rewrite(DistFile);
+    FOR Loop := 1 to MaxPlayers DO
+    BEGIN
+      IF NOT(Indx.Free[Loop]) THEN
+      BEGIN
+        Write(DistFile ,Id.Idents[Loop]);
+        FOR Loop2 := Length(Id.Idents[Loop]) TO 15 DO
+           Write(DistFile,' ');
+        Write(DistFile,'! ',Personal.Idents[Loop]);
+        FOR Loop2 := Length(Personal.Idents[Loop]) TO 21 DO
+           Write(DistFile,' ');
+        Write(DistFile, Date.Idents[Loop]);
+        IF Length(Date.Idents[Loop]) < 19 THEN
+          FOR Loop2 := Length(Date.Idents[Loop]) TO 18 DO
+            Write(DistFile,' ');
+        IF AnInt[Loop] <> 0 THEN
+          Write(DistFile,' * ')
+        ELSE
+          Write(DistFile,'   ');
+        Writeln(DistFile ,RoomName.Idents[AnInt[Loop]]);
+      END;  (* Is the slot used *)
+    END;    (* For Loop := 1 to MaxPlayers... *)
+  END
+  ELSE
+    Writeln('Error opening datafiles.');
+  Writeln('Done.');
+END;
+
+(* -------------------------------------------------------------------------- *)
+
+PROCEDURE MoveAsleep(VAR AllStats : AllMyStats);
+
+VAR
+  Pname, Rname : String;	{ player & room names }
+  NewRoom, Slot : INTEGER;	{ room number & player slot number }
+  Indx : IndexRec;
+  Location : IntArray;
+  Status : BYTE_BOOL;
+
+BEGIN
+  GrabLine('Player name? ',Pname,AllStats);
+  GrabLine('Room name?   ',Rname,AllStats);
+  IF LookupName(nt_short, s_na_pers, Slot, Pname, FALSE, FALSE) THEN
+  BEGIN
+    IF LookupName(nt_long, l_na_roomnam, NewRoom, Rname, FALSE, FALSE) THEN
+    BEGIN
+      Status := GetIndex(I_Asleep, Indx);
+      IF Indx.Free[Slot] THEN
+      BEGIN
+        Status := GetInt(N_Location, Location);
+	Location[Slot] := NewRoom;
+	Status := SaveInt(N_Location, Location);
+	Writeln('Player moved.');
+      END
+      ELSE
+        Writeln('That player is not asleep.');
+    END;
+  END;
+END;
+
+(* -------------------------------------------------------------------------- *)
+
+procedure fixtheindex(indexnum : integer);
+var
+  indx : indexrec;
+  used, loop : integer;
+begin
+  used := 0;
+  if getindex(indexnum, indx) then
+  begin
+    for loop := 1 to indx.top do
+      if (not(indx.free[loop])) then used := used + 1;
+    indx.inuse := used;
+    if saveindex(indexnum, indx) then;
+  end;
+end;
+
+(* -------------------------------------------------------------------------- *)
+
+procedure fixallindex;
+var
+  loop : integer;
+begin
+  for loop := 1 to I_MAX do
+    fixtheindex(loop);
+end;
+
+(* -------------------------------------------------------------------------- *)
+
+PROCEDURE ClearWho;
+VAR
+  Indx : IndexRec;
+  Loop : INTEGER;
+BEGIN
+  IF GetIndex(I_Asleep, Indx) THEN
+  BEGIN
+    FOR Loop := 1 TO Indx.Top DO
+      Indx.Free[Loop] := TRUE;
+    IF SaveIndex(I_Asleep, Indx) THEN;
+  END;
+END;
+(* -------------------------------------------------------------------------- *)
+[EXTERNAL] PROCEDURE FixIndex; EXTERN;
+
+[GLOBAL]
+PROCEDURE DoSystem(VAR AllStats : AllMyStats);
+(* Assumes that the person was privd enough to get this far. *)
+
+VAR
+  P : String;
+  Done : BYTE_BOOL;
+  Num, N : INTEGER;
+  S : String;
+
+BEGIN
+  Done := FALSE;
+  REPEAT
+    REPEAT
+      GrabLine('System>',P,AllStats);
+      P := Trim(P);
+    UNTIL Length(P) > 0;
+    S := Lowcase(Bite(P));
+    Num := LookupCmd(S, SysCommands, NumSys);
+    N := 0;
+    P := Trim(P);
+    IF (Length(P) <> 0) THEN
+      If IsNum(P) THEN
+        N := Number(P);
+
+    CASE Num OF
+      SYS_HELP     : SystemHelp;
+      SYS_SHUTDOWN : DoShutDown(P, AllStats.Stats.Log);
+      SYS_RESET    : ResetValues(AllStats);
+      SYS_FIXINDEX : FixIndex;
+      SYS_UNCHEAT  : FixStuff;
+      SYS_PLAYERS  : KillPlayerList;
+      SYS_KILL     : KillUser(P);
+      SYS_DISOWN   : DisownUser(P);
+      SYS_FIX      : FixAllIndex;
+      SYS_DIST     : DistList;
+      SYS_MOVE     : MoveAsleep(AllStats);
+      SYS_CLASSES  : IF N = 0 THEN SystemHelp(S)
+                     ELSE IF NOT ChangeTopIndex(N,I_Class, MaxGroup) THEN
+                       Writeln('Error changing class limit.');
+      SYS_SPELLS   : IF N = 0 THEN SystemHelp(S)
+                     ELSE IF NOT ChangeTopIndex(N,I_Spell, MaxSpells) THEN
+                       Writeln('Error changing spell limit.');
+      SYS_ROOMS    : IF N = 0 THEN SystemHelp(S)
+                     ELSE IF NOT ChangeTopIndex(N,I_Room,MaxRoom) THEN
+                       Writeln('Error changing room limit.');
+      SYS_BLOCKS   : IF N = 0 THEN SystemHelp(S)
+                     ELSE IF NOT ChangeTopIndex(N,I_Block, DEFAULT_DESC-1) THEN
+                       Writeln('Error changing block limit.');
+      SYS_OBJECTS  : IF N = 0 THEN SystemHelp(S)
+                     ELSE IF NOT ChangeTopIndex(N,I_Object, MaxPlayers) THEN
+                       Writeln('Error changing object limit.');
+      SYS_LINE     : IF N = 0 THEN SystemHelp(S)
+                     ELSE IF NOT ChangeTopIndex(N,I_Line, DEFAULT_DESC-1) THEN
+                       Writeln('Error changing line limit.');
+      SYS_MONSTERS : IF N = 0 THEN SystemHelp(S)
+                     ELSE IF NOT ChangeTopIndex(N,I_RAND, DEFAULT_DESC-1) THEN
+                       Writeln('Error changing random limit.');
+      SYS_VIEW     : SystemView;
+      SYS_EXIT     : Done := TRUE;
+      SYS_FIXWHO   : ClearWho;
+      OTHERWISE Inform_BadCmd;
+    END;
+  UNTIL Done;
+END;
+
+END.
