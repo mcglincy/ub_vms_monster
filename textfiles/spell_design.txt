@@ -1,0 +1,497 @@
+From:	UBVMS::V073PZUY     "Night will come and I will follow..." 16-MAR-1993 19:11:56.96
+To:	MASMONST
+CC:	V073PZUY
+Subj:	I was afraid of a Xyplex crash on d, since b crashed...so I rushed this
+
+From:	UBVMS::V073PZUY     "Night will come and I will follow..." 16-MAR-1993 17:23:58.21
+To:	MASMONST
+CC:	V073PZUY
+Subj:	Spell Perfection?
+
+Tom,
+
+	Greetings from the Land of the Living Dead.  After spending almost
+all of the past day and a half working on the spell list, I believe I have
+finally reached "Spell Nirvana."  :)
+
+	I am making this file in order to explain the process used for creating
+the spells.  I have sent myself a copy, so there is no need (except to clarify
+in responding) to quote the file back at me...
+
+	So, without further aideu, I present...
+
+	Spell Heaven :)
+
+	Problem #1:  In the current version of the game, spells exhibit too much
+of a tendency to increase exponentially more so than the standard 5%/lvl they
+should be increasing.  Thus, they must be brought down.
+
+	Problem #2:  There are too many "overlapping" spells, making them either
+useless or harder to balance.
+
+	Problem #3:  Many spells exhibit such a high random damage that they
+are too often easy killers of other players, and can wipe out some players
+with one shot, even out of the Void.
+
+	Problem #4:  Distance spells and area effect spells are too powerful,
+allowing too many spellcasters (hereafter refered to as SCs) the freedom to
+rely on these types of spells exclusively.
+
+	In order to solve that problem, I embarked on the following quest...
+
+
+
+	The First Given:  Damage per second, hereafter refered to as dps.
+
+	Wizard	:	192
+	Druid	:	165
+	DemiLich:	144
+
+	Increases are set at 5% per level, so this amounts to:
+
+	Wizard	:	9.6
+	Druid	:	8.25
+	DemiLich:	7.2
+
+
+
+	The Second Given:  A non-overlapping spell list, as follows:
+
+	Wizard
+	~~~~~~
+	Lvl 0	:	Burning Touch		(1st power attack)
+			Flame Spray		(1st power area)
+	Lvl 1	:	Lightning Bolt		(2nd power attack)
+			Iron Hailstones		(2nd power area)
+			Magic Missile		(1st power distance)
+	Lvl 2	:	Acid Spear		(2nd power distance)
+	Lvl 3	:	Gaze of Terror		(3rd power attack)
+	Lvl 4	:	Acid Rain		(3rd power area)
+	Lvl 5	:	Fireball		(3rd power distance)
+
+
+
+	Druid
+	~~~~~
+	Lvl 0	:	Animate Shrubbery	(1st power attack)
+			Morning Frost		(1st power area)
+	Lvl 1	:	Fire Spear		(2nd power attack)
+			Tree Attack		(2nd power area)
+	Lvl 2	:	Stinging Hornets	(1st power distance)
+	Lvl 3	:	Bear Claws		(3rd power attack)
+	Lvl 4	:	Locust Plague		(2nd power distance)
+	Lvl 5	:	Tornado			(3rd power distance)
+	Lvl 6	:	Soul Harvester		(4th power attack)
+
+
+
+	DemiLich
+	~~~~~~~~
+	Lvl 0	:	Hands of Fire		(1st power attack)
+	Lvl 1	:	Solar Flare		(1st power area)
+	Lvl 2	:	Grave Rot		(2nd power attack)
+			Dark Arrows		(1st power distance)
+	Lvl 3	:	Storm			(2nd power area)
+	Lvl 4	:	Finger of Death		(2nd power distance)
+
+
+
+	Elves
+	~~~~~
+	Lvl 0	:	Heal			(1st power heal)
+	Lvl 1	:	Poison Thorn		(1st power attack)
+			Willow Blast		(1st power area)
+	Lvl 2	:	Silver Dagger		(2nd power attack)
+			Green Dart		(1st power distance)
+
+
+
+	The Next Step:  The "power levels" had to be defined.  They were done
+so as follows:
+
+	1st power	:	1.0 ct
+	2nd power	:	2.0 ct
+	3rd power	:	3.0 ct
+
+	For distance and attack spells, this was reduced to compensate for 
+extra casting time asociated with additonal prompts, as follows:
+
+	1st power	:	0.8 ct
+	2nd power	:	1.6 ct
+	3rd power	:	2.4 ct
+
+	Since area spells require no target prompt, they were left at the 
+previous values (1, 2, 3) for casting times, pursuant to the power level of
+the spell.
+
+
+
+	Next:  Damage ranges had to be calculated--that is, what "range" of
+values, expressed as a percentage, would be used for each type and power
+of spell.
+
+	The following table was arrived at:
+
+					% of dps
+					   ||
+			/----------------------------------\
+Power level		Attack		Distance	Area
+    1			80-120%		30-70%		same
+    2			85-115%		35-65%		same
+    3			90-110%		40-60%		same
+
+	These percentages accomplish three things:
+
+	1.)  Limit the effectiveness of distance and area effect spells by
+making them average half of what a similar-power attack spell would do.
+
+	2.)  Limit the max damages of the higher-power spells.  When dealing
+with lower-level spells, the higher max damage is not as much of a concern
+compared with the higher-level spells.  Thus, the average damage for 2nd-power
+and 3rd-power spells is the same as that of the 1st-power spell, but the
+maximum damage is more limited.  In game terms, this can be seen as "mastery"
+over the magicks that an SC controls--as he becomes more powerful (increases
+in lvl) and learns higher-power spells, he is more in control of the magicks,
+thus making for slightly more reliable, if slightly less spectacular, spells.
+
+	3.)  Accentuates the difference between an attack spell and a like-
+powered distance or area spell by making the differences in damage seem that
+much greater.  For instance, a lvl 1 Wizard casting a 1st-power attack spell
+would do at least 80% of 192 + 9.6, or 162.  Meanwhile, the same Wizard casting
+a 1st-power area spell would do at most 70% of 192 + 9.6, or 141.  However,
+when the spells become more powerful, the difference becomes greater.  A lvl 5
+Wizard casting a 3rd-power attack spell would do at least 90% of 3 * (192 + 48),
+or 648.  The same Wizard casting a 3rd-power attack spell, however, would do at
+most 60% of 3 * (192 + 48), or 432.  Thus, at higher levels, you can do more
+damage with a greater-powered spell, but the difference in damage becomes more
+dramatic, even though the averages do not change.
+
+
+	Next:  Damage had to be calculated.  This was done as follows:
+
+	Base Damage 	= 	dps * ct * low range %
+
+	Random Damage	=	dps * ct * (high range - low range %)
+
+	So, for a spell like, say, Fireball, we had the following stats:
+
+	dps at lvl 5			:	240
+	ct				:	3.0 (considered)
+	low range, 3rd power distance	:	40%
+	high range, 3rd power distance	:	60%
+
+	Base damage	=	dps * ct * low range %
+			=	240 * 3  * .4
+ 			=	288
+
+	Random damage	=	dps * ct * (high range - low range %)
+			=	240 * 3  * (.6 - .4)
+			=	144
+
+	Next, level damages had to be considered...along the same guidelines,
+but using the *increase* per lvl in dps (for dps) and substituting, we have
+a Fireball that has lvl increases of:
+
+	Base lvl increase	=	dps * ct * low range %
+				=	9.6 * 3  * .4
+				=	12
+
+	Random lvl increase	=	dps * ct * (high range - low range %)
+				=	9.6 * 3  * (.6 - .4)
+				=	6
+
+	Finally, in this phase, we had to work backwards in order to ensure
+that when our intrepid Wizard reached lvl 5, he was doing the "right" amounts
+of damage...so we subtracted (lvl * base lvl increase) from the base damage,
+and likewise for the random damage, so that by the time the Wizard "arrived"
+at 5th lvl, the proper damages (calculated above) would be achieved:
+
+	Base damage	=	Base damage - (lvl * base lvl inc)
+			=	288 - (5 * 12)
+			=	228
+
+	Random damage	=	Random damage - (lvl * random lvl inc)
+			=	144 - (5 * 6)
+			=	114
+
+	Thus, a Fireball's stats look like this:
+
+	Base damage		:	228
+	Base lvl damage		:	12
+	Random damage		:	114
+	Random lvl damage	:	6
+
+	Or, in short notation:
+
+	Fireball	ct: 2.4
+	228 - 12 - 114 - 6
+
+
+
+	As a final consideration for distance spells, 1st-power spells would
+travel 4 rooms.  2nd-power spells would travel 5 rooms.  3rd-power spells would
+travel 6 rooms.  There would be no bonuses/penalties for these distances.
+
+
+
+	Finally, mana costs had to be generated.  Doing some quick math, taking
+a Trol's health and dividing by the dps of a lvl-0 SC resulted in the following:
+
+	Wizard	:	1151/192	=	6
+	Druid	:	1151/165	=	7
+	DemiLich:	1151/144	=	8
+
+	These numbers indicated the number of attack spells that were going to
+have to hit the Trol in order to kill it as it killed the SC in a single-room
+battle.
+
+	These numbers are, of course, representative of 1st-power spells.  Since
+the 1st-power spells go up 5% per lvl damage-wise, it is necessary to keep these
+numbers constant so that all of the SC's mana would still have to be used in
+order to equal-kill the Trol.  Thus, a 1st-power Wizard spell needs to be 
+castable 6 times given all the Wizard's mana, and 6 times only.  Thus, mana
+costs go up by lvl, much the same as the damage goes up, in order to ensure
+that all of the mana needs to be used to kill the Trol.
+
+	Similarly, 2nd-power spells need to be cast half as much in order to
+ensure the same result (killing the Trol), as they are twice as powerful as 1st-
+order spells.  Thus, for the various SCs, this works out to:
+
+	Wizard	:	6/2	=	3
+	Druid	:	7/2	=	3.5
+	DemiLich:	8/2	=	4
+
+	This reflects the fact that Wizard spells are more powerful than
+Druid spells, and need to be cast less; and thus in turn with Druids to 
+DemiLiches.  3rd-power spells need to be cast one-third as much as 1st-power
+spells, and thus, for the various SCs, this works out to:
+
+	Wizard	:	6/3	=	2
+	Druid	:	7/3	=	2.3
+
+	DemiLiches, it should be noted, do not have access to 3rd-power spells.
+
+
+
+	Given:  Mana bases and level increases for the various SCs reads like
+this:
+
+	Wizard	:	125	+	35/lvl
+	Druid	:	100	+	30/lvl
+	DemiLich:	 75	+	25/lvl
+
+	Given that we know what an SCs mana will be at any given lvl, and that
+we have limits on the types of spells he can cast at any lvl (by power, as
+given above), we can assign base costs and lvl costs in mana much like we did
+with the damages above.  Without going into the math, the numbers read like
+this:
+
+	Wizard
+	~~~~~~
+	1st-power spell	:	20 base +  6/lvl
+	2nd-power spell :	42 base + 11/lvl
+	3rd-power spell :	64 base + 17/lvl
+
+	Druid
+	~~~~~
+	1st-power spell :	14 base +  4/lvl
+	2nd-power spell :	29 base +  8/lvl
+	3rd-power spell :	42 base + 13/lvl
+
+	DemiLich
+	~~~~~~~~
+	1st-power spell :	 9 base +  3/lvl
+	2nd-power spell :	19 base +  6/lvl
+
+	Elves
+	~~~~~
+	1st-power spell	:	12 base +  4/lvl
+	2nd-power spell :	26 base +  7/lvl
+
+	These numbers allow for *at least* the number required to cast, and
+in some cases, a small percentage of "leftover" mana.  When casting greater-
+power spells, sometimes the "leftover" is enough to cast a lesser-power spell,
+especially in the case of the Druids.  The trade-off here is that a Druid
+cannot kill someone with his 2nd-power attack spells most of the time because
+he can only cast 3 of them per lvl, when he needs 3.5 for the kill.  As a 
+result, there is usually enough "leftover" mana to allow for the casting of, 
+say, a 1st-power spell.
+
+	Distance spells and area effect spells were treated as if they were
+full-fledged attack spells, for purposes of determining mana costs.  In this
+way, even though a 3rd-power distance spell (like Fireball) would only do
+about half the damage necessary to kill an opponent, it would consume all the
+mana you have.  This is the penalty, then, for attacking from a distance,
+and for trying to obliterate whole rooms full of people all at once.  Distance
+spells will *not*, as a general rule, be able to kill off an opponent, and
+certainly not without a mana recharge before recasting.  The same shall hold
+true for area effect spells.
+
+	Using our Fireball as an example, it is a 3rd-power distance spell,
+with the following stats:
+
+	ct: 2.4		228 - 12 - 144 - 6
+
+	At lvl 5, our sample Wizard has (125 + (5 * 35) = ) 300 mana.  A 3rd-
+power distance spell for a Wizard costs (64 + (5 * 17) = ) 149 mana.  Thus,
+he will be able to get off two castings of this spell before he is out of 
+mana.  Assuming he is hunting our friend the lvl 5 Trol, who will have 1441
+health at lvl 5, he will (with any luck) connect twice, doing an average of
+375 damage each hit, with a maximum of 462 each shot, and a minimum of 289.
+
+	So, after he has fired off two shots, the Wizard is out of mana.
+
+	Let's check out our friend the lvl 5 Trol.  He has taken somewhere
+between 578 and 944 points of damage, averaging 750.  So, his health sits
+somewhere between 497 and 863 points of damage, and he can attack the Wizard
+while there is not much the Wizard can do until he regenerates his mana.
+
+	This is not as extreme as the current state of things, where two shots
+from a Fireball will kill just about any player.  Assuming our Trol is able to
+dodge at least 1 Fireball, and is wearing any kind of armor, he is in good
+shape.  One hit on the Wizard will just about counter any damage the Trol
+took, in terms of percentages of their respective healths.
+
+
+
+	The Numbers:  The following, then, is the complete Monster spell list.
+Spells with a "*" preceding their name are area effect spells.  Spells with a
+">" preceding their name are distance spells.  Damage ranges and mana costs are
+indicated as above:
+
+
+	Wizards
+	~~~~~~~
+	Lvl 0	:	 Burning Touch		ct: 0.8		Mana: 20/6
+			154	-	8	-	77	-	4
+
+			*Flame Spray		ct: 1.0		Mana: 20/6
+			58	-	3	-	77	-	4
+
+	Lvl 1	:	 Lightning Bolt		ct: 1.6		Mana: 42/11
+			163	-	8	-	57	-	6
+			163	-	8	-	58	-	7
+
+			*Iron Hailstones	ct: 2.0		Mana: 42/11
+			134	-	7	-	54	-	6
+
+			>Magic Missile (R4)	ct: 0.8		Mana: 20/6
+			57	-	3	-	77	-	4
+
+	Lvl 2	:	>Acid Spear (R5)	ct: 1.6		Mana: 42/11
+			134	-	7	-	115	-	6
+
+	Lvl 3	:	 Gaze of Terror		ct: 2.4		Mana: 64/17
+			518	-	26	-	114	-	6
+
+	Lvl 4	:	*Acid Rain		ct: 3.0		Mana: 64/17
+			228	-	12	-	114	-	6
+
+	Lvl 5 	:	>Fireball (R6)  	ct: 2.4		Mana: 64/17
+			228	-	12	-	114	-	6
+
+
+	Druids
+	~~~~~~
+	Lvl 0	:	 Animate Shrubbery	ct: 0.8		Mana: 14/4
+			132	-	7	-	66	-	3
+	
+			*Morning Frost		ct: 1.0		Mana: 14/4
+			50	-	2	-	66	-	3
+
+	Lvl 1	:	 Fire Spear		ct: 1.6		Mana: 29/8
+			280	-	14	-	99	-	5
+
+			*Tree Attack		ct: 2.0		Mana: 29/8
+			115	-	6	-	99	-	5
+
+	Lvl 2	:	>Stinging Hornets (R4)	ct: 0.8		Mana: 14/4
+			50	-	2	-	67	-	3
+
+	Lvl 3	:	 Bear Claws		ct: 2.4		Mana: 42/13
+			223	-	11	-	48	-	3
+			223	-	11	-	51	-	2
+
+	Lvl 4	:	>Locust Plague (R5)	ct: 1.6		Mana: 29/8
+			115	-	6	-	99	-	5
+
+	Lvl 5	:	>Tornado (R6)		ct: 2.4		Mana: 42/13
+			198	-	10	-	99	-	5
+
+
+
+	DemiLiches
+	~~~~~~~~~~
+	Lvl 0	:	 Hands of Fire		ct: 0.8		Mana: 9/3
+			115	-	6	-	58	-	3
+
+	Lvl 1	:	*Solar Flare		ct: 1.0		Mana: 9/3
+			43	-	2	-	57	-	3
+
+	Lvl 2	:	 Grave Rot		ct: 1.6		Mana: 19/6
+			245	-	12	-	87	-	4
+
+			>Dark Arrows		ct: 0.8		Mana: 9/3
+			44	-	2	-	57	-	3
+
+	Lvl 3	:	*Storm			ct: 2.0		Mana: 19/6
+			101	-	5	-	87	-	4
+
+	Lvl 4	:	>Finger of Death	ct: 1.6		Mana: 19/6
+			101	-	5	-	88	-	4
+
+
+
+	Elves
+	~~~~~
+	Lvl 0	:	+Heal			ct: ?		Mana: ?/?
+			?	-	?	-	?	-	?
+
+	Lvl 1	:	 Poison Thorn		ct: 0.8		Mana: 12/4
+			115	-	6	-	58	-	3
+
+			*Willow Blast		ct: 1.0		Mana: 12/4
+			43	-	2	-	57	-	3
+
+	Lvl 2	:	 Silver Dagger		ct: 1.6		Mana: 26/7
+			245	-	12	-	87	-	4
+
+			*Green Dart		ct: 0.8		Mana: 12/4
+			44	-	2	-	57	-	3
+
+
+
+	The Beauty of It All:  This system allows for easy manipulation of
+numbers.  Higher-power spells can be "whipped up" rather easily according to
+the formulas given.  Distance spells and area effect spells, while still a
+sizeable advantage, are nearly incapable of reducing an opponent to a pile of
+ash, even if cast again after a mana recharge.  Spell overlap has been
+virtually eliminated.  As characters increase in lvl, it becomes more
+advantageous for them to actually put themselves "in the line of fire" in 
+order to use their devastating single-room attack spells.  Of course, this
+opens them up to th physical attacks of their opponent, another plus for the
+other side.
+
+	The limits given were used for Trols, and thus, in order to kill the 
+Trol using all of his mana, a SpellCaster must hit all the time, every time,
+and not have a spell fail him.  More castings than are barely necessarily are
+not inlcuded because:
+
+	a.)  Mana regenerates linearily, and faster than health.
+
+	b.)  There is just enough damage capability to kill a Trol, but more
+than enough to kill most other SCs.  Thus, 1st-power Wizard spells are only
+castable 6 times per lvl, and no more, as it would create serious imbalances
+when dealing with a lesser-healthed foe, such as a Druid or a Wizard.
+
+	As a final note, Trol claws should be raised in lvl increases.  The
+current 158/78/10 is actually only half of what is necessary to do the job
+(compensate for the 5% health increase per lvl of the opponent).  A claw
+random damage increase of 20 would actually adequately do it (158/78/20).
+
+	And in the words of Sean Connery in "The Name of the Rose":
+
+	"Thus endeth the lesson."
+
+					---Monster Operator
+
