@@ -1,0 +1,74 @@
+From:	UBVMS::V073PZUY     "Knight of the Black Rose" 23-NOV-1993 18:04:18.25
+To:	MASMONST
+CC:	
+Subj:	I'm deleting this.  Save it to something if you want it.
+
+Greetings and salutations, fellow travelers of the Realm!
+
+You have just begun a fantastic tale of advneturer in and around the fabled
+City of Tai-Tastigon.  Some pointers and things to do:
+
+--READ MASLIB BULLETIN.  BULLETIN contains a lot of information and bantering/
+bickering about new developments in the game, quests opening up, the addition
+of new classes, and some cool in-character "propaganda" pieces.  To read the 
+Monster folder in BULLETIN, simply type MASLIB BULLETIN MONSTER at your main
+prompt.  For more on BULLETIN, type HELP inside BULLETIN itself, or mail
+MASBULL (Bill Brennessel), who will be more than happy that I sent you his way:)
+
+--EXPLORE.  There are two things that help you find out where you are, and where
+your friends and enemies are in relation to you.  One is the WHO list (the
+"where" column, all the way to the right, gives you the room the player is
+currently occupying).  The other is EXPLORATION.  As you explore the Realm, you
+will quite possibly get killed a lot, but soon you will know just from looking
+at the "who" list that the quickest way from Forest Croosroads to the Serpent
+Fountain is not, in fact, 12 east, 5 north, 2 west, and 3 north, but is, in 
+fact, 12 east, 3 north, up, 2 north, down, west, and north (saves you a whole
+one move and you risk falling from the Iron Catwalk you have to cross, but
+hey!  That's the spirit of adventure!)  A rough map of the Realm can be found
+on one of the early posts in BULLETIN, so be sure to read it.
+
+--A couple useful commands in the game (the minimum letters needed to execute
+the commands are in CAPS):
+
+	--CAst THundering voice:  This will cast a spell that allows you to be
+	'heard' around the Realm.  The game will prompt you for a text, and
+	then will broadcast what you say around the Realm.  If the text is too
+	long, you will see a blank line following the announcement, "You hear
+	a message from X:".  In that case, simply cast again and shorten your
+	message, or break it up.
+
+	--BRief:  Used when you first enter the game, this command will turn
+	the game to 'brief mode,' which eliminates the room descriptions and
+	exit descriptions (visible exits are then listed next to the room
+	name).  Typing BRief again will return you to 'verbose mode'.
+
+	--WHO:  This is used a lot, and will tell you who is on the game, what
+	class they are, what their alignment is, what level they are, and where
+	they are at the time you call up the 'who' list.
+
+	--SAY [text] or '[text] (Brackets are NOT required):  Allows you to
+	talk to other people in the room.  Generally, just use:
+
+	>'hi
+
+	This will cause others in the room to see:
+
+	X says, "Hi."
+
+	Note that the game already provides a period, a capitalized first 
+	letter, and the proper quotes.
+
+	--HIDe:  Allows you to hide in a room if no one else is around.  
+	Attacking someone out of the shadows does more damage than an average
+	hit.
+
+	--SEArch:  Allows you to search someone *out* of the shadows.
+
+	--ATtack x:  Attacks a player named "X".
+
+	--Quit:  Quits the game.
+
+Any questions or problems, mail Chet Zeshonski (v073pzuy).
+
+Or see Dhethe in the game.
+

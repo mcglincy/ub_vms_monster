@@ -1,0 +1,1074 @@
+********************************************************************
+NAME : Gae Bolga
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+        smallest fit         5
+         largest fit         7
+         base damage       145
+       random damage        95
+          base armor         2
+         spell armor         5
+       deflect armor         5
+     spell destroy %         5
+              cursed         1
+      throw behavior         2
+********************************************************************
+NAME : broken longsword
+Show kind      : Ordinary object
+Move speed add : 1
+Worth of object: 0
+********************************************************************
+NAME : Book of Shadows
+Show kind      : Spell Book
+Move speed add : 0
+Worth of object: 0
+Spells for group: 7
+Spells: 
+ 2-silver dagger
+ 3-poison thorn
+ 4-grave rot
+ 5-dark arrows
+ 6-solar flare
+ 7-willow blast
+ 8-phantom sword
+ 9-hands of fire
+10-green dart
+11-storm
+12-finger of death
+13-iron collar
+14-doomspeak
+15-spectral hounds
+16-blight
+17-ring of fire
+********************************************************************
+NAME : Lakeblade
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+        smallest fit         5
+         largest fit         7
+         base damage         1
+       random damage       284
+        attack speed        10
+        drop destroy         1
+********************************************************************
+NAME : conical helm
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 20
+        smallest fit         4
+         largest fit         7
+          base armor         2
+         spell armor         1
+********************************************************************
+NAME : White scale mail
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+        smallest fit         4
+         largest fit         9
+          base armor         9
+         spell armor         9
+         base health        85
+       deflect armor         5
+********************************************************************
+NAME : Dragonstone
+Show kind      : Ordinary object
+Move speed add : 0
+Worth of object: 0
+********************************************************************
+NAME : crested helm
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 20
+        smallest fit         4
+         largest fit         7
+          base armor         2
+         spell armor         1
+********************************************************************
+NAME : Cave Bear skins
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+         spell armor         9
+         largest fit        10
+          base armor         6
+        smallest fit         7
+       deflect armor         1
+********************************************************************
+NAME : Copper Tablets
+Show kind      : Ordinary object
+Move speed add : 0
+Worth of object: 0
+********************************************************************
+NAME : Norman kite shield
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 70
+        smallest fit         5
+         largest fit         8
+          base armor         5
+         spell armor         4
+********************************************************************
+NAME : Celtic blade
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+        attack speed        10
+         base damage       125
+       random damage       100
+         largest fit         7
+********************************************************************
+NAME : Dwarven mail
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 56
+        smallest fit         3
+         largest fit         5
+            no throw         1
+          base armor         5
+       deflect armor         4
+         spell armor         5
+     spell destroy %         5
+********************************************************************
+NAME : horned helm
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 20
+        smallest fit         4
+         largest fit         7
+         spell armor         1
+          base armor         2
+********************************************************************
+NAME : Lich Ring
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+        smallest fit         4
+         largest fit         9
+        drop destroy         1
+********************************************************************
+NAME : Wraith Blade
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+        smallest fit         5
+         largest fit         7
+      class specific        19
+        attack speed         8
+         base damage       125
+       random damage        61
+       see invisible         1
+            no throw         1
+        drop destroy         1
+********************************************************************
+NAME : plumed helm
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 20
+        smallest fit         4
+         largest fit         7
+          base armor         2
+         spell armor         1
+********************************************************************
+NAME : Mabinogian
+Show kind      : Spell Book
+Move speed add : 0
+Worth of object: 0
+Spells for group: 3
+Spells: 
+ 3-ent strength
+ 5-pinecones of death
+ 7-tree attack
+ 9-morning frost
+10-earth hammer
+12-insect cloud
+13-locust plague
+14-bear claws
+15-pack of wolves
+16-forest fire
+17-tornado
+18-soul harvester
+20-elk speed
+********************************************************************
+NAME : Goblinslayer
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+        smallest fit         4
+         largest fit         7
+         base damage       105
+       random damage        85
+        attack speed        10
+********************************************************************
+NAME : Druidic Boat
+Show kind      : Ordinary object
+Move speed add : 30
+Worth of object: 0
+********************************************************************
+NAME : buckler
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 20
+        smallest fit         2
+         largest fit         6
+          base armor         2
+********************************************************************
+NAME : wooden shield
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 35
+        smallest fit         4
+         largest fit         7
+          base armor         3
+         spell armor         1
+********************************************************************
+NAME : Viking round shield
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 85
+        smallest fit         5
+         largest fit        10
+          base armor         6
+         spell armor         5
+********************************************************************
+NAME : animal skins
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 20
+        smallest fit         4
+         largest fit         9
+          base armor         2
+         spell armor         1
+********************************************************************
+NAME : leather jerkin
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 40
+        smallest fit         5
+         largest fit         7
+          base armor         3
+         spell armor         2
+********************************************************************
+NAME : ring mail armor
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 55
+        smallest fit         5
+         largest fit         7
+          base armor         4
+         spell armor         3
+********************************************************************
+NAME : chain mail armor
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 85
+        smallest fit         5
+         largest fit         7
+          base armor         6
+         spell armor         5
+********************************************************************
+NAME : scale mail armor
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 105
+        smallest fit         5
+         largest fit         7
+          base armor         7
+         spell armor         7
+********************************************************************
+NAME : long strand of hemp
+Show kind      : Ordinary object
+Move speed add : 0
+Worth of object: 0
+********************************************************************
+NAME : rope
+Show kind      : Ordinary object
+Move speed add : 0
+Worth of object: 65
+Components:
+   1) long strand of hemp will be destroyed.
+   2) long strand of hemp will be destroyed.
+   3) long strand of hemp will be destroyed.
+********************************************************************
+NAME : thighbone
+Show kind      : Ordinary object
+Move speed add : 0
+Worth of object: 0
+********************************************************************
+NAME : Black Mantle
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+        smallest fit         5
+         largest fit         7
+          base armor         7
+         spell armor         8
+        drop destroy         1
+       deflect armor         3
+      class specific        19
+********************************************************************
+NAME : obsidian key
+Show kind      : Ordinary object
+Move speed add : 0
+Worth of object: 0
+********************************************************************
+NAME : cudgel
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+         base damage       104
+       random damage        61
+        attack speed         9
+        smallest fit         4
+         largest fit         8
+        drop destroy         1
+********************************************************************
+NAME : meat cleaver
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+         base damage        86
+       random damage        96
+        smallest fit         3
+         largest fit         8
+        attack speed        10
+********************************************************************
+NAME : axe
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+        attack speed        11
+         base damage        83
+       random damage       104
+        smallest fit         4
+         largest fit         8
+********************************************************************
+NAME : pitchfork
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+        smallest fit         5
+         largest fit         9
+         base damage        61
+       random damage       147
+        attack speed        14
+********************************************************************
+NAME : mace
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 76
+        smallest fit         3
+         largest fit         7
+         base damage       126
+       random damage        52
+        attack speed         8
+********************************************************************
+NAME : broadsword
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 85
+        smallest fit         5
+         largest fit         7
+        attack speed        12
+         base damage        39
+       random damage       243
+********************************************************************
+NAME : Saxon axe
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 78
+        smallest fit         5
+         largest fit         8
+         base damage        87
+       random damage       155
+        attack speed        10
+********************************************************************
+NAME : longsword
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 62
+Components:
+   1) longsword will not be destroyed.
+        smallest fit         4
+         largest fit        10
+         base damage       105
+       random damage        92
+        attack speed        10
+********************************************************************
+NAME : spear
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 72
+        smallest fit         4
+         largest fit         7
+         base damage       117
+       random damage        76
+        attack speed         6
+   throw base damage       108
+ throw random damage        56
+         throw range         3
+********************************************************************
+NAME : javelin
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 54
+        smallest fit         3
+         largest fit         7
+         base damage        90
+       random damage       118
+        attack speed         5
+   throw base damage        85
+ throw random damage       104
+         throw range         3
+********************************************************************
+NAME : pike
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 91
+        smallest fit         5
+         largest fit         8
+         base damage        87
+       random damage       191
+        attack speed        16
+********************************************************************
+NAME : flat stone
+Show kind      : Ordinary object
+Move speed add : 0
+Worth of object: 0
+********************************************************************
+NAME : hatchet
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+        smallest fit         3
+         largest fit         7
+         base damage       121
+       random damage        26
+        attack speed         7
+********************************************************************
+NAME : iron bar
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+        smallest fit         4
+         largest fit         7
+         base damage        99
+       random damage        69
+        attack speed         9
+        drop destroy         1
+********************************************************************
+NAME : dirk
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+        smallest fit         3
+         largest fit         7
+         base damage       108
+       random damage        52
+        attack speed         7
+********************************************************************
+NAME : Claymoore sword
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+        smallest fit         5
+         largest fit         9
+         base damage        74
+       random damage       186
+        attack speed        13
+         breakchance         2
+********************************************************************
+NAME : Silver Rapier
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+        smallest fit         4
+         largest fit         7
+         base damage       126
+       random damage        78
+        attack speed         9
+********************************************************************
+NAME : Vaprak's Skin
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+        smallest fit         7
+         largest fit        10
+          base armor        12
+         spell armor        12
+       see invisible         1
+       claw base dmg        50
+              cursed         1
+********************************************************************
+NAME : troll staff
+Show kind      : Ordinary object
+Move speed add : 0
+Worth of object: 0
+********************************************************************
+NAME : elfstone
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+        smallest fit         4
+         largest fit        10
+********************************************************************
+NAME : key of Moibus
+Show kind      : Ordinary object
+Move speed add : 0
+Worth of object: 0
+********************************************************************
+NAME : jade figurine
+Show kind      : Ordinary object
+Move speed add : 0
+Worth of object: 42
+********************************************************************
+NAME : ivory carving
+Show kind      : Ordinary object
+Move speed add : 0
+Worth of object: 37
+********************************************************************
+NAME : porcelain vase
+Show kind      : Ordinary object
+Move speed add : 4
+Worth of object: 56
+********************************************************************
+NAME : teakwood chest
+Show kind      : Ordinary object
+Move speed add : 8
+Worth of object: 51
+********************************************************************
+NAME : Persian carpet
+Show kind      : Ordinary object
+Move speed add : 50
+Worth of object: 112
+********************************************************************
+NAME : silk robe
+Show kind      : Equipment
+Move speed add : 1
+Worth of object: 26
+********************************************************************
+NAME : small ruby
+Show kind      : Ordinary object
+Move speed add : 0
+Worth of object: 36
+********************************************************************
+NAME : garnet
+Show kind      : Ordinary object
+Move speed add : 0
+Worth of object: 49
+********************************************************************
+NAME : huge pearl
+Show kind      : Ordinary object
+Move speed add : 0
+Worth of object: 64
+********************************************************************
+NAME : diamond
+Show kind      : Ordinary object
+Move speed add : 0
+Worth of object: 75
+********************************************************************
+NAME : golden ring
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 91
+         magic spell         3
+        smallest fit         4
+         largest fit         7
+********************************************************************
+NAME : Grand Grimoire
+Show kind      : Spell Book
+Move speed add : 0
+Worth of object: 0
+Spells for group: 2
+Spells: 
+ 2-lightning bolt
+ 3-acid spear
+ 4-invisibility
+ 5-iron hailstones
+ 6-acid rain
+ 7-strike of the beast
+ 8-annihilation
+ 9-illusion i
+10-gaze of terror
+11-fireball
+12-meltdown
+13-gripping plants
+14-icestorm
+15-maelstrom
+16-seeking orb
+17-rain of fire
+18-death tongue
+19-obliterate
+20-beam of death
+********************************************************************
+NAME : Shards of Narsil
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+        smallest fit         4
+         largest fit         8
+         base damage       185
+       see invisible         1
+********************************************************************
+NAME : MageCrusher
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+Error reading in object #721420288
+Error reading in object #390
+         base damage       152
+       random damage        26
+        attack speed         8
+        smallest fit         4
+         largest fit        10
+********************************************************************
+NAME : Aquamarine Orb
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+          teleporter       503
+********************************************************************
+NAME : tattered scroll
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+         magic spell         9
+********************************************************************
+NAME : yellowed scroll
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+         magic spell        14
+********************************************************************
+NAME : Druidslayer
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+        smallest fit         5
+         largest fit         7
+          base armor         3
+         spell armor         6
+       deflect armor         5
+          level mana         5
+         base damage        85
+       random damage       170
+      group specific         2
+        attack speed        11
+         breakchance         4
+      breakmagnitude         1
+              cursed         1
+********************************************************************
+NAME : Rhinestone Ring
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+         base health        99
+        smallest fit         3
+         largest fit        10
+********************************************************************
+NAME : jeweled scimitar
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+        smallest fit         5
+         largest fit         7
+         base damage       101
+       random damage       105
+        attack speed         9
+********************************************************************
+NAME : Rhinestone Key
+Show kind      : Ordinary object
+Move speed add : 0
+Worth of object: 0
+Components:
+   1) Rhinestone Ring will be destroyed.
+   2) jeweled scimitar will be destroyed.
+********************************************************************
+NAME : Gauntlet of Crusader
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+        smallest fit         4
+         largest fit         7
+      group specific         2
+********************************************************************
+NAME : Sword of the Kings
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+        smallest fit         6
+         largest fit         7
+        attack speed        12
+         base damage       125
+       random damage       199
+         breakchance         3
+      breakmagnitude         1
+********************************************************************
+NAME : Quartz Eyes
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+       see invisible         1
+        smallest fit         2
+         largest fit         9
+********************************************************************
+NAME : velvet cloth
+Show kind      : Ordinary object
+Move speed add : 0
+Worth of object: 0
+********************************************************************
+NAME : stack-dump bomb
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+    bomb base damage         1
+            UNUSED-5         1
+********************************************************************
+NAME : EbonBlade
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+        smallest fit         4
+         largest fit         7
+        attack speed        10
+         base damage        90
+       random damage       140
+********************************************************************
+NAME : Phial of Sunset
+Show kind      : Ordinary object
+Move speed add : 0
+Worth of object: 0
+********************************************************************
+NAME : silver mirror
+Show kind      : Ordinary object
+Move speed add : 0
+Worth of object: 0
+********************************************************************
+NAME : glass bottle
+Show kind      : Ordinary object
+Move speed add : 0
+Worth of object: 0
+********************************************************************
+NAME : stone tablet
+Show kind      : Ordinary object
+Move speed add : 0
+Worth of object: 0
+********************************************************************
+NAME : chunk of amber
+Show kind      : Ordinary object
+Move speed add : 0
+Worth of object: 0
+********************************************************************
+NAME : porcelain shard
+Show kind      : Ordinary object
+Move speed add : 0
+Worth of object: 0
+********************************************************************
+NAME : lead bar
+Show kind      : Ordinary object
+Move speed add : 0
+Worth of object: 0
+********************************************************************
+NAME : old parchment
+Show kind      : Ordinary object
+Move speed add : 0
+Worth of object: 0
+********************************************************************
+NAME : silken cord
+Show kind      : Ordinary object
+Move speed add : 0
+Worth of object: 0
+********************************************************************
+NAME : old shoe
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+        smallest fit         3
+         largest fit         7
+********************************************************************
+NAME : bent dagger
+Show kind      : Ordinary object
+Move speed add : 0
+Worth of object: 0
+********************************************************************
+NAME : animal pelt
+Show kind      : Ordinary object
+Move speed add : 0
+Worth of object: 0
+********************************************************************
+NAME : leather belt
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+        smallest fit         3
+         largest fit         7
+********************************************************************
+NAME : broken oar
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+         base damage        24
+       random damage        81
+        smallest fit         5
+         largest fit         7
+********************************************************************
+NAME : crystal prism
+Show kind      : Ordinary object
+Move speed add : 0
+Worth of object: 0
+********************************************************************
+NAME : bleached bone
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+        smallest fit         4
+         largest fit         6
+         base damage        30
+       random damage        70
+********************************************************************
+NAME : elf skull
+Show kind      : Ordinary object
+Move speed add : 0
+Worth of object: 0
+********************************************************************
+NAME : arrowhead
+Show kind      : Ordinary object
+Move speed add : 0
+Worth of object: 0
+********************************************************************
+NAME : Peacock glove
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+********************************************************************
+NAME : marble
+Show kind      : Ordinary object
+Move speed add : 0
+Worth of object: 0
+********************************************************************
+NAME : key
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+        drop destroy         1
+********************************************************************
+NAME : sharpened stick
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+        smallest fit         2
+         largest fit        12
+         base damage        25
+       random damage       100
+        drop destroy         1
+********************************************************************
+NAME : shiny object
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+        drop destroy         1
+********************************************************************
+NAME : Thermo-nuclear Bomb
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+    bomb base damage      9999
+  bomb random damage      9999
+********************************************************************
+NAME : Gray Orb
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+            UNUSED-4        29
+********************************************************************
+NAME : Greek firebomb
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 80
+    bomb base damage        60
+  bomb random damage       120
+      bomb fuse time         1
+********************************************************************
+NAME : Black Orb
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+            UNUSED-4        33
+********************************************************************
+NAME : Heart of the Lake
+Show kind      : Ordinary object
+Move speed add : 0
+Worth of object: 0
+********************************************************************
+NAME : clue
+Show kind      : Equipment
+Move speed add : -1
+Worth of object: 0
+        smallest fit         4
+         largest fit         8
+     experience gain         1
+********************************************************************
+NAME : amber hemisphere
+Show kind      : Ordinary object
+Move speed add : 0
+Worth of object: 0
+********************************************************************
+NAME : granite stone
+Show kind      : Ordinary object
+Move speed add : 0
+Worth of object: 0
+********************************************************************
+NAME : Dreaming Stone
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+Components:
+   1) amber hemisphere will be destroyed.
+   2) granite stone will be destroyed.
+       see invisible         1
+********************************************************************
+NAME : iron key
+Show kind      : Ordinary object
+Move speed add : 0
+Worth of object: 0
+********************************************************************
+NAME : Charm of Opening
+Show kind      : Ordinary object
+Move speed add : 0
+Worth of object: 73
+********************************************************************
+NAME : Maelstrom Ring
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+        smallest fit         4
+         largest fit        10
+********************************************************************
+NAME : Shroud of Krotche
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+        invisibility         1
+          move speed       120
+        smallest fit         4
+         largest fit        10
+          base armor         5
+         spell armor         5
+       deflect armor         3
+              cursed         1
+********************************************************************
+NAME : Dragon Claws
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+        smallest fit         5
+         largest fit         9
+        attack speed         2
+              cursed         1
+         base damage        10
+       random damage       365
+********************************************************************
+NAME : Fire Opal
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+          teleporter        84
+********************************************************************
+NAME : Hammer of the Gods
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+        smallest fit         5
+         largest fit         8
+         base damage         1
+       random damage       500
+********************************************************************
+NAME : Demon's Tome
+Show kind      : Spell Book
+Move speed add : -9
+Worth of object: 0
+Spells for group: 0
+Spells: 
+17-cold ball
+18-acid ball
+19-shatter person
+20-group destruction
+********************************************************************
+NAME : Hack obj
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+         largest fit        10
+     spell destroy %        50
+********************************************************************
+NAME : Ivory Boat
+Show kind      : Ordinary object
+Move speed add : 0
+Worth of object: 0
+********************************************************************
+NAME : Charm of Redemption
+Show kind      : Ordinary object
+Move speed add : 0
+Worth of object: 0
+********************************************************************
+NAME : Ivory Knife
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+       poison chance        35
+         base damage       100
+       random damage       175
+        smallest fit         5
+         largest fit         8
+        attack speed        13
+********************************************************************
+NAME : Serpent-skin Cloak
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+        smallest fit         5
+         largest fit         8
+         move silent        20
+         spell armor        42
+********************************************************************
+NAME : Pale Book
+Show kind      : Spell Book
+Move speed add : 0
+Worth of object: 0
+Spells for group: 0
+Spells: 
+ 2-water flowing
+********************************************************************
+NAME : Flickering Flame
+Show kind      : Spell Book
+Move speed add : 0
+Worth of object: 0
+Spells for group: 0
+Spells: 
+ 2-fire leaping
+********************************************************************
+NAME : Sandstone
+Show kind      : Spell Book
+Move speed add : 0
+Worth of object: 0
+Spells for group: 0
+Spells: 
+ 2-quaking earth
+********************************************************************
+NAME : Rune
+Show kind      : Equipment
+Move speed add : 0
+Worth of object: 0
+        smallest fit         3
+         largest fit        10
+           base mana        80
+********************************************************************
+NAME : Scroll
+Show kind      : Spell Book
+Move speed add : 0
+Worth of object: 0
+Spells for group: 0
+Spells: 
+ 2-wind blowing

@@ -1,0 +1,469 @@
+********************************************************************
+NAME : Burning Touch
+Mana  Class  Lvl  Fail  Time  Reveal  Silent  Memorize  Obj  Consume
+----  -----  ---  ----  ----  ------  ------  --------  ---  -------
+20/6   0/ 2    0     1    80    TRUE   FALSE     FALSE    0    FALSE
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 1      Hurt  FALSE   FALSE    TRUE    154      8     77      4 |
+********************************************************************
+NAME : Cure Poison
+Mana  Class  Lvl  Fail  Time  Reveal  Silent  Memorize  Obj  Consume
+----  -----  ---  ----  ----  ------  ------  --------  ---  -------
+ 0/0   0/ 0    0     0     0    TRUE   FALSE     FALSE    0    FALSE
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 1      Cure  FALSE    TRUE   FALSE      0      0      0      0 |
+********************************************************************
+NAME : Thundering Voice
+Mana  Class  Lvl  Fail  Time  Reveal  Silent  Memorize  Obj  Consume
+----  -----  ---  ----  ----  ------  ------  --------  ---  -------
+ 0/0   0/ 0    0     0     0    TRUE   FALSE     FALSE    0    FALSE
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 1  Announce  FALSE   FALSE   FALSE      0      0      0      0 |
+********************************************************************
+NAME : Minor Hellfire
+Mana  Class  Lvl  Fail  Time  Reveal  Silent  Memorize  Obj  Consume
+----  -----  ---  ----  ----  ------  ------  --------  ---  -------
+27/9   0/ 7    1     2   100    TRUE   FALSE     FALSE    0    FALSE
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 1      Hurt   TRUE    TRUE   FALSE    250      6     88      4 |
+********************************************************************
+NAME : Magic Missile
+Mana  Class  Lvl  Fail  Time  Reveal  Silent  Memorize  Obj  Consume
+----  -----  ---  ----  ----  ------  ------  --------  ---  -------
+20/6   0/ 2    1     1    80    TRUE   FALSE     FALSE    0    FALSE
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 1  Distance  FALSE   FALSE   FALSE     60     81      4      0 |
+********************************************************************
+NAME : hack
+Mana  Class  Lvl  Fail  Time  Reveal  Silent  Memorize  Obj  Consume
+----  -----  ---  ----  ----  ------  ------  --------  ---  -------
+ 0/0   0/10    0     0     0    TRUE   FALSE      TRUE    0    FALSE
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 1  Distance  FALSE   FALSE   FALSE   4500   5000     24      2 |
+********************************************************************
+NAME : Flame Spray
+Mana  Class  Lvl  Fail  Time  Reveal  Silent  Memorize  Obj  Consume
+----  -----  ---  ----  ----  ------  ------  --------  ---  -------
+20/6   0/ 2    0     1    80   FALSE   FALSE     FALSE    0    FALSE
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 1      Hurt   TRUE   FALSE   FALSE     58      3     77      4 |
+********************************************************************
+NAME : Deathbringer
+Mana  Class  Lvl  Fail  Time  Reveal  Silent  Memorize  Obj  Consume
+----  -----  ---  ----  ----  ------  ------  --------  ---  -------
+85/23   0/ 2    5     4   320    TRUE   FALSE     FALSE    0    FALSE
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 0      Hurt  FALSE    TRUE   FALSE    366     18     38      2 |
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 1      Hurt  FALSE   FALSE   FALSE    732     36     76      4 |
+********************************************************************
+NAME : Lightning Bolt
+Mana  Class  Lvl  Fail  Time  Reveal  Silent  Memorize  Obj  Consume
+----  -----  ---  ----  ----  ------  ------  --------  ---  -------
+42/11   0/ 2    1     2   160    TRUE   FALSE     FALSE    0    FALSE
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 1      Hurt  FALSE   FALSE    TRUE    163      7     57      6 |
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 2      Hurt  FALSE   FALSE   FALSE    163      7     57      6 |
+********************************************************************
+NAME : Acid Spear
+Mana  Class  Lvl  Fail  Time  Reveal  Silent  Memorize  Obj  Consume
+----  -----  ---  ----  ----  ------  ------  --------  ---  -------
+42/11   0/ 2    2     2   160    TRUE   FALSE     FALSE    0    FALSE
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 1  Distance  FALSE   FALSE   FALSE    148    127      5      0 |
+********************************************************************
+NAME : Horde of Demons
+Mana  Class  Lvl  Fail  Time  Reveal  Silent  Memorize  Obj  Consume
+----  -----  ---  ----  ----  ------  ------  --------  ---  -------
+85/23   0/ 2    6     4   400    TRUE   FALSE     FALSE    0    FALSE
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 0      Hurt  FALSE    TRUE   FALSE    173      8     38      2 |
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 1      Hurt   TRUE   FALSE   FALSE    347     17     76      4 |
+********************************************************************
+NAME : Iron Hailstones
+Mana  Class  Lvl  Fail  Time  Reveal  Silent  Memorize  Obj  Consume
+----  -----  ---  ----  ----  ------  ------  --------  ---  -------
+42/11   0/ 2    1     2   160    TRUE   FALSE     FALSE    0    FALSE
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 1      Hurt   TRUE   FALSE   FALSE    134      7    115      6 |
+********************************************************************
+NAME : Acid Rain
+Mana  Class  Lvl  Fail  Time  Reveal  Silent  Memorize  Obj  Consume
+----  -----  ---  ----  ----  ------  ------  --------  ---  -------
+64/17   0/ 2    4     3   300   FALSE   FALSE     FALSE    0    FALSE
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 1      Hurt   TRUE   FALSE   FALSE    276      0    138      0 |
+********************************************************************
+NAME : Strike of the Beast
+Mana  Class  Lvl  Fail  Time  Reveal  Silent  Memorize  Obj  Consume
+----  -----  ---  ----  ----  ------  ------  --------  ---  -------
+85/23   0/ 2    7     4   320    TRUE   FALSE     FALSE    0    FALSE
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 0      Hurt  FALSE    TRUE   FALSE    174      8     38      2 |
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 1  Distance  FALSE   FALSE   FALSE    467    104      7      1 |
+********************************************************************
+NAME : Annihilation
+Mana  Class  Lvl  Fail  Time  Reveal  Silent  Memorize  Obj  Consume
+----  -----  ---  ----  ----  ------  ------  --------  ---  -------
+105/29   0/ 2    7     5   400    TRUE   FALSE     FALSE    0    FALSE
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 0      Hurt  FALSE    TRUE   FALSE    461     23     38      2 |
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 1      Hurt  FALSE   FALSE   FALSE    922     46     38      2 |
+********************************************************************
+NAME : Illusion I
+Mana  Class  Lvl  Fail  Time  Reveal  Silent  Memorize  Obj  Consume
+----  -----  ---  ----  ----  ------  ------  --------  ---  -------
+12/4   0/ 8    0     0     0   FALSE    TRUE     FALSE    0    FALSE
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 1  Announce  FALSE   FALSE   FALSE      4      0      0      0 |
+********************************************************************
+NAME : Gaze of Terror
+Mana  Class  Lvl  Fail  Time  Reveal  Silent  Memorize  Obj  Consume
+----  -----  ---  ----  ----  ------  ------  --------  ---  -------
+64/17   0/ 2    3     3   240    TRUE   FALSE     FALSE    0    FALSE
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 1      Hurt  FALSE   FALSE    TRUE    518     26    114      6 |
+********************************************************************
+NAME : Fireball
+Mana  Class  Lvl  Fail  Time  Reveal  Silent  Memorize  Obj  Consume
+----  -----  ---  ----  ----  ------  ------  --------  ---  -------
+64/17   0/ 2    5     3   240    TRUE   FALSE     FALSE    0    FALSE
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 1  Distance  FALSE   FALSE   FALSE    288    144      6      0 |
+********************************************************************
+NAME : Meltdown
+Mana  Class  Lvl  Fail  Time  Reveal  Silent  Memorize  Obj  Consume
+----  -----  ---  ----  ----  ------  ------  --------  ---  -------
+ 0/0   0/ 0    8     0     0    TRUE   FALSE     FALSE    0    FALSE
+********************************************************************
+NAME : Gripping Plants
+Mana  Class  Lvl  Fail  Time  Reveal  Silent  Memorize  Obj  Consume
+----  -----  ---  ----  ----  ------  ------  --------  ---  -------
+ 0/0   0/10    0     0   100    TRUE   FALSE     FALSE    0    FALSE
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 1     Sleep  FALSE   FALSE   FALSE    200      0    200      0 |
+********************************************************************
+NAME : Animate Shrubbery
+Mana  Class  Lvl  Fail  Time  Reveal  Silent  Memorize  Obj  Consume
+----  -----  ---  ----  ----  ------  ------  --------  ---  -------
+14/4   0/ 3    0     1    80   FALSE   FALSE     FALSE    0    FALSE
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 1      Hurt  FALSE   FALSE    TRUE    132      7     66      3 |
+********************************************************************
+NAME : Stinging Hornets
+Mana  Class  Lvl  Fail  Time  Reveal  Silent  Memorize  Obj  Consume
+----  -----  ---  ----  ----  ------  ------  --------  ---  -------
+14/4   0/ 3    2     1    80    TRUE   FALSE     FALSE    0    FALSE
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 1  Distance  FALSE   FALSE   FALSE     54     73      4      0 |
+********************************************************************
+NAME : Tree Attack
+Mana  Class  Lvl  Fail  Time  Reveal  Silent  Memorize  Obj  Consume
+----  -----  ---  ----  ----  ------  ------  --------  ---  -------
+29/8   0/ 3    1     2   200    TRUE   FALSE     FALSE    0    FALSE
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 1      Hurt   TRUE   FALSE   FALSE    115      6     99      5 |
+********************************************************************
+NAME : Morning Frost
+Mana  Class  Lvl  Fail  Time  Reveal  Silent  Memorize  Obj  Consume
+----  -----  ---  ----  ----  ------  ------  --------  ---  -------
+14/4   0/ 3    0     1   100   FALSE   FALSE     FALSE    0    FALSE
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 1      Hurt   TRUE   FALSE   FALSE     50      2     66      3 |
+********************************************************************
+NAME : Earth Hammer
+Mana  Class  Lvl  Fail  Time  Reveal  Silent  Memorize  Obj  Consume
+----  -----  ---  ----  ----  ------  ------  --------  ---  -------
+29/8   0/ 3    1     0   160    TRUE   FALSE     FALSE    0    FALSE
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 1      Hurt  FALSE   FALSE    TRUE    280     14     99      5 |
+********************************************************************
+NAME : Locust Plague
+Mana  Class  Lvl  Fail  Time  Reveal  Silent  Memorize  Obj  Consume
+----  -----  ---  ----  ----  ------  ------  --------  ---  -------
+29/8   0/ 3    4     2   160    TRUE   FALSE     FALSE    0    FALSE
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 1  Distance  FALSE   FALSE   FALSE    139    119      5      0 |
+********************************************************************
+NAME : Bear Claws
+Mana  Class  Lvl  Fail  Time  Reveal  Silent  Memorize  Obj  Consume
+----  -----  ---  ----  ----  ------  ------  --------  ---  -------
+42/13   0/ 3    3     3   240    TRUE   FALSE     FALSE    0    FALSE
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 1      Hurt  FALSE   FALSE    TRUE    223     11     48      3 |
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 2      Hurt  FALSE   FALSE    TRUE    223     11     51      2 |
+********************************************************************
+NAME : Forest Fire
+Mana  Class  Lvl  Fail  Time  Reveal  Silent  Memorize  Obj  Consume
+----  -----  ---  ----  ----  ------  ------  --------  ---  -------
+42/13   0/ 3    5     3   300    TRUE   FALSE     FALSE    0    FALSE
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 1      Hurt   TRUE   FALSE   FALSE    198     10     99      5 |
+********************************************************************
+NAME : Tornado
+Mana  Class  Lvl  Fail  Time  Reveal  Silent  Memorize  Obj  Consume
+----  -----  ---  ----  ----  ------  ------  --------  ---  -------
+42/13   0/ 3    5     3   240    TRUE   FALSE     FALSE    0    FALSE
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 1  Distance  FALSE   FALSE   FALSE    248    124      6      1 |
+********************************************************************
+NAME : Soul Harvester
+Mana  Class  Lvl  Fail  Time  Reveal  Silent  Memorize  Obj  Consume
+----  -----  ---  ----  ----  ------  ------  --------  ---  -------
+58/17   0/ 3    6     4   320    TRUE   FALSE     FALSE    0    FALSE
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 1      Hurt  FALSE   FALSE    TRUE    815     31     86      3 |
+********************************************************************
+NAME : Poison Thorn
+Mana  Class  Lvl  Fail  Time  Reveal  Silent  Memorize  Obj  Consume
+----  -----  ---  ----  ----  ------  ------  --------  ---  -------
+12/4   0/ 8    1     1    80    TRUE   FALSE     FALSE    0    FALSE
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 1      Hurt  FALSE   FALSE    TRUE    115      6     58      3 |
+********************************************************************
+NAME : Hands of Fire
+Mana  Class  Lvl  Fail  Time  Reveal  Silent  Memorize  Obj  Consume
+----  -----  ---  ----  ----  ------  ------  --------  ---  -------
+ 9/3   0/ 7    0     1    80    TRUE   FALSE     FALSE    0    FALSE
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 1      Hurt  FALSE   FALSE    TRUE     57      3     29      1 |
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 2      Hurt  FALSE   FALSE    TRUE     58      3     29      2 |
+********************************************************************
+NAME : Silver Dagger
+Mana  Class  Lvl  Fail  Time  Reveal  Silent  Memorize  Obj  Consume
+----  -----  ---  ----  ----  ------  ------  --------  ---  -------
+26/7   0/ 8    2     2   160    TRUE   FALSE     FALSE    0    FALSE
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 1      Hurt  FALSE   FALSE    TRUE    245     12     87      4 |
+********************************************************************
+NAME : Dark Arrows
+Mana  Class  Lvl  Fail  Time  Reveal  Silent  Memorize  Obj  Consume
+----  -----  ---  ----  ----  ------  ------  --------  ---  -------
+ 9/3   0/ 7    2     1    80    TRUE   FALSE     FALSE    0    FALSE
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 1  Distance  FALSE   FALSE   FALSE     48     63      4      0 |
+********************************************************************
+NAME : Solar Flare
+Mana  Class  Lvl  Fail  Time  Reveal  Silent  Memorize  Obj  Consume
+----  -----  ---  ----  ----  ------  ------  --------  ---  -------
+ 9/3   0/ 7    1     1   100    TRUE   FALSE     FALSE    0    FALSE
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 1      Hurt   TRUE   FALSE   FALSE     43      2     57      3 |
+********************************************************************
+NAME : Storm
+Mana  Class  Lvl  Fail  Time  Reveal  Silent  Memorize  Obj  Consume
+----  -----  ---  ----  ----  ------  ------  --------  ---  -------
+19/6   0/ 7    3     2   200    TRUE   FALSE     FALSE    0    FALSE
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 1      Hurt   TRUE   FALSE    TRUE    101      5     87      4 |
+********************************************************************
+NAME : Willow Blast
+Mana  Class  Lvl  Fail  Time  Reveal  Silent  Memorize  Obj  Consume
+----  -----  ---  ----  ----  ------  ------  --------  ---  -------
+12/4   0/ 8    1     1   100   FALSE   FALSE     FALSE    0    FALSE
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 1      Hurt   TRUE   FALSE   FALSE     43      2     57      3 |
+********************************************************************
+NAME : Green Dart
+Mana  Class  Lvl  Fail  Time  Reveal  Silent  Memorize  Obj  Consume
+----  -----  ---  ----  ----  ------  ------  --------  ---  -------
+12/4   0/ 8    2     2    80    TRUE   FALSE     FALSE    0    FALSE
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 1  Distance  FALSE   FALSE   FALSE     48     63      4      1 |
+********************************************************************
+NAME : Finger of Death
+Mana  Class  Lvl  Fail  Time  Reveal  Silent  Memorize  Obj  Consume
+----  -----  ---  ----  ----  ------  ------  --------  ---  -------
+19/6   0/ 7    4     2   160    TRUE   FALSE     FALSE    0    FALSE
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 1  Distance  FALSE   FALSE   FALSE    121    104      5      0 |
+********************************************************************
+NAME : Hack
+Mana  Class  Lvl  Fail  Time  Reveal  Silent  Memorize  Obj  Consume
+----  -----  ---  ----  ----  ------  ------  --------  ---  -------
+ 0/0   0/10    0     0     0    TRUE   FALSE      TRUE    0    FALSE
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 1  Distance   TRUE   FALSE   FALSE  99999 999999    100      3 |
+********************************************************************
+NAME : Group Talk
+Mana  Class  Lvl  Fail  Time  Reveal  Silent  Memorize  Obj  Consume
+----  -----  ---  ----  ----  ------  ------  --------  ---  -------
+ 0/0   0/ 0    0     0     0    TRUE   FALSE     FALSE    0    FALSE
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 1  Announce  FALSE   FALSE   FALSE      1      0      0      0 |
+********************************************************************
+NAME : OP Send
+Mana  Class  Lvl  Fail  Time  Reveal  Silent  Memorize  Obj  Consume
+----  -----  ---  ----  ----  ------  ------  --------  ---  -------
+ 0/0   0/ 0    0     0     0    TRUE   FALSE     FALSE    0    FALSE
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 1  Announce  FALSE   FALSE   FALSE      1     10      0      0 |
+********************************************************************
+NAME : Person
+Mana  Class  Lvl  Fail  Time  Reveal  Silent  Memorize  Obj  Consume
+----  -----  ---  ----  ----  ------  ------  --------  ---  -------
+10/2   7/ 0    2     2     0   FALSE   FALSE     FALSE    0    FALSE
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 1  Announce  FALSE   FALSE   FALSE      2      0      0      0 |
+********************************************************************
+NAME : Grave Rot
+Mana  Class  Lvl  Fail  Time  Reveal  Silent  Memorize  Obj  Consume
+----  -----  ---  ----  ----  ------  ------  --------  ---  -------
+19/6   0/ 7    2     2   160    TRUE   FALSE     FALSE    0    FALSE
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 0    UNUSED  FALSE   FALSE   FALSE5439086541802464627  11877      0 |
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 1      Hurt  FALSE   FALSE    TRUE    245     12     85      5 |
+********************************************************************
+NAME : Shatter Person
+Mana  Class  Lvl  Fail  Time  Reveal  Silent  Memorize  Obj  Consume
+----  -----  ---  ----  ----  ------  ------  --------  ---  -------
+33/10   0/ 0    5     5   180    TRUE   FALSE      TRUE  123    FALSE
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 1      Hurt  FALSE   FALSE    TRUE    557     22    124      5 |
+********************************************************************
+NAME : Group Destruction
+Mana  Class  Lvl  Fail  Time  Reveal  Silent  Memorize  Obj  Consume
+----  -----  ---  ----  ----  ------  ------  --------  ---  -------
+100/0   0/ 0    6     6   200    TRUE   FALSE      TRUE  123    FALSE
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 1      Hurt   TRUE   FALSE   FALSE    161      6    322     12 |
+********************************************************************
+NAME : Cold Ball
+Mana  Class  Lvl  Fail  Time  Reveal  Silent  Memorize  Obj  Consume
+----  -----  ---  ----  ----  ------  ------  --------  ---  -------
+11/3   0/ 0    3     3    60    TRUE   FALSE      TRUE  123    FALSE
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 1      Hurt  FALSE   FALSE    TRUE    152      7     76      3 |
+********************************************************************
+NAME : Acid Ball
+Mana  Class  Lvl  Fail  Time  Reveal  Silent  Memorize  Obj  Consume
+----  -----  ---  ----  ----  ------  ------  --------  ---  -------
+27/7   0/ 0    4     4   120    TRUE   FALSE      TRUE  123    FALSE
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 1      Hurt  FALSE   FALSE    TRUE    337     14    119      5 |
+********************************************************************
+NAME : Heal
+Mana  Class  Lvl  Fail  Time  Reveal  Silent  Memorize  Obj  Consume
+----  -----  ---  ----  ----  ------  ------  --------  ---  -------
+24/4   0/ 8    0     1    80    TRUE   FALSE     FALSE    0    FALSE
+  __________________________________________________________________
+  | #      Type    All  Caster  Prompt  Mag.1  Mag.2  Mag.3  Mag.4 |
+  | -      ----   ----  ------  ------  -----  -----  -----  ----- |
+  | 1      Heal  FALSE   FALSE   FALSE     37      4     50      5 |

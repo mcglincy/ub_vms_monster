@@ -1,0 +1,168 @@
+                        MONSTER secondary help file
+================================================================================
+
+* This file contains various information which is not included in the 
+  beginning help file, but which may be of interest/use to more 
+  experienced players.
+
+
+I: Assorted Items
+-----------------
+
+Besides the basics of moving from one room to another, and getting to 
+know the layout of the Realm, there are a few important things
+which may escape the casual new player. Foremost among them is the 
+concept of a shop or market. A shop is a room wherein objects can be
+bought or sold. By typing GET in a room, you will be presented with a 
+list of either the objects lying in the room if the room is 'normal',
+or a list of items for sale if the room is a shop. To purchase something
+in a market, simply get it, and its price will be subtracted from your
+current wealth, if you have enough. Some items are free. To sell something,
+just drop it in a shop that stocks the item. 
+
+It also might be worth mentioning the equation by which experience points 
+are given. I include below an experience table. The killer's experience
+is listed across the top, while the victim's experience is on the side. The
+cross-referenced number is the experience the killer will gain.
+
+
+            0  1000  2000  3000  4000  5000  6000  7000  8000  9000 10000
+        -----------------------------------------------------------------
+    0>   1154   551   197     0     0     0     0     0     0     0     0
+ 1000>   1538   827   395   141     0     0     0     0     0     0     0
+ 2000>   1923  1102   592   283   101     0     0     0     0     0     0
+ 3000>   2308  1378   790   424   203    73     0     0     0     0     0
+ 4000>   2692  1654   987   566   304   145    52     0     0     0     0
+ 5000>   3077  1929  1185   707   406   218   104    37     0     0     0
+ 6000>   3462  2205  1382   849   507   291   156    75    27     0     0
+ 7000>   3846  2480  1580   990   608   363   208   112    53    19     0
+ 8000>   4231  2756  1777  1132   710   436   260   149    80    38     0
+ 9000>   4615  3031  1975  1273   811   509   312   186   107    57     0
+10000>   5000  3307  2172  1415   912   581   364   224   134    77     0
+
+
+II: Equipment Overview and Analysis
+-----------------------------------
+
+It will be helpful to give some information about equipment and weapons. 
+Weapons that you can buy, regardless of price, will average about 151. 
+Free weapons will average around 135, while the "limited edition" class
+weapons will probably be doing around 165. Two-handed weapons will in 
+general have only a slight, if any, increase in average. The advantage of
+them lies in the fact that their maximum damage will be much higher, due
+to a large random factor, though they are also slower. The spear and javelin 
+possess the ability to be thrown for the same damage range. 
+
+Armor generally gives four kinds of protection: 
+  i)   % of damage absorbed
+  ii)  % chance that a blow will be deflected entirely
+  iii) % of spell damage absorbed 
+  iv)  % chance that a spell will be deflected or destroyed entirely
+
+Armor is available in only three slots: head, shield, and body. The maximum
+armor percentages you can get through any combination of normal armor should 
+be something like 16/0/15/0. Normal armor should not give any deflect 
+percentage. In layman's terms what this means is that if you are fully armored
+with the best possible combination, you should be able to survive another hit 
+or two more than you might otherwise without any armor. Most armor will not 
+give any move speed addition, so even though a helm may only give 2/0/2, it 
+won't really hurt to wear it. 
+
+
+III: Spellcasting Basics
+------------------------
+
+Wizards, Druids, Elves, and Demi-Liches are have mana and may cast spells.
+As such, a word or two of help is order with respect to casting spells.
+
+By typing LEARN, you will get a listing of the spells which are available
+to you at your current experience level. Currently, most spells do not
+need to be memorized. Therefore, to cast a spell, just type CASt <spell>.
+Depending on the spell type, it will often then prompt you for a target
+name, or a direction in the case of distance spells.
+
+As an aid, a listing of the basic spells is included below, based upon 
+class, level, and type. Note that an "area" spell is a damage spell that 
+hits all the occupants of a room except the caster.
+
+	Wizard
+	~~~~~~
+	Lvl 0	:	Burning Touch		(1st power attack)
+			Flame Spray		(1st power area)
+	Lvl 1	:	Lightning Bolt		(2nd power attack)
+			Iron Hailstones		(2nd power area)
+			Magic Missile		(1st power distance)
+	Lvl 2	:	Acid Spear		(2nd power distance)
+	Lvl 3	:	Gaze of Terror		(3rd power attack)
+	Lvl 4	:	Acid Rain		(3rd power area)
+	Lvl 5	:	Fireball		(3rd power distance)
+
+
+	Druid
+	~~~~~
+	Lvl 0	:	Animate Shrubbery	(1st power attack)
+			Morning Frost		(1st power area)
+	Lvl 1	:	Fire Spear		(2nd power attack)
+			Tree Attack		(2nd power area)
+	Lvl 2	:	Stinging Hornets	(1st power distance)
+	Lvl 3	:	Bear Claws		(3rd power attack)
+	Lvl 4	:	Locust Plague		(2nd power distance)
+	Lvl 5	:	Tornado			(3rd power distance)
+	Lvl 6	:	Soul Harvester		(4th power attack)
+
+
+	DemiLich
+	~~~~~~~~
+	Lvl 0	:	Hands of Fire		(1st power attack)
+	Lvl 1	:	Solar Flare		(1st power area)
+	Lvl 2	:	Grave Rot		(2nd power attack)
+			Dark Arrows		(1st power distance)
+	Lvl 3	:	Storm			(2nd power area)
+	Lvl 4	:	Finger of Death		(2nd power distance)
+
+
+	Elves
+	~~~~~
+	Lvl 0	:	Heal			(1st power heal)
+	Lvl 1	:	Poison Thorn		(1st power attack)
+			Willow Blast		(1st power area)
+	Lvl 2	:	Silver Dagger		(2nd power attack)
+			Green Dart		(1st power distance)
+
+
+
+IV: Game Conduct
+----------------
+
+It may be deceiving to "hide" an important item in the middle of this file,
+but please do not undervalue the content. Certain guideline with respect 
+to game play are implicit, and failure to follow them can have dire
+consequences.
+
+To present the matter succinctly, what follows is a partial list of actions
+which could get you, or your game character, into trouble. As a general
+guideline, any action on the part of a single player which is disrupting
+to the game can be construed as reprehensible.
+
+Illegal activities:
+  a) Exiting the game by a fashion other than quitting to avoid character
+       death, or for any other reason
+  b) Excessise foul language
+  c) Duplicating objects within the game
+  d) Playing Monster from another user's account
+  e) Exploiting any obvious "bug" in the program 
+  f) Personal insults directed at a user, not his his game character
+
+While not "illegal" per se, the following activities are generally 
+considered bad form, and excessive use of said may require punitive
+action.
+
+Generally "Cheesey" Activities:
+  a) Committing suicide to avoid being killed by another player
+  b) Quitting the game whenever character death seems imminent
+  c) "hacking pacts" whereby a group of users agree to kill each other
+       in such a fashion so as to propel one character to a higher level
+  d) Hiding in private or otherwise unaccessable rooms when wounded in
+       order to avoid death
+  e) Being a general annoyance
+

@@ -1,0 +1,207 @@
+WIZARD SPELLS
+~~~~~~~~~~~~~
+
+Burning Touch
+L: 0
+CT: .8
+Single target
+Caster touches you with burning hand
+
+Flame Spray
+L: 0
+CT: .8
+Area effect
+Jets of flame shoot from caster's fingertips, filling room
+
+Lightning Bolt
+L: 1
+CT: 1.6
+Single-target
+Caster calls forth 2 bolts of lightning
+
+Iron Hailstones
+L: 1
+CT: 2.0
+Area effect
+Large hailstones pour down in room
+
+Magic Missile
+L: 1
+CT: .8
+Distance spell
+Caster shoots bolt of energy after fleeing target
+
+Acid Spear
+L: 2
+CT: 1.6
+Distance spell
+Caster shoots spear of acid after fleeing target
+
+Gaze of Terror
+L: 3
+CT: 2.4
+Single target
+Caster conjures up demonic vision to slay target with fear
+
+Acid Rain
+L: 4
+CT: 3.0
+Area effect
+Acidic rain pours down from above at caster's bidding
+
+Fireball
+L: 5
+CT: 2.4
+Distance spell
+Caster summons forth ball of raging flame to destroy distant enemy
+
+
+
+
+
+
+
+
+
+
+DRUID SPELLS
+~~~~~~~~~~~~
+
+Animate Shurbbery
+L: 0
+CT: .8
+Single target
+Causes nearby plants to attack target
+
+Morning Frost
+L: 0
+CT: 1.0
+Area effect
+Summons chilling frost to drain enemies
+
+Earth Hammer
+L: 1
+CT: 1.6
+Single target
+Summons fist of earth to strike at enemy
+
+Tree Attack
+L: 1
+CT: 2.0
+Area effect
+Summons magical trees to flail at opponents
+
+Stinging Hornets
+L: 2
+CT: .8
+Distance spell
+Summons small swarm of hornets to pursue fleeing target
+
+Bear Claws
+L: 3
+CT: 2.4
+Single target
+Summons forth 2 disembodied bear-spirit claws to strike target
+
+Locust Plague
+L: 4
+CT: 1.6
+Distance spell
+Summons forth swarm of locusts to pursue enemy
+
+Tornado
+L: 5
+CT: 2.4
+Distance spell
+Summons forth avatar of Air to destroy enemy
+
+
+
+
+
+
+
+
+
+
+DEMILICH SPELLS
+~~~~~~~~~~~~~~~
+
+Hands of Fire
+L: 0
+CT: .8
+Single target
+Caster's hands set on fire, and he touches target
+
+Solar Flare
+L: 1
+CT: 1.0
+Area effect
+Area flames as with the heat of the sun
+
+Grave Rot
+L: 2
+CT: 1.6
+Single target
+Caster brings forth curse, causing target's flesh to fall away
+
+Dark Arrows
+L: 2
+CT: .8
+Distance spell
+Caster summons small demonic arrows to chase after target
+
+Storm
+L: 3
+CT: 2.0
+Area effect
+Caster summons forth small, powerful lightning storm to destroy enemies
+
+Finger of Death
+L: 4
+CT: 1.6
+Distance spell
+Beam from caster's fingertip hutns down opponent
+
+
+
+
+
+
+
+
+
+
+ELF SPELLS
+~~~~~~~~~~
+
+Heal
+L: 0
+CT: 2.0
+Self-heal spell
+Caster heals self
+
+Poison Thorn
+L: 1
+CT: .8
+Single target
+Causes magical thorn to strike out at enemy
+
+Willow Blast
+L: 1
+CT: 1.0
+Area effect
+Causes blast of local fauna to affect area
+
+Silver Dagger
+L: 2
+CT: 1.6
+Single target
+Conjures magical dagger to strike at opponent
+
+Green Dart
+L: 2
+CT: .8
+Distance spell
+Sends forth bouncing green dart after fleeing opponent
+

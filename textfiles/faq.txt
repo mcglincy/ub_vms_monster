@@ -1,0 +1,151 @@
+From:	UBVMS::V073PZUY     "Knight of the Black Rose"  9-SEP-1993 12:28:02.03
+To:	MASMONST
+CC:	
+Subj:	How does this look?
+
+I mailed this out this afternoon in response to several questions I got...
+---------------------------------------------------------------------------
+
+From:	UBVMS::V073PZUY     "Knight of the Black Rose"  9-SEP-1993 12:23:36.62
+To:	@NEWGUYS
+CC:	V073PZUY
+Subj:	Questions Asked & Answered
+
+The following questions have been asked me by various individuals who have
+received my mass mailing.  I will now take the time to respond to all of you at
+once so that anyone who has similar questions can have their answers as well...
+
+--------------------------------------------------------------------------------
+
+>If I were to join a group - say the Knights of the Crimson banner - how would I
+>do that and what are the advantages of it?
+
+There are different "groups" within the game of Monster itself; these groups are
+usually referred to as "classes", each with their own stats and codes of 
+conduct.
+
+Membership in any group is often dependent upon acceptance into the group.
+Besides the beginning classes (Knight and Goblin), there are no classes into
+Monster that players can enter and leave freely.  Acceptance is often based
+upon the approval of a class leader (more prominent in the older times of the
+game than the new Alignment-dominated times) or MASMONST in the case of
+special/Neutral classes (there are a limited number of Neutral characters,
+because of the essential nature of the Good-vs-Evil conflict).
+
+As for the Knights of the Crimson Banner--they are not necessarily a group
+of just Knights or Templars, but are a band of warriors dedicated to 
+championing the cause of Good over the forces of Evil.  The grouping is purely
+arbitrary (you won't see "RedKnt" on the "who" list, for instance), and
+membership is based upon certain criteria that can be obtained from myself
+if anyone is interested in joining this umbrella coalition.
+
+Advantages of joining a group?  In most cases, you are more likely to have
+allies when you enter the game.  A lone Goblin, for instance, is pretty much
+fair game for most other characters--including other Goblins.  A Hobgoblin,
+however, being accepted by Mortem (Goblin King), is likely to be safe from
+attack from other Hobgoblins, and will be able to count (reasonably) on support
+from these other members.  Good-aligned classes are not prone to backstabbing.
+Evil ones are.  Be warned!
+
+------------------------------------------------------------------------------
+
+> 	Who are the most powerful people in the game, and what group are they
+>affiliated with. 
+
+The best acknowledged players in the game currently are myself, Ironwulf,
+Kane, Echtelion, Psychoholic Slag, and Mortem.  Myself and Ironwulf are
+Templars (Good), and Ech is a Knight.  Kane is a renegade Evil swordswinger.
+Slag is a Lizard Man currently, and Mortem is King of Goblins (Hobgoblins,
+actually).
+
+>It seems as though Psychoholic Slag and you are constantly trashtalking and
+>badmouthing the other. Are you guys the respective leaders of Good 
+>and Evil?
+
+The door of leadership is open for any players to step through--that's 
+especially why I have been so active and cooperative with MASMONST about
+encouraging and helping the new influx of players.  If you have something
+to say--anything at all--post it on BULLETIN!
+
+The opportunity is there.  We still need a Balrog (Evil leader) and a High
+King (Good leader).  I have constantly repeated my desire to see new players,
+rather than old, fill those positions.  I am one of the game's eldest players
+(and its only true playing statesman, I might add), and I am willing to throw
+my support (vocally and fight-wise) to anyone who shows the courage and
+leadership necessary to wear the High Crown.  I stand by that offer, and 
+encourage each and every one of you to get truly involved in what can be
+a really great role-playing game (when done right and with enthusiasm).
+
+>	Lastly, is there any way to get armor/weapons/gold in the beginning so
+>as to make it possible to survive against higher level, more experienced 
+>players?  
+
+Gold does not dictate the winner in combat.  Bought weapons are only marginally
+better than free ones, and bought armor gives you maybe another hit or two at
+best--for some 250 gold laid out in expenditures.
+
+As far as getting gold--come see me or other players in the game, and you
+might get some handouts.
+
+Weapons and armor can be found in any of several shops scattered around the
+Realm.  Walk into any room and type GET to see if items are for sale.
+
+Some common stores are east of the Central Fountain (located in the middle
+of the ancient City of Tai-Tastigon).
+
+>Any fighting strategies in the game?
+
+Fighting strategies are aplenty.  First, though, it is essential to know
+the Realm and its layout, and that means exploring.  You also need to master
+the art of the sneaky hide-and-strike-from-the-shadows approach, and be able
+to tell when two people are fighting someplace else (they will be chasing
+each other on the who list) and interrupt to kill one of them :)
+
+Also, this game WILL develop your typing skills.
+
+Another useful concept is known as the "answerback," found by hitting the f3
+key on your keyboard and pressing enter until you come to a screen that says
+"Autoanwerback" on the bottom left corner (about 5 screens through the 
+directory).  Go down to the "Answerback" box and hit enter, then type in some
+commands...maybe this:
+
+Answerback: hid X . X . X . X
+
+In this case, each "X" is really a [return] key, which leaves a little "cr"
+printed (this stands for "carriage return").
+
+When you hold the ctrl key and hit f5, you will execute the command string
+in the answerback.  In this case, you will hide and repeat this 3 times (that's
+what the "." is there for, and what it means--execute last command).
+
+This can be useful, especially with things like crossbows and the like (where,
+rather than type "use cross" every time you need the weapon, you simply hit
+ctrl-f5).
+
+>Hi, I am new here. 
+>When I start the game, I can only start as Good or Evil, how can I start 
+>as neutral, and how can I choose the "subclasses" of each alignment
+>(example, the mage of Good or the mummy of Evil. Thanks.
+
+Neutral characters are by appointment only by MASMONST, and for the time being,
+the number seems to be set (and rather low).  If you would like MASMONST to
+consider you in the near future, however, by all means let him know (mail
+him) and play it up on bulletin and in the game (this sort of thing gets
+rewarded!).
+
+Subclasses are not currently available, and will become available as our
+player cast expands.  As it stands now, there is strong consideration being
+given to the idea of having Wizards and Druids "specialized" classes, sort
+of like the old "lieutenant" classes, appointed by the High King.
+
+I've got to run to class, I'll write more later.
+
+In the meantime, if anyone has any questions, feel free to mail me and ask--
+as you can see, they WILL be answered.
+
+Also, someone please FORWARD me a copy of the first letter I sent out (simply
+go to read the message from mail and type FORWARD, then V073PZUY at the "To:"
+prompt).
+
+---Chet (aka Dhethe)
+

@@ -1,0 +1,45 @@
+* The Classes:
+
+Alignment Groups:       GOOD       NEUTRAL      EVIL
+                        
+                        Knight                  Goblin
+                        Druid      Dwarf        HobGoblin
+                        Mage       Wood Elf     Troll
+                        Templar                 Lizard Man
+                                                Ogre Mage
+    
+
+
+* The class statistics: 
+
+H  =  health
+At = attack speed
+Mv = move speed
+WU = weapon usage
+cl = claw usage
+SP = spellcasting ability
+Ar = natural armor
+P  =  natural poison
+
+* The ratings:
+
+e = excellent
+g = good
+a = average/medium
+p = poor
+ 
+                 H     At    Mv    WU    cl   SP    Ar    P
+
+Druid            a     a     a     a     -    g     -     -
+Mage             p     a     g     p     -    e     -     -
+Templar          g     g     a     g     -    -     -     -
+Dwarf            a     g     a     g     -    -     a     -
+Wood Elf         a     g     a     a     -    a     -     -
+Troll            g     a     a     p     g    -     -     -
+HobGoblin        a     a     a     p     e    -     -     -
+LizardMan        a     g     g     p     a    -     -     -
+Ogremage         a     a     a     p     a    a     -     -
+Mummy            e     p     p     p     e    -     -     -     
+Demi-lich        g     a     a     a     -    a     -     -
+
+-------------------------------------------------------------------------------

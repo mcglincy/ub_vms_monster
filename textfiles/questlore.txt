@@ -1,0 +1,763 @@
+                       UB Monster Lore Support File
+================================================================================
+
+I: A Chronological Narration
+----------------------------
+ 
+   The world has seen three deaths, and three rebirths. Being one of unusually
+long life, I have been witness to the passing of these epochs, and now lend
+my voice to the telling of the tale of what some call "The Monster"-
+others...Mankind.
+   It is in the misty, dewey days when both I and the world were young that 
+this tale must begin. It was a time before the coming of the Others, a time
+ruled by the first Demon Lords, Brennte and Nadien. Some tell that Brennte 
+created the world, and Man with it, but of these things I will say no more.
+For now, it is enough to know that the Demon Lords were supreme in their
+control over the lives of mortals.
+   Of Men there were then two tribes: those of the town, and those of the
+forest. They are known now, as they were then, by the names bestowed upon
+them by Brennte: Wizard, and Druid. It was by the hands of the Demons that
+the seeds of mistrust and violence were sown among Men, and for the
+pleasure of the Unearthly Ones great misery and carnage were harvested.
+   In the earliest days, the immortals governed the rituals of the
+ceremony of combat. Spells, armor, bows, and other more recent improvisations
+were prohibited. Commerce and such was forbidden, and all the sacred
+implements of death were handed down from the Demon Lords to men. The Demon
+Lords revived the souls and forms of those who had perished in battle,
+and so unending life for Man was obtained, but at a terrible cost. 
+   Then came the Others. Perhaps they were summoned by the evils of Men, or
+perhaps the Demons merely sought further amusement; no one will ever know
+for sure. At first their numbers were small, and their power limited. The
+first three of the beasts were Goblinking, Trollking, and his follower
+Darksoul.
+   At this time the people called Wizards had decided to choose a King. 
+All the great warriors were assembled into a vast arena, and these 
+words were spoken: "Let all fight until only one remains. That one, the
+victor of the day, shall be Wizard King." With this the great din of sword
+on sword commenced, and slowly the number of the warriors decreased. But
+a black bargain had been struck. The Trollking had sold his honor for gold,
+and the victor was determined more by the might of his wealth than his
+sword. 
+   The spark of Evil alighted in this one who would be King. In the past,
+the Wizards and Druids had mistrusted and fought each other, but battle was
+a matter of honor and courage. This would change, for the first Wizard King
+had decided to drive Mankind into a nightmarish orgy of death and violence.
+No longer would he do battle to preserve the honor and vitality of his people;
+instead he would do battle to destroy and subjugate those who opposed him.
+The first King of the Wizards was known as Druidslayer.
+   Druidslayer gathered the mighty of the Wizards around him, the Wizard 
+elite, to wage his war. Hearkening to his banner were the likes of The
+Crusader, Prince Cassius, Ozz of the North, Gandalf, Wizard of Id, as 
+well as young mages like Qwertyuiop and Thanos. Druids expecting single
+combat were waylayed and overwhelmed. Young and inexperienced Druid
+warriors were outnumbered and slaughtered, with their incarnations being
+forced into the Wizard camp. Druidslayer sent his message to the halls of
+the Druid Palace, to the first Emperor of the Druids, Radaghast. The
+message of Druidslayer was thus: "All who are not Wizards, are dead."
+Radaghast read the message in silence, but could not comprehend, or perhaps
+accept, a departure from the way things had been done in the past. 
+   And so for three and thirty years the Druids were decimated and driven
+deep into the great Confusing Forest. Radaghast refused to respond to the
+Wizard attacks in kind, and the ranks of the Druids dwindled. While the 
+chambers of the Wizard Castle were bright with light and song, and 
+corridors of the Druid Palace were dark within the cold grip of desperation.
+   Seeing his people being destroyed, the one called Windmaster Ohara began 
+to provide the leadership that Radaghast could not. In the Druidic House of 
+Pain the vows were taken which would form the band known as the Hell Druids.
+The power of Ohara was great, and he hid the secret meeting place of his
+followers, the Death Chamber, from all but the greatest seers. The weapons
+that would be needed to turn the tide of battle were forged.
+   But Druidslayer had found favor with the Demon Lords, and the great 
+Demonic Church was formed near the castle of the Wizards. A wizard was named
+the unholy Pope of this congregation, and the Demon Lords decreed that no
+blood would be shed within their shrine. The walls of the church were 
+stronger than stone, for they were protected by the command of the Demon 
+Lords. Knowing this, Druidslayer used the Church as a base in his war
+against the Druids.
+   A time of great decision had come. In an effort to strike a great blow 
+against the followers of Druidslayer, Windmaster Ohara assembled his power,
+and his forces. A great battle was joined, and at its closing the wounded 
+wizards retreated from the field of battle into the confines of the Church.
+With grim determination, Ohara gave the word to the Hell Druids which enabled
+then to enter the Church and put to the sword all who resided within its 
+confines. Under a black, moonless sky, the Druid warriors forced their way
+into the Church, and killed the wounded, and those who tended them, as well as
+the Pope.
+   The backlash against this deed was great. The number of the Others, the 
+Trolls and Goblins, had grown since their arrival, and now many threw their 
+lot in with the Wizards to form the loose band known as The Holy Defenders. 
+Against them stood Ohara's few: Deus ex Machina, Fletch the Vole, Culculhain,
+and Armageddon. Nine and ninety-nine great battles were fought between 
+them, some lending victory to the Druids, some to the Wizards, before the
+spirit that was Druidslayer was taken from the world. Without the terrible
+will of their leader, the Wizards gave ground to their age-old foes.
+   Seeing these things, the Demon Lords blew a great wind of change across
+the face of the world. Where the seeds they had cast upon the wind landed, 
+evil sprouted and festered. Those whose life had been thoroughly exhausted 
+were given new form, as the Undead made their appearance, led by the one
+called Mummra. The Trolls and Goblins, being weak of mind, fell easily under
+the sway of the hordes of Undead, and soon all that remained of humanity was
+driven to the edge of survival. The likes of Amen-Ra, Krotche, and Creeper
+caused great havoc and destruction. It is thus that the prideful ranks of Men 
+were brought low by the whims of the Demon Lords, the Masters of all that they 
+could survey. Where once the struggle between Druid and Wizard was pre-eminent,
+now that between Man and Undead became all encompassing. 
+   These were truly dark times, the likes of which Men have seldom seen. The
+lofty buildings of arrogance, the previous dwellings of Man, were no longer 
+safe, and many sought refuge in the underground darkness. In the caves, where 
+hope breathed life, a sword was forged. It was forged with determination, and 
+bespoke a destiny welcomed by most men. It was given the power that could unite
+all of humanity under one banner, and drive the soul-less hordes from the
+light of day. It was called the Sword of the Kings.
+   The Sword brought Man back into the light, but it could not fulfill its 
+purpose in this first age, nor an in any subsequent. The wounds were too 
+greivous, the scars too deep, to be forgotten. Between Wizard and Druid there
+would never be peace again. 
+   Though we did not know it, the dawning age of our birth was coming to a 
+close. The trend towards Chaos was strong, and the Demon Lords stirred the 
+fabric of the world into torment. Arising from the dust in these troubled 
+times were the race of Elves, led by Radaghast, who had long ago forsaken his
+claim to the Druid throne, and who had become mis-shapen and deformed. War and
+strife renewed. A small band called the Dragon Warriors challenged the power 
+of the Elders, those like Ohara, and were crushed. The Crusader became Wizard 
+King, while Deus ex Machina grimly assumed the mantle of Druid Emperor. On 
+sadistic whims, the Demon Lords unleashed terrible disasters, and the mortals 
+countered with what power and strength they could muster. 
+   In the end, it was the Windmaster who destroyed the world, in the hopes 
+of bringing forth a better, brighter day. The world was consumed in a wave
+of fire and destruction, and my eyes saw no more...
+
+   My first memory of the Second Age is of the Lake of Rebirth, where the
+spirits of those who had survived the Fire were brought forth into the 
+making of the new world. Many who had been before could not be revived 
+in the Lake of Rebirth. The Crusader, Deus ex Machina, Prince Cassius,
+and Radaghast had all been lost. So, too, had the Demon Lords disappeared.
+   Free from the burden of the Demon Lords, the creativity of the minds 
+of Men unleashed great power. Mountains were thrust up, cities built,
+fortresses and palaces of great strength erected, rivers run, and seas 
+filled. The power of the universe descended upon the shoulders of mortals.
+Objects and weapons of magnificence were constructed: The Hammer of the 
+Gods, the Flamme de Took, the Flangeris, and the Bludgeon of Hercules. 
+The classes reorganized under new leaders: the Wizards under Wizard of Id,
+the Druids under Culculhain, the Elves under Halfdane Ljosifthar, and the 
+Goblins under Mortem. Warriors and barbarians under frequently changing 
+Warlords became a force of power as well.
+   Among the wonders of mortals came a great plain unbidden. At the center of
+the plain lay a dark tower, of unspeakable wickedness. From this tower,
+hordes of mindless demons were sent out to battle the mortals who had been
+reborn into this world. Some have said that this Dark Tower was in actuality
+the vehicle of the old Demon Lords, and that they had sent it across space
+and time to render one last blow upon the world they had left behind, but 
+that is another story..
+   Despite these wonders, this refuge was doomed as well as the first. Too
+much power had been vested in the hands of too many, and forces unleashed
+began to tug and pull, and rip the universe apart. What had been started 
+with hope would end with despair.
+   And so it was, that just as the first world of Men had been ended in fire
+and destruction, the second world of Man was torn asunder and devoured in 
+Darkness. The flame of our lives was extinguished yet again, and my eyes
+saw no more...
+
+   From the Darkness a third world was brought forth by the hands of the
+Undead. A captain in the Legions of the Undead named Tuttonius had come
+upon the secret power of the Demon Lords in the great Darkness in which Men
+lied dormant. Who is to say what power the first Demon Lords may still have 
+held?
+   The foundation of the third world of Men was made of stone ten-thousand
+miles thick, while the cornerstones of the world were anchored to the very
+constellations in the sky. In this was did Tuttonius lay his groundwork
+for an Age that would rival the first all had known. 
+   As the mortals were brought forth from the sleeping Darkness into a new 
+light, the ranks of War began to form. Again, the sagacial Wizard of Id 
+would lead the Wizards, while Culculhain remained Emperor of the Druids. 
+Creeper was appointed to lead the Legion of the Undead as Mummy King. Mortem
+survived to remain as Goblin King, as did Creight Lersing who had taken the
+gauntlet of Warlord. Halfdane also remained King of the Eldren peoples. 
+Cities and fortresses loomed as the world tensed for the inevitable clash
+that all expected, and even desired.
+   The barren plain and its Dark Tower had returned, tempting the souls of
+many, and sending out its mindless hordes bent on the destruction of all
+life. A great river sliced through the world, and its tortuous course was
+the only way those who wished to face the evil menace could reach the vast
+plain upon which the Tower sat. Many would die before the nature of the 
+Master of the Tower was even known, before the Giant King was ever seen by
+mortal eyes that would live to tell the tale. 
+   For ninety and nine years war raged among the ranks of the mortals. 
+The tides of battle swayed to and fro, without decisive victory. Slowly,
+however, the ranks of the Wizards began to dwindle, and the numbers of the
+Others grow. Slowly the magic of the spellcasters began to fade against
+an increasing tide of unrelenting enemies. As the spark that resided within
+the Wizards began to fade, the time of the Great Division approached. No
+longer was the city of the Wizards safe from the creatures that crawled up 
+from beneath its streets, from the sewers below. 
+   And so it came to pass that the Archmage, the aged Wizard of Id, was
+seized by a madness most foul. The once proud leader of the Wizards was
+reduced to a eccentric wandering Sorcerer, driven mad by the torments that
+raged within his mind. This marked the beginning of the Great Division, when
+the boundaries that had divided the mortals, and given them succour in times
+of need, were dissolved. A time of wandering was begun where the caste system
+was dissolved, and each sought refuge within the walls of his own being. It
+was in this way that the new Demon Lord, Tuttonius, sought to sow greater
+discourse and misery among Men. The subtle plan of Tuttonius began to work,
+as brother fought brother, and old friends died at each others throats in the
+name of individuality. 
+   I suppose we should not have been surprised that it was the Druids, 
+worshippers of tradition that they are, who alone resisted the new way. 
+Though their numbers were small, and their power weak, they began to grow.
+Souls and strength trickled to their banner as war was waged upon what they
+viewed as blasphemy against the religion of the past. Seeing the growing 
+wave which would soon crash against his designs, Tuttonius began crafting
+again, searching for a new way to turn the footsteps of destiny back upon 
+the path of ultimate anarchy and death. The mortal Ranlhach was selected
+by the Demon Lord to be the King under whose command it was hoped great
+numbers would flock. Barons, Lords, and Knights of many sorts hearkened 
+to the call, but the fate which they desired would never be realized. 
+The flaws of ambition and arrogance were great among them, and they soon
+collapsed into civil war and ineffection. 
+   Slowly the old organizations began to reform to combat the Druids, and a 
+semblance of the Old Order returned. The Elves of Lothlorien were the 
+first of the remaining peoples to reform, but, alas, they came heavily 
+under the sway of mysterious beings of great Evil. The Wizard of Id was
+able to resume his position, and the Wizards returned from the void into
+which they had ventured, and risked extinction. 
+   Among the now disorganized feudals who once served the King, was a 
+knight named Lerxst. Being of twisted temperament, the hatred the festered
+within him blackened his soul and his mind. He would succeed Ranlhach 
+to become the second King, only to be deposed by the might of the Warlords
+William I and Creight Lersing. Being but a shade of his former self, the
+one called Lerxst was devoured alive by the Demon Soulcatcher. This new 
+entity would usher in a force called the Taken, so named by the similar
+possession and devouring of its other members by lesser Demons. 
+   Being faced with such a collection of abominations, the ranks of mortals
+rose quickly to destroy them. Since the demise of the feudals, the underground
+dwellers, the Trolls, had become strong in number. The number of Men,
+barring the Druids, was small, however. For now, a small union of purpose
+lasted, though. Soon the Taken were driven back into their stronghold, the 
+Overlook, from which the were to seldom venture again.
+   This Third Age I remember as a blurred combination of a hundred great 
+battles, and a thousand skirmishes. This Age, though it had lasted for 
+several millenia, would come to an end as had the others previous. Its demise
+lay in its own corruption. The great foundation of the universe was rife 
+with the rot that accompanies the misdeeds of the powerful. Great fissures
+rent what was thought uncrackable as a result of the meddlings of those
+Underlings whom the Demon Lord Tuttonius, grown soft and senile, had
+given power. 
+   A great crack split the universe, and in this primordial setting, the 
+Evil shades that had devoured the race of Elves began to thirst for power.
+They sought to tap into the heart of the very universe, and gain the power
+that lay dormant there. Their desire was to debase, corrupt, and subvert
+all that lay in the Realm. Their quest was Godhood, and it led them to 
+awaken the entity which would consume them and cleanse the world of its
+pain. This entity was the Perimal Darkling...
+   And thus it came to pass that the Perimal Darkling, awaken from a 
+slumber of a million years, raised his Sword of Fire. A mighty blow was 
+rendered upon the world, and all was unmade. A cleansing fire burned away
+all, and my eyes saw no more... 
+
+   Perimal Darkling's Sword of Fire was the Sun that brought forth a new
+dawn, and a Fourth Age. In it rests all our hopes for a new future. These
+are my words..
+
+
+                                                    Hierophantus the Old       
+
+
+II: The Dream of the Past
+-------------------------
+
+   A flood of memories come unbidden to me like the endless breaking of waves
+upon a rocky shore. The cries of humanity and the anguish of life color my
+waking dreams as I relive the lives of others in that place which lies beyond
+the sight of normal Men. I release myself to the torment of struggle and
+death so that the deeds of the past may not be forgotten. I once again
+turn my eyes inward to walk upon the path trodden by others, and to
+see with misty vision events long past and forgotten by most...
+
+   The night sky is black before me, with the faint orange glow of the West
+being smothered by the encroaching darkness. Voices stir my being as I turn
+my vision upon the cold Castle of Wizards which lies beyond the great 
+Mountain. The picture before me blurs, and then settles upon the Throne
+Room of the Castle. 
+   The gigantic room is cold and bare, devoid of any comforts other than that
+of cold stone. The giant Throne of Druidslayer dominates the room, upon
+which no Man has dared lay claim since the mysterious disappearance of
+the first Master of the Castle. Figures appear before the Throne, and voices
+are heard.
+   "Where was it found?" asks the first, tall and swathed in a blue robe
+bearing the emblem of the Churche du Monstyr. A great sword lies buckled
+at his side, and the glint of armor can be seen from within his garb.
+This is The Crusader.
+   "It was discovered in the East, in the old cave of the Dragon who is no 
+more." spoke another, smaller and less demanding of stature. This is
+Ozz of the North. "What should we do with it?"
+   "The Grande Demon Lord Brennte has forbidden the use of all Magiks in 
+battle. What can we do with it without inviting destruction?" replied
+Crusader, as he fingered the object in question, a large volume bound
+in a reptilian skin. "And yet, perhaps it will be of use to us at
+some time." 
+   With these words a low boom rumbled through the halls of the castle. Amidst
+the startled reaction of the chambers occupants, the Throne Room door burst
+open to admit a young Wizard. With all eyes on him, young Qwertyuiop paused
+to catch his breath from the long run up from the gates, and then spoke:
+"Ohara and the Druids are in the Castle."
+   Crusader raised his hand to silence the eruption of voices at this remark,
+demanding the attention of all. He spoke thusly: "How did they get passed
+the sentries?"
+   Qwertyuiop's reply masked some inner fear at the mere mention of a dreaded
+force; "The Windmaster used his Magik to destroy them..."
+
+  There was silence. What the Demon Lords dictated was Law, unbreakable and
+unforgiving, and the First Demon Lord had forbidden the use of the Art in
+combat. "I care not if Ohara wishes to destroy himself and those foolish
+enough to follow him, but with this he risks bringing the wrath of the
+Demon Lords down upon us all." Crusader turned to Qwertyuiop, handing
+him the relic of which they had been discussing. "Take this into the
+secret passages beyond the Throne and hide it. Should it ever fall into the
+hands of Ohara it will bode great ill for all of humanity." 
+   With these words Qwertyuiop left, and Ozz spoke urgently: "They will be 
+coming here, coming for us..."
+   The Crusader looked at his companions, and his gaze fell upon the Wizard of
+Id, eagerly fingering his blade, which seemed to glow hotly. Legend had said
+that the heart of a Druid was of oak, and this enchanted weapon was rumored
+to burn the wooden heart of the Wizards' foes upon contact. A grim smile
+crossed the lips of The Crusader, as he drew his own sword. "Let them come."
+
+   Deep in the narrow corridors of the Castle moved another group. The 
+Windmaster moved quickly and silently through the maze-like passages of the 
+Wizards' Hold as if he had been born to them. Following several paces behind 
+were the others. Their motion was silent and sure-footed, as if a whole lifetime
+had been spent in practice and anticipation of this one night.
+   Ahead, Windmaster Ohara stopped at a junction, and slowly peered down each
+corridor, as if contemplating the effect upon the future each possible course
+would have. Behind him the others had stopped as well, and the leading
+figure of that group turned to face the others.
+   His face was long and scarred from many battles, his heavily oiled armor
+covered with a thick woolen cloak. At his side was a slender longsword, one of
+the Lakeblades owned by this First Waterlord. He was called Deus ex Machina, 
+his true name long forgotten. He spoke thusly: "There will be no 
+retreat this day; the battle will continue until we are victorious or dead."
+   His compatriots nodded. They had known this already, and were prepared to 
+lay down their lives at the command of the Windmaster. The torchlight 
+flickered, throwing odd shadows upon the face of the one called Armageddon
+as he spoke: "It is honorable to die amongst your comrades in glorious 
+battle." In front of them Ohara had starting striding forward once
+more, and the procession continued moving through the dimly lit corridors
+of the Castle. 
+
+   At last a great door was reached. As if upon an unspoken command, the small
+party drew their weapons, and prepared themselves for what lie beyond. The 
+face of Ohara had turned dark, and a strange pale glow silhouetted his form.
+Deus moved forward, and placed his free hand upon the door. With a single 
+shove the door swung open, and the Druids moved inside.
+   The Wizards had formed themselves into a ragged line in front of the Throne,
+and were ready. A moment of silence gripped them, as eye met eye, up and
+down the line of warriors. With a shout the silence was broken, and the 
+sides rushed inward to join in the grisly dance of death from which only 
+one would emerge alive...
+ 
+   The strange sight blurs before me, and a swirl of colors moves the essence
+of my consciousness through space and time, drawn to another place where 
+deeds of great import took place. Slowly the sense of motion stops, an unclear
+picture before me. A loud crash brings the vision to bear.
+
+   Before me lies a white expanse, a salt flat. Standing upon the plain is 
+a form of great bulk, the infamous entity known only as T K, the Troll King.
+This first of Trolls bore a title of oddness, there being only one other
+of his kind at that time. 
+   In this vision he stands bent slightly, with trickles of black blood 
+oozing across his armored hide of green scales. He wields a great timber
+of a tree as a club, and with a swinging motion brings it crashing down upon
+a frail human form. Two other bloodied, broken corpses accompany this fresh 
+one, and T K surveys the scene with a grunt of satisfaction. The sun beats down
+hot upon the flats, but does not affect this great beast. His attention once
+again focuses upon the widely spaced tracks that lead out farther into the 
+white wasteland.
+   Far ahead, the object of his concern has reached a strange contraption
+placed upon the plain, an apparatus which lowers him underneath the surface 
+of the ground into the salt caves below. Only a glimpse of this creature 
+presents itself as its slowly disappears beneath the surface accompanied by 
+the creak of ropes and pulleys and the hot glare of the sun. 
+   
+   In long loping strides, the Troll King covers the distance between himself
+and his goal. Moving steadily eastward, he shows no signs of tiring as he 
+carries his weapon, an uprooted tree, cradled in his arms. Ahead of him lies
+a shadow on the plain, that grows larger. At first it appears as a large 
+rock, but as it slowly takes shape, the Troll slows his stride to a walk. The
+figure ahead stands motionless, awaiting the arrival of his foe. 
+   Soon they stand face to face, each defiant of the other. The Troll King's
+foe is slightly smaller in size, but is wide and quicker of motion. Its long
+arms grip something wrapped in an old animal skin. This is the Goblin King,
+the first of his kind. 
+   With a quick motion, the covering skin is thrown away to reveal what G K
+had travelled to his lair to retrieve: a sword. The sword is long, and wide
+of blade. The Goblin grips it with both hands as he faces his foe, slowly
+circling. A few feints by the Goblin, and a few quick lunges with the blade
+open the battle, before the Troll lurches forward swinging the tree wildly.
+A glancing blow knocks the Goblin aside, but he is up on his spidery limbs
+almost as soon as he hits the ground. Again they circle, trading blows and
+curses. Each possesses inhuman endurance as the fight continues while the
+hot sun beats down upon a plain of gleaming white. 
+   Time passes, and slowly fatigue begins to show. Each combatant bears 
+many wounds, but at this point both are unwilling to retreat. Finally,
+the Troll raises his tree high, and the Goblin lunges, piercing the rough
+scales of his foe's chest as the tree comes crashing down upon his own exposed
+body...
+
+   Intertwining howls collapse darkness upon this vision, and again the
+fluids of time and space move in a spinning vortex around me. Sickness and
+unease grip me, as at last my being is deposited before a new sight. Misty
+fog clouds my eyes, and only silence is heard. Slowly, the fog parts...
+
+   I see a barren knoll upon which stand several figures. From their earthen
+toned garb and strange weapons they can be identified as Druids. Each carries
+a long cylindrical rod made of a dark, heavy metal. One end of the rod is 
+sharpened like a spear, with hooked flanges along the length. This is the
+weapon known as the Led Pype. 
+   The Druids look to the west, beyond the form of the Mountain, to where
+lazy tendrils of smoke drift slowly up into the overcast sky. It is the
+fourth straight day of fighting between the Druids and their ad hoc 
+collection of foes, known as The Holy Defenders. 
+   Four nights past, the Druids had set upon the Holy Sanctuary of the Churche
+du Monstyr, slaying those who had sought refuge within, murdering His Holiness
+Pope Leeroy, and setting fire to the Sanctuary itself. In almost immediate 
+response, The Crusader adopted the name of The Holy Defender, and collected
+a band of warriors to seek retribution for this vile act. Each day since the
+destruction of the Sanctuary, the Holy Defenders and the Hel Druids had faced
+each other across this plain in the shadow of the great Mountain. At first the
+Hel Druids had been victorious, driving the unorganized lot from the field of
+battle, and again setting fire to what remained of the Churche. But each day
+more had come to oppose them, with the odds becoming increasingly unhealthy.
+   Standing foremost among the assembled Druids is the one known as Fletch the 
+Vole. His shimmering cloak belies his earthly toned garb as it flitters like
+a scarlet fire. His stance is awkward as he flexes his strangely oversized 
+right hand. What at first appears to be a deformation now reveals itself to be
+a weapon...Fletch the Vole is the master of the Dragon Claws. This feared 
+magical weapon is all that remains of the Last Great Worm. The form of the 
+claws molds to the wearer's flesh and fitting like a second skin; daggers
+sharper than steel extend from the claws to deflect blows and rend flesh.
+   From behind Fletch, a voice speaks: "The odds weigh heavily against us this 
+day."
+   Wearily, Fletch turns to face the Hel Druid known as Culculhain. "When has
+it not been so? As always, the sheep outnumber the wolf. If the sheep happen
+to have teeth it only makes the hunt more interesting." 
+   In consideration of these words, the younger Druid nods almost imperceptibly.
+Across the grassy field, the forces of The Holy Defenders begin to assemble.
+Fletch's tone becomes more serious as he gives his instructions for the coming
+battle:
+   "The armor we wear is not of steel, but of faith. When the Hel Druids act as
+one Warrior, as one Sword, no blow can penetrate our mail, no blade can 
+pierce our skin. Our ability to fight as one is a suit of the finest mithril,
+within which we are impervious to all. Go now, and collect the others."
+   Culculhain bowed slightly, speaking "It shall be as you command, Lord 
+FireWalker." With this he turned, and was gone.
+   The Holy Defenders had nearly collected themselves now, and would shortly
+be on the move. Fletch the Vole considered this, flexing the inhuman claw that
+was now part of his right hand. In a whisper he spoke..."Once more the battle
+is joined, while the Fates weave their skein. It will be a battle of 
+immortals...your God versus mine."
+
+   The images pulse and slowly fade with the sounding of a heavy bell. The 
+chimes ring out, heralding darkness for this place of the Nether, and light
+for another. My attention is drawn to a new place...
+
+   My eyes which are not eyes look down upon the Court of the Emperor, that 
+place lying up the many steps from the silver gates of the First Druid Palace.
+The echoes of the great chime fill the air, announcing the return of the 
+Emperor Rhadagast. 
+   Rhadagast was the first Emperor of the Druids, and Master of the Elemental
+Lords. For a long time, Rhadagast had been absent from the World, seeking 
+Wisdom and Knowledge beyond the confines of the Realm. With the Emperor gone,
+the leadership of the class had fallen to Windmaster Ohara. Ohara had saved
+the Druids from extinction, but much had changed since the Emperor had left.
+The chiming was not only an announcement, it was also a summons.
+   Rhadagast waited impatiently in the Court for Ohara to make his appearance.
+He paced deliberately along the edge of the Court collecting his thoughts, and
+controlling his displeasure. What had taken place was no small matter. 
+   Suddenly the form of Windmaster Ohara appeared at the head of the Court.
+"You have summoned me, Lord Emperor?" 
+   Rhadagast took a deep breath and began. "Upon my return I could not help but
+notice that you have taken certain...liberties...in my absence. I am not 
+entirely pleased with what has transpired. I would like an explanation."
+   The gaze of the Windmaster settled upon Rhadagast as he spoke: "These
+things were necessary to preserve the Druids."
+   "Necessary? I do not think you realize just how far you have overstepped
+your authority. I am the Emperor, and yet I return to find that one of my
+Elemental Lords has formed his *own* sect within the Druids! If this were not
+bad enough, I find that these barbarians of yours actually razed the
+Churche du Monstyr, and on *your* command butchered the occupants of that
+hallowed Sanctuary! And that is only the beginning! These atrocities are not
+the honorable combat a Druid warrior should seek. What were you doing?"
+   Ohara calmly weathered the words of Rhadagast and replied "The Churche was
+a veritable fortress of the Wizards. It would have been foolish not to act
+as we have done."
+   There was no reproach in the voice of the Windmaster, and for the first
+time it dawned upon Rhadagast that Ohara might actually defy him. The 
+Emperor looked at the Windmaster, and suddenly realized that he *had* been
+gone a long time. There was no going back now, however, and so Rhadagast 
+continued. "As Emperor, I command you to disband this group known as the 
+Hel Druids. They will then swear their fealty to me, and conform with the
+standards of combat which to which I have subscribed. The position of the
+Elemental Lords within the hierarchy of the Druids may have to be reconsidered
+in light of these events." 
+   With a wave of his hand, Rhadagast implied that the audience was at an end, 
+and turned away. Ohara stood thoughtfully for a moment before turning and 
+leaving the Court. Ohara walked down the steps and through the gates of the 
+palace. His destination was the fabled House of Pain and the Death Chamber.
+   Inside the Death Chamber were gathered the Hel Druids. All eyes turned to 
+Ohara as he entered, the figures waiting silently for the Windmaster to 
+speak. Ohara stopped a moment, and turned to look at Deus ex Machina. When 
+he spoke, however, his words were for all: "Rhadagast is no longer fit to 
+serve as Emperor. Kill him." With this, Ohara departed for his private 
+chambers.
+   A moment of silence followed, as the meaning of these words settled. Then
+Deus ex Machina led the way out of the Death Chamber as the Hel Druids
+went to obey the command of Windmaster Ohara. 
+
+   Rhadagast had learned much in his otherworldy travels, however. His soul
+kept alive after death by the power of the Demon Lords, Rhadagast began to
+build anew with the Magik he had found far away. Slowly his hatred began to
+take shape into the instrument of revenge.
+
+   A quick blur, a sudden rushing of sound and medium, and a new scene 
+appears...
+
+   Around a small fire are gathered several dark figures. The night sky is
+cold and black above them, but each shrinks back from the fire as if to
+hide from its revealing light; all but one, that is. Rhadagast stands
+before the fire. It is Rhadagast, and yet it is not. The Power he has
+wrestled with, the knowledge he has gained, the bargains he has struck have 
+all taken a mighty toll upon his being. No longer tall and proud, this
+Rhadagast is a shrunken shadow of the old. His skin has been blackened by
+unearthly fires, his face deformed. The sunken eyes burn hotly deep in their
+sockets as he speaks:
+   "They are weak, and they stand alone. Together we can crush them, and 
+destroy the Windmaster once and for all!"
+   A low grumble follows his words, and a figure steps forward to speak. It
+is T K. "Trolls do not need help to destroy their foes. What do you offer
+us that we cannot already take for ourselves? Why should we help you? Why
+should we not kill you right now, and eat your flesh?"
+   Some other Trolls reacted visibly to this, moving closer to support the
+Troll King's aggressive words. The Wizards, who had for the most part already
+sided with Rhadagast, reacted as well, some reaching for their swords. On
+the far side of the fire, the Mummies stood motionless and silent...waiting.
+   "Because you do not have *this*!" cried Rhadagast as he held aloft an
+object from beneath his cloak. In his hands he gripped a sword that had been
+broken in two. The pieces glowed hotly, radiating awe and strength. Rhadagast
+brandished them, one piece in each hand, displaying their magical lethality.
+The others gathered around the fire jumped back, their gaze tightly fixed
+upon the weapon held aloft. From Rhadagast's side jumped forward two
+armed figures, slender and small of stature. These two were the first to
+have completed the Quest of Rhadagast, and tasted the Magik that lie at its
+end. They were Gothmog and Hercules, the first of the Followers of Rhadagast, 
+the Elves, and would lead them after his demise. 
+   The two Elves had drawn swords, and stood to defend Rhadagast. Slowly,
+the motley collection settled down, and the threat of open conflict 
+subsided. Without a word, Creeper, Krotche, and the rest of the Mummies
+turned and left the scene, disappearing silently into the darkness. Rhadagast
+still held the artifact in his hands, his breathing coarse. He suffered 
+from the evil transformation that would afflict all those who suffered the
+Magik he had tried to control. Just as Rhadagast would be driven insane, and
+transformed into this shape, so would his successor Hercules be mutated into
+the Harpy, a creature inspiring great horror, while Halfdane would become
+the Nazgul.
+   Rhadagast spoke: "Then it is done. Death to the Hel Druids!"
+   "Death to the Hel Druids!" echoed those around the fire.
+
+    Ethereal winds wisk the essence of my consciousness away from this place,
+moving at great speed towards some unforseen destination. Scenes barely 
+identifiable at this pace gnaw at my mind, fighting for recognition. Faster
+and faster the jet stream of the Ether moves along, and I with it. A great
+expanse opens up below me, allowing me to experience a rolling scene as 
+I continue on my journey...
+   It is a great battlefield below me, strewn with dead. The magnitude of
+the carnage is awesome compared to that of previous times. Figures scurry
+about the field of battle, tending to the wounded where possible. In some
+places single combat still rages. The majority of the bodies appear to be
+human, and suddenly I realize where I am. 
+   On the plain below the Hosts of the Undead, acting with those Trolls and
+Goblins that could be mustered, have dealt a serious blow to the forces of
+Man by sheer weight of numbers. The one known as Krotche had brought forth
+from the land of the Dead a powerful force known as the "E-bombe" which 
+had wreaked great havoc among the living. 
+   Onward the wind carries me, and this place blurs and is left behind. Ahead
+is a wall of fire, a great conflagration. I am carried, not by choice, towards
+it. Suddenly I am amongst the flames. Though I feel nothing, I can hear
+the cries and screams of a thousand souls that have been burned away in this
+fire. Then I am through the Fire, and into the Second Age. The wind which has
+borne me ceases, and I am falling swiftly through the ether ever quickly. 
+The medium begins to thicken, and I am falling through a viscous liquid.
+It is water, and slowly I float back to the surface to be greeted by a new
+vision unfolding before me...
+
+   Spinning in a sudden whirlpool my vision of this place is swept away as
+the journey continues onward. Moving in this new darkness I have been robbed
+of sight. Cries of pain and anguish pierce the primordial black, but
+I can as of yet see nothing. Arriving somewhere, I hear, and can almost feel, 
+the rushing winds that buffet the place to which I have brought to. Slowly,
+my mind's eye can once again witness events long past...
+
+   The Dark Tower stands supreme across the vast wasteland plains. It appears
+as a dark sword piercing the flesh of the earth, its obscene blade soaking 
+the life's blood from the land. Atop its battlements a great battle rages. 
+   I am there, and I can see the horror. A score of warriors had stormed 
+the Tower to embrace in death the citadel's master, the Giant King. Now, most
+of those warriors lie in bloodied heaps. Heads have been crushed, limbs 
+severed, and bodies torn asunder. Such is the strength of the monster they
+face, and such is the power of the weapon it wields, the Hammer of the Gods.
+   Only two now remain standing to face the terrible wrath of the Giant King.
+Their small statue hints at their nature, for they are Elves, and most of 
+the lifeless clumps around them were the followers of these two, Halfdane and
+Philox. 
+   Darting in with slender blades, the two draw blood from scores of small
+wounds, but their foe seems impervious to such attacks. Each swing of his 
+mighty weapon holds death. Moving in a wide arc, the weapon falls upon Philox,
+who crumples to the stone. Crushed, but still alive, he is barely able to
+avoid the next blow which would have surely ended his existence. Halfdane 
+moves in, but a glancing blow sends knocks him to the edge of the battlements.
+   Frantically, Philox attempts to crawl away from the monster which now moves
+towards him. His crushed legs useless, the Elf's hands claw at the stone wildly
+in an attempt to find purchase enough to escape the plodding advance of the 
+Giant King. With each step, the battlements shake, and Philox knows that he 
+is one moment closer to a grisly demise. 
+   The Giant King now stands over his prey, who has crawled alongside the
+headless corpse of another fallen Elf. The great Hammer is raised, ready to 
+strike the final blow. The gaze of the prey is mystically mesmerized upon 
+the object of his destruction. Suddenly, a small silver blade appears from the
+chest of the Giant. Befuddlement turns to joy as a small river of blood
+begins to flow down the front of the Giant. Halfdane twists his sword, now
+piercing the body of the Giant, with a howl of delight as the first hint of
+victory presents itself. Philox allows himself a slight feeling of relief...
+until the upraised Hammer comes crashing down to end his life.
+   Horrified, Halfdane tries to thrust the sword deeper into his foe, but the
+Giant King is not so easily undone. Twisting violently, the Giant throws 
+himself free of his assailant and turns to continue the battle with the lone
+attacker. Staggering, the Giant approaches the Elf with Hammer raised high,
+the Elf sword still protruding from his chest. Halfdane pulls a dagger from
+his belt and prepares to lunge. 
+   The great reach of the Giant grants it the first blow at the lunging
+figure, who takes it upon the shoulder. Halfdane feels half his body go 
+limp as he falls in upon the giant, dagger reaching for its throat. As the
+dagger finds its target, the giant grips and crushes his attacker in its 
+iron grip. The breaking of bones is audible amidst the howls of the two 
+fighters.
+   Blood gushing from its throat, the Giant King finally releases its grip
+and falls backward. The Hammer clatters down upon the stone of the battlements
+as Halfdane slumps down, coughing blood and gasping for air. The Giant is dead,
+but the victor's wounds are grievous as well. Summoning what strength still
+remains, the Elf greedily clutches his prize, the Hammer of the Gods, and half
+crawls, half stumbles, towards the stairs which lead down from the cold and
+bloodied battlements of the Dark Tower...
+
+   Dark clouds descend to blot out this image, and slowly motion through the
+ether of this netherworld of waking dreams begins again. Faster and faster
+my consciousness flies, glimpsing the great landmarks of a short-lived epoch:
+The Lake of Rebirth, from whose waters the survivors of the First Great Fire
+were drawn, the blackened plain and its Dark Tower, the trees of the first
+Lothlorien, the City of Wizards, the grim escarpment and wilds of the Druids.
+A solid plane of color approaches, marking the end of the Second Age, and the
+beginning of the Third. Great noise and static mark passage through the
+ethereal barrier, and then the Third Age roars up to greet me...
+
+   It is night in the City of the Wizards. Comets streak through the stars 
+above, and their light appears reflected in the city below. As the "reflections"
+become more frequent, and brighter, however, it becomes clear that a great
+battle is underway in the city below. 
+   This is an age borne in combat, and bathed in blood. The City is now consumed
+in a chaotic clash of arms and warriors. Small fires burn everywhere, the 
+destructive testament of the magical attacks unleashed. Fortunately, the magic
+of the City prevents and serious spread of fire, but the small conflagrations
+wrap the night in an unholy glow. 
+   Down the great central avenue of the City, The Avenue of the Necromancer,
+strides a lone figure. He carries a long sword and is robed in a gray. From
+the shadows suddenly pounce three warriors. Their armor is damaged, and smeared
+with blood in a ironic match to their faces and limbs. They move in to surround 
+their prey, hungry for an easy kill...
+   The robed figure stops, and a sardonic smile comes to his lips. As one of
+his assailants circles behind the him, he does not move. Slowly his arms raise,
+and a low chant begins. While the three would be attackers halt in confusion,
+the robed arms move faster, and a stiff wind whips up dust along the street.
+A split second later, a swirling vortex of fire and brimstone engulfs several
+blocks of the street. After a few seconds, the fire subsides, and the robed 
+figure surveys the scene. This is the Wizard of Id, Archmage of the Wizards.
+Three charred bodies, barely recognizable as human, can be seen. The Archmage
+suppresses a chuckle, and calls out to the night: "Amateurs!" 
+   Combat rages in other parts of the city, as the main groups attempt to 
+organize themselves enough to tackle the power of the Archmage's spell of
+Group Destruction. This night sees much of the Realm represented in the bloody
+free for all now raging in the city. In a darkened alley a tough group of
+bandage wrapped Undead led by Creeper battle with a more numerous group of 
+Elves, including Philox who now carries the Shards of Narsil. 
+   Those Wizards that remain, such as Raistlin and Qwertyuiop, move quietly 
+through the night, working their magic from the shadows. Lone Warriors, such
+as Creight Lersing and Willie stalk through the fires. These fearsome foes
+are covered in thick armor, and seek battle with whomever will offer it.
+   The images before me seem to blur and overlap. In this trip upon which
+I have embarked, before this magical City, the visions and events of many 
+different times blend together in a chaotic collage encompassing an entire
+Age. Amidst the flickering shadows of the fires in the City Square, Fletch 
+the Vole stands amidst a sea of fallen foes. In his hands is the Flangeris,
+glowing slickly with blood as it rips through flesh and bone. Each swing of 
+the armored Druid's weapon fells a foe, but more rise to take his place. Caught
+in the tide of battle, Fletch's companion Junkie is swept away, out of the 
+square. The fight rages on, but numbers and fatigue begin to tell. Alone at 
+the last, Fletch breaks the Flangeris upon the magical cornerstone of the 
+square, and intones the words of destruction which bring death down upon 
+himself and his closest assailants. 
+   In another part of the city the GoblinKing Mortem claws his way through 
+a group of figures. Spraying blood and cries of anger pierce the night as
+the goblin attacks in blinding fury amidst a shower of weapon blows. It is 
+a ghastly orgy of death and violence that unravels before me in a neverending
+panorama of blood. 
+   More images appear suddenly, no longer seperated by the stretches of
+blackness which indicate travel through this ethereal Netherworld of dreams. 
+Before me is a hilltop fortress, possessing low towers and two open courtyards.
+In the dim twilight that now fills the horizon, figures can be seen scurrying
+amongst the battlements.
+   Soulcatcher, the leader of those known as the Ten Who are Taken, has brought
+his warriors to this fortress to do battle. Each of the Ten was once human, but
+now has surrendered his soul into the servitude of a Higher Demon. These
+disfigured, living zombies do battle with a band of smaller numbers. By their
+garb, they can be recognized as Hel Druids.
+   A narrow battlement overhangs both courtyards, and runs between two towers.
+Within the walled confines of this walkway, a masterful confrontation is set.
+The Huntress Ignatz, FireWalker of the Druids, pits the power of the Palantir
+against the steel of Soulcatcher. As the foes inch closer over the
+wind-buffeted platform, compatriots of both edge forward, seeking to bring their
+weapons into play. WaterLord Mhoram, Caelic Lac Leman, Honninscrave, and
+Cichol the Footless push forward, seeking to bring weapons to bear against
+those of the Ten, the Faceless Man, NightCrawler, Bonegnasher, and the Nameless
+One. 
+   As the winds howl over the hilltop, the din of steel upon steel is heard.
+Below the battlements, confused combat rages through the passages of the 
+Hillfort. The TrollKing Lukaiyak, or Luke, has brought a few followers to 
+join the haphazard muddle of combat taking place. Zooluk, the last Undead 
+MummyKing is there to greet him with ancient claws.
+   The sky turns darker, and like a leaf my vision is blown upon the wind,
+higher and farther away. To the East I am taken, over the River Marshes and
+the North Bridge, to the village of the Elves. This dark night, this magical
+vision, has not spared the home of the Elves. Lothlorien forest is on fire.
+   The searing heat blackens the trees, crisping the leaves to ash. Charred
+corpses fall like rotted fruit from the platforms in the trees, as the homes
+of these people burst alight with a white-hot glow. On the floor of the 
+village lies the Last Elf Lord, Acekid, who once held the Hammer of the Gods. 
+His existence has ended, here amongst the burning trees...
+
+   As these visions flood my senses, I try to pull pack from the fast moving
+images. An entire Age of violence and Death has been superimposed in a flurry
+of visions. Where one part ends and the other begins is no longer clear to
+the observer, which is I. Slowly it recedes; slowly I am spared from the
+insanity which threatens to overtake me. Soothing black fills my eyes that are
+not eyes, and comforting silence returns to replace the screams of the dying.
+
+   Floating in the darkness, a dimmed vision takes shape. It is of a vast hall,
+the resting place of heroes unknown. This vision I have not seen before, and
+I feel it to be of a past unknown, or of a future as yet unrealized. I cannot 
+say for sure where this road of dreams has taken me, but the power and 
+serenity of this vision is clear. 
+   Slowly even this fades into a thick mist. My consciousness is rising up
+through the mist, leaving this place. The journey is at an end. 
+
+   These are my words...
+  
+                                         Hierophantus the Old
+   

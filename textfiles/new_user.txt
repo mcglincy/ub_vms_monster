@@ -1,0 +1,388 @@
+                      MASLIB Monster General Help File
+================================================================================
+
+I: Game Description
+-------------------
+
+The game of Monster is an interactive fantasy adventure which is more or less
+based upon the fantasy role-playing genre of games. When you enter the game,
+you will assume the form of your 'character', whose abilties are dictated by
+the class you choose and the level which you are able to obtain. The world
+inside the game is called The Realm, and consists of a large expanse of 
+forests, caves, mountains, cities, and fortresses-all the ingredients of a
+grand adventure. 
+
+As you explore The Realm you will meet its other occupants. While computer
+generated and controlled monsters and characters exist, the most interesting
+denizens you will encounter will be the characters operated by active users. 
+Not all of the souls you meet, whether active or computer generated, will be
+friendly, however. Combat within Monster is frequent, and new players can 
+expect to face death on many occasions. When your character is slain, he
+loses half of his experience and is transplanted to the spiritual "holding
+zone" called the Void. Your character will then be able to re-enter The Realm
+after the minute or so that it takes to reform his life-essence.
+
+Whether you choose to fight or talk, the game mechanics allow for simple, 
+colorful, and often exciting interaction. For those who are used to the
+role-playing environment of most fantasy games, death in Monster is more
+frequent, but less inhibiting. Character development occurs despite of
+player death because your character is revived after each brush with
+mortality. Those who may wish to retire a particular persona, or try a 
+different style of play, are facilitated by the ability of players to 
+switch class. 
+
+Many players new to Monster have had prior experience with interactive
+games such as the Multi-User Dungeons, or MUDs. It must be stressed that
+Monster is not a MUD. Monster is, in general, more violent, and largely
+combat oriented. Quests and puzzles abound in Monster, but the ability of
+your character to defend himself will greatly enhance his survivability.
+
+
+II: Game Classes and Class Structure
+------------------------------------
+
+Your character's class is one of his most important aspects. Class will 
+largely determine abilities and statistics, and often will influence how
+you role-play and interect with other users. As such, an explanation of
+the class structures within the game is warrented.
+
+Usually, members of the same class will work together against members of an
+opposing group. Often members of different classes can work together in 
+harmony, but Monster has a history of violent blood wars between particular
+classes. 
+
+There are three basic distinctions between classes. One is possession of 
+"mana" which allows spellcasting. Another is possession of natural claws,
+while the third exhibits neither of the above. Spellcasters generally exhibit
+lower health and weapon usage than other classes, but have access to potent 
+spells at appropriate levels. The true Monster classes do not possess an 
+abundancy of mana, but have natural claws that are never lost. For this 
+reason it is not necessary for them to purchase weapons. Claw classes 
+generally have high health. The third group basically entails high health,
+weapon usage, and attack speeds to compensate for their lack of other abilities.
+
+In general, it is EASIEST to play a claw class, but spellcasters are often
+the more rewarding and potent class once a minimum level of game mastery is
+achieved.
+
+
+III. Game Mechanics
+-------------------
+
+Your actions in the game are dictated by commands. Most commands can be 
+abbreviated to a few letters, as long as the string is not ambiguous with
+another possible command. Caps indicate the minimum abbreviation for the 
+listed commands. Some essential ones-
+
+WHO:         generates "who" list showing active players and their location.
+SHEet:       provides your character's stats like health, free mana, etc.
+Inventory:   lists all the objects you are currently carrying.
+HIDE:        allows you to hide in the shadows. You cannot directly attack
+              someone who is hidden without first finding them. You may attack
+              directly from hiding.
+REVeal:      reveal yourself from hiding. You must reveal to commence movement.
+SEArch:      search a room for hiding players or hidden objects.
+.     :      period, return, will repeat the last command entered.
+
+
+GET <object>:     pick something up.
+DROP <object>:    drop an object.
+WIEld <object>:   wield a weapon. After GETting a weapon, you must WIELD it 
+                    in order to attack.
+WEAr <object>:    wear armor. After GETting a suit of armor, you must WEAR it
+                    to have it equipped.
+
+
+ATt <name>:       attack someone with weapon or claws.
+PUN <name>:       punch someone (basically useless...)
+
+
+LEArn <spell>:    allows you to memorize a spell when you are in a room with
+                   Spellbooks. Not all spells need to be LEArned.
+LEArn        :    by itself, learn gives you a list of available spells, based
+                   upon your current class and level.
+CASt <spell>:     cast a spell. Depending on spell type, further prompts will
+                   follow for direction and target.
+
+
+
+IV: The Realm:
+--------------
+
+This is for the Monster Manager to build, or to select certain individuals
+to build, or allow everyone a part of it. In the past, it has proved best
+to allow only a few individuals to build the realm itself, with the Monster
+Manager overseeing the operation to ensure logical room links and a realm
+that consistent with itself.
+
+V: Game History
+---------------
+
+Monster has been around here at UB for some time, and has compiled a rather
+heroic history when viewed in the proper light. What follows is a short
+summary of the history of Monster, as told in bardic terms. The narration
+is based on the actual events within the game as made by the players. What
+the bards will tell of Monster beyond this point is up to you...
+
+-------------------------------------------------------------------------------
+ 
+ 
+   The world has seen three deaths, and three rebirths. Being one of unusually
+long life, I have been witness to the passing of these epochs, and now lend
+my voice to the telling of the tale of what some call "The Monster"-
+others...Mankind.
+   It is in the misty, dewey days when both I and the world were young that 
+this tale must begin. It was a time before the coming of the Others, a time
+ruled by the first Demon Lords, Brennte and Nadien. Some tell that Brennte 
+created the world, and Man with it, but of these things I will say no more.
+For now, it is enough to know that the Demon Lords were supreme in their
+control over the lives of mortals.
+   Of Men there were then two tribes: those of the town, and those of the
+forest. They are known now, as they were then, by the names bestowed upon
+them by Brennte: Wizard, and Druid. It was by the hands of the Demons that
+the seeds of mistrust and violence were sown among Men, and for the
+pleasure of the Unearthly Ones great misery and carnage were harvested.
+   In the earliest days, the immortals governed the rituals of the
+ceremony of combat. Spells, armor, bows, and other more recent improvisations
+were prohibited. Commerce and such was forbidden, and all the sacred
+implements of death were handed down from the Demon Lords to men. The Demon
+Lords revived the souls and forms of those who had perished in battle,
+and so unending life for Man was obtained, but at a terrible cost. 
+   Then came the Others. Perhaps they were summoned by the evils of Men, or
+perhaps the Demons merely sought further amusement; no one will ever know
+for sure. At first their numbers were small, and their power limited. The
+first three of the beasts were Goblinking, Trollking, and his follower
+Darksoul.
+   At this time the people called Wizards had decided to choose a King. 
+All the great warriors were assembled into a vast arena, and these 
+words were spoken: "Let all fight until only one remains. That one, the
+victor of the day, shall be Wizard King." With this the great din of sword
+on sword commenced, and slowly the number of the warriors decreased. But
+a black bargain had been struck. The Trollking had sold his honor for gold,
+and the victor was determined more by the might of his wealth than his
+sword. 
+   The spark of Evil alighted in this one who would be King. In the past,
+the Wizards and Druids had mistrusted and fought each other, but battle was
+a matter of honor and courage. This would change, for the first Wizard King
+had decided to drive Mankind into a nightmarish orgy of death and violence.
+No longer would he do battle to preserve the honor and vitality of his people;
+instead he would do battle to destroy and subjugate those who opposed him.
+The first King of the Wizards was known as Druidslayer.
+   Druidslayer gathered the mighty of the Wizards around him, the Wizard 
+elite, to wage his war. Hearkening to his banner were the likes of The
+Crusader, Prince Cassius, Ozz of the North, Gandalf, Wizard of Id, as 
+well as young mages like Qwertyuiop and Thanos. Druids expecting single
+combat were waylayed and overwhelmed. Young and inexperienced Druid
+warriors were outnumbered and slaughtered, with their incarnations being
+forced into the Wizard camp. Druidslayer sent his message to the halls of
+the Druid Palace, to the first Emperor of the Druids, Radaghast. The
+message of Druidslayer was thus: "All who are not Wizards, are dead."
+Radaghast read the message in silence, but could not comprehend, or perhaps
+accept, a departure from the way things had been done in the past. 
+   And so for three and thirty years the Druids were decimated and driven
+deep into the great Confusing Forest. Radaghast refused to respond to the
+Wizard attacks in kind, and the ranks of the Druids dwindled. While the 
+chambers of the Wizard Castle were bright with light and song, and 
+corridors of the Druid Palace were dark within the cold grip of desperation.
+   Seeing his people being destroyed, the one called Windmaster Ohara began 
+to provide the leadership that Radaghast could not. In the Druidic House of 
+Pain the vows were taken which would form the band known as the Hell Druids.
+The power of Ohara was great, and he hid the secret meeting place of his
+followers, the Death Chamber, from all but the greatest seers. The weapons
+that would be needed to turn the tide of battle were forged.
+   But Druidslayer had found favor with the Demon Lords, and the great 
+Demonic Church was formed near the castle of the Wizards. A wizard was named
+the unholy Pope of this congregation, and the Demon Lords decreed that no
+blood would be shed within their shrine. The walls of the church were 
+stronger than stone, for they were protected by the command of the Demon 
+Lords. Knowing this, Druidslayer used the Church as a base in his war
+against the Druids.
+   A time of great decision had come. In an effort to strike a great blow 
+against the followers of Druidslayer, Windmaster Ohara assembled his power,
+and his forces. A great battle was joined, and at its closing the wounded 
+wizards retreated from the field of battle into the confines of the Church.
+With grim determination, Ohara gave the word to the Hell Druids which enabled
+then to enter the Church and put to the sword all who resided within its 
+confines. Under a black, moonless sky, the Druid warriors forced their way
+into the Church, and killed the wounded, and those who tended them, as well as
+the Pope.
+   The backlash against this deed was great. The number of the Others, the 
+Trolls and Goblins, had grown since their arrival, and now many threw their 
+lot in with the Wizards to form the loose band known as The Holy Defenders. 
+Against them stood Ohara's few: Deus ex Machina, Fletch the Vole, Culculhain,
+and Armageddon. Nine and ninety-nine great battles were fought between 
+them, some lending victory to the Druids, some to the Wizards, before the
+spirit that was Druidslayer was taken from the world. Without the terrible
+will of their leader, the Wizards gave ground to their age-old foes.
+   Seeing these things, the Demon Lords blew a great wind of change across
+the face of the world. Where the seeds they had cast upon the wind landed, 
+evil sprouted and festered. Those whose life had been thoroughly exhausted 
+were given new form, as the Undead made their appearance, led by the one
+called Mummra. The Trolls and Goblins, being weak of mind, fell easily under
+the sway of the hordes of Undead, and soon all that remained of humanity was
+driven to the edge of survival. The likes of Amen-Ra, Krotche, and Creeper
+caused great havoc and destruction. It is thus that the prideful ranks of Men 
+were brought low by the whims of the Demon Lords, the Masters of all that they 
+could survey. Where once the struggle between Druid and Wizard was pre-eminent,
+now that between Man and Undead became all encompassing. 
+   These were truly dark times, the likes of which Men have seldom seen. The
+lofty buildings of arrogance, the previous dwellings of Man, were no longer 
+safe, and many sought refuge in the underground darkness. In the caves, where 
+hope breathed life, a sword was forged. It was forged with determination, and 
+bespoke a destiny welcomed by most men. It was given the power that could unite
+all of humanity under one banner, and drive the soul-less hordes from the
+light of day. It was called the Sword of the Kings.
+   The Sword brought Man back into the light, but it could not fulfill its 
+purpose in this first age, nor an in any subsequent. The wounds were too 
+greivous, the scars too deep, to be forgotten. Between Wizard and Druid there
+would never be peace again. 
+   Though we did not know it, the dawning age of our birth was coming to a 
+close. The trend towards Chaos was strong, and the Demon Lords stirred the 
+fabric of the world into torment. Arising from the dust in these troubled 
+times were the race of Elves, led by Radaghast, who had long ago forsaken his
+claim to the Druid throne, and who had become mis-shapen and deformed. War and
+strife renewed. A small band called the Dragon Warriors challenged the power 
+of the Elders, those like Ohara, and were crushed. The Crusader became Wizard 
+King, while Deus ex Machina grimly assumed the mantle of Druid Emperor. On 
+sadistic whims, the Demon Lords unleashed terrible disasters, and the mortals 
+countered with what power and strength they could muster. 
+   In the end, it was the Windmaster who destroyed the world, in the hopes 
+of bringing forth a better, brighter day. The world was consumed in a wave
+of fire and destruction, and my eyes saw no more...
+
+   My first memory of the Second Age is of the Lake of Rebirth, where the
+spirits of those who had survived the Fire were brought forth into the 
+making of the new world. Many who had been before could not be revived 
+in the Lake of Rebirth. The Crusader, Deus ex Machina, Prince Cassius,
+and Radaghast had all been lost. So, too, had the Demon Lords disappeared.
+   Free from the burden of the Demon Lords, the creativity of the minds 
+of Men unleashed great power. Mountains were thrust up, cities built,
+fortresses and palaces of great strength erected, rivers run, and seas 
+filled. The power of the universe descended upon the shoulders of mortals.
+Objects and weapons of magnificence were constructed: The Hammer of the 
+Gods, the Flamme de Took, the Flangeris, and the Bludgeon of Hercules. 
+The classes reorganized under new leaders: the Wizards under Wizard of Id,
+the Druids under Culculhain, the Elves under Halfdane Ljosifthar, and the 
+Goblins under Mortem. Warriors and barbarians under frequently changing 
+Warlords became a force of power as well.
+   Among the wonders of mortals came a great plain unbidden. At the center of
+the plain lay a dark tower, of unspeakable wickedness. From this tower,
+hordes of mindless demons were sent out to battle the mortals who had been
+reborn into this world. Some have said that this Dark Tower was in actuality
+the vehicle of the old Demon Lords, and that they had sent it across space
+and time to render one last blow upon the world they had left behind, but 
+that is another story..
+   Despite these wonders, this refuge was doomed as well as the first. Too
+much power had been vested in the hands of too many, and forces unleashed
+began to tug and pull, and rip the universe apart. What had been started 
+with hope would end with despair.
+   And so it was, that just as the first world of Men had been ended in fire
+and destruction, the second world of Man was torn asunder and devoured in 
+Darkness. The flame of our lives was extinguished yet again, and my eyes
+saw no more...
+
+   From the Darkness a third world was brought forth by the hands of the
+Undead. A captain in the Legions of the Undead named Tuttonius had come
+upon the secret power of the Demon Lords in the great Darkness in which Men
+lied dormant. Who is to say what power the first Demon Lords may still have 
+held?
+   The foundation of the third world of Men was made of stone ten-thousand
+miles thick, while the cornerstones of the world were anchored to the very
+constellations in the sky. In this was did Tuttonius lay his groundwork
+for an Age that would rival the first all had known. 
+   As the mortals were brought forth from the sleeping Darkness into a new 
+light, the ranks of War began to form. Again, the sagacial Wizard of Id 
+would lead the Wizards, while Culculhain remained Emperor of the Druids. 
+Creeper was appointed to lead the Legion of the Undead as Mummy King. Mortem
+survived to remain as Goblin King, as did Creight Lersing who had taken the
+gauntlet of Warlord. Halfdane also remained King of the Eldren peoples. 
+Cities and fortresses loomed as the world tensed for the inevitable clash
+that all expected, and even desired.
+   The barren plain and its Dark Tower had returned, tempting the souls of
+many, and sending out its mindless hordes bent on the destruction of all
+life. A great river sliced through the world, and its tortuous course was
+the only way those who wished to face the evil menace could reach the vast
+plain upon which the Tower sat. Many would die before the nature of the 
+Master of the Tower was even known, before the Giant King was ever seen by
+mortal eyes that would live to tell the tale. 
+   For ninety and nine years war raged among the ranks of the mortals. 
+The tides of battle swayed to and fro, without decisive victory. Slowly,
+however, the ranks of the Wizards began to dwindle, and the numbers of the
+Others grow. Slowly the magic of the spellcasters began to fade against
+an increasing tide of unrelenting enemies. As the spark that resided within
+the Wizards began to fade, the time of the Great Division approached. No
+longer was the city of the Wizards safe from the creatures that crawled up 
+from beneath its streets, from the sewers below. 
+   And so it came to pass that the Archmage, the aged Wizard of Id, was
+seized by a madness most foul. The once proud leader of the Wizards was
+reduced to a eccentric wandering Sorcerer, driven mad by the torments that
+raged within his mind. This marked the beginning of the Great Division, when
+the boundaries that had divided the mortals, and given them succour in times
+of need, were dissolved. A time of wandering was begun where the caste system
+was dissolved, and each sought refuge within the walls of his own being. It
+was in this way that the new Demon Lord, Tuttonius, sought to sow greater
+discourse and misery among Men. The subtle plan of Tuttonius began to work,
+as brother fought brother, and old friends died at each others throats in the
+name of individuality. 
+   I suppose we should not have been surprised that it was the Druids, 
+worshippers of tradition that they are, who alone resisted the new way. 
+Though their numbers were small, and their power weak, they began to grow.
+Souls and strength trickled to their banner as war was waged upon what they
+viewed as blasphemy against the religion of the past. Seeing the growing 
+wave which would soon crash against his designs, Tuttonius began crafting
+again, searching for a new way to turn the footsteps of destiny back upon 
+the path of ultimate anarchy and death. The mortal Ranlhach was selected
+by the Demon Lord to be the King under whose command it was hoped great
+numbers would flock. Barons, Lords, and Knights of many sorts hearkened 
+to the call, but the fate which they desired would never be realized. 
+The flaws of ambition and arrogance were great among them, and they soon
+collapsed into civil war and ineffection. 
+   Slowly the old organizations began to reform to combat the Druids, and a 
+semblance of the Old Order returned. The Elves of Lothlorien were the 
+first of the remaining peoples to reform, but, alas, they came heavily 
+under the sway of mysterious beings of great Evil. The Wizard of Id was
+able to resume his position, and the Wizards returned from the void into
+which they had ventured, and risked extinction. 
+   Among the now disorganized feudals who once served the King, was a 
+knight named Lerxst. Being of twisted temperament, the hatred the festered
+within him blackened his soul and his mind. He would succeed Ranlhach 
+to become the second King, only to be deposed by the might of the Warlords
+William I and Creight Lersing. Being but a shade of his former self, the
+one called Lerxst was devoured alive by the Demon Soulcatcher. This new 
+entity would usher in a force called the Taken, so named by the similar
+possession and devouring of its other members by lesser Demons. 
+   Being faced with such a collection of abominations, the ranks of mortals
+rose quickly to destroy them. Since the demise of the feudals, the underground
+dwellers, the Trolls, had become strong in number. The number of Men,
+barring the Druids, was small, however. For now, a small union of purpose
+lasted, though. Soon the Taken were driven back into their stronghold, the 
+Overlook, from which the were to seldom venture again.
+   This Third Age I remember as a blurred combination of a hundred great 
+battles, and a thousand skirmishes. This Age, though it had lasted for 
+several millenia, would come to an end as had the others previous. Its demise
+lay in its own corruption. The great foundation of the universe was rife 
+with the rot that accompanies the misdeeds of the powerful. Great fissures
+rent what was thought uncrackable as a result of the meddlings of those
+Underlings whom the Demon Lord Tuttonius, grown soft and senile, had
+given power. 
+   A great crack split the universe, and in this primordial setting, the 
+Evil shades that had devoured the race of Elves began to thirst for power.
+They sought to tap into the heart of the very universe, and gain the power
+that lay dormant there. Their desire was to debase, corrupt, and subvert
+all that lay in the Realm. Their quest was Godhood, and it led them to 
+awaken the entity which would consume them and cleanse the world of its
+pain. This entity was the Perimal Darkling...
+   And thus it came to pass that the Perimal Darkling, awaken from a 
+slumber of a million years, raised his Sword of Fire. A mighty blow was 
+rendered upon the world, and all was unmade. A cleansing fire burned away
+all, and my eyes saw no more... 
+
+   Perimal Darkling's Sword of Fire was the Sun that brought forth a new
+dawn, and a Fourth Age. In it rests all our hopes for a new future. These
+are my words..
+
+
+                                                    Hierophantus the Old       
+
+
+================================================================================

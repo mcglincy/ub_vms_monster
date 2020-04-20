@@ -1,0 +1,105 @@
+Don't believe all the propaganda you read. Sometimes the "tough" aren't
+so tough. Take for instance this excerpt from my capture file...
+
+
+-------------------------------------------------------------------------------
+
+
+                                   Monster Status
+                                27-APR-1994  3:04am
+
+Game Name               Level    Alignment     Class  Where
+Gholemus Maximus            2*   Neutral    Highborn  Forest Crossroads
+vik                         5    Evil          Troll  Silken Dark
+ZYCHAR                      0    Good       Half-Elf  Silken Dark
+
+>w
+vik has been slain by ZYCHAR's animate shrubbery.
+>who
+
+                                   Monster Status
+                                27-APR-1994  3:04am
+
+Game Name               Level    Alignment     Class  Where
+Gholemus Maximus            2*   Neutral    Highborn  Forest Crossroads
+vik                         2    Evil          Troll  Purgatory
+ZYCHAR                      2    Good       Half-Elf  Silken Dark
+>
+You hear a message from ZYCHAR: "Come back down here..."
+>
+You hear a message from ZYCHAR: "So I can kick your ass again, you wimp."
+>
+>who
+                                   Monster Status
+                                27-APR-1994  3:04am
+
+Game Name               Level    Alignment     Class  Where
+Gholemus Maximus            2*   Neutral    Highborn  Forest Crossroads
+vik                         2    Evil          Troll  Marble Escarpment
+ZYCHAR                      2    Good       Half-Elf  Silken Dark
+>
+You hear a message from vik: "If you want me, come get me."
+>cas thund
+What is your message? That doesn't sound aggressive!
+>
+You hear a message from Gholemus Maximus: "That doesn't sound aggressive!"
+>
+You hear a message from ZYCHAR: "He's a wimp! Look at him now!"
+>w
+You are in Ultimate health.
+ >who
+                                   Monster Status
+                                27-APR-1994  3:04am
+
+Game Name               Level    Alignment     Class  Where
+Gholemus Maximus            2*   Neutral    Highborn  Forest Crossroads
+vik                         2    Evil          Troll  Blood Cavern
+ZYCHAR                      2    Good       Half-Elf  Pool of Blood
+>
+You hear a message from ZYCHAR: "Quit hiding in there! Fight like a man!"
+>
+You hear a message from vik: "I'm healing, alright! Get off my back."
+>
+You hear a message from ZYCHAR: "Don't make me drive you out like a rat!"
+>
+>.
+                                   Monster Status
+                                27-APR-1994  3:04am
+
+Game Name               Level    Alignment     Class  Where
+Gholemus Maximus            2*   Neutral    Highborn  Forest Crossroads
+vik                         2    Evil          Troll  Natural Staircase
+ZYCHAR                      2    Good       Half-Elf  Sparkling Cavern
+>
+>
+You are in Ultimate health.
+ >
+vik has come into the room from north.
+vik is suffering from serious wounds.
+>
+vik is about to quit.
+>
+You see a stinging hornets from Zychar headed south.
+>
+vik is knocking on death's door.
+>
+vik vanishes in a brilliant flash of colored light.
+>
+ZYCHAR has come into the room from north.
+ZYCHAR is in superior health.
+>
+(vik has once again returned to sleep)
+>
+ZYCHAR says "What a freaking wuss. He does that all the time."
+>'really?
+>
+ZYCHAR says "Yeah, he's almost as bad as Orted."
+>'that's hard to believe.
+>
+ZYCHAR says "Well I have to let them beat up on me every now and again."
+>
+You hear ZYCHAR say "Or else they will always just run away and quit."
+>
+>'wow
+ZYCHAR grins evily.
+
